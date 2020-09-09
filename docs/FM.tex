@@ -1,0 +1,222 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={金融数学},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{longtable,booktabs}
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{ctex}
+\usepackage{amsthm}
+\makeatletter
+\def\thm@space@setup{%
+  \thm@preskip=8pt plus 2pt minus 4pt
+  \thm@postskip=\thm@preskip
+}
+\makeatother
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{金融数学}
+\author{}
+\date{\vspace{-2.5em}2020-09-09}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{section}{%
+\chapter*{}\label{section}}
+\addcontentsline{toc}{chapter}{}
+
+欢迎来到\textbf{金融数学}！
+
+在这里，我们同步课堂，总结每章的\textbf{重点、难点}，并发布\textbf{课后作业}。课后作业需在下次上课前交到老师信箱（明主1036门外邮箱柜右下角）。
+
+我们这里主要以英文表述，有以下两个原因
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  方便大家准备SOA/CAS的 \href{https://www.soa.org/education/exam-req/edu-exam-fm-detail/}{Exam FM: Financial Mathematics}考试；
+\item
+  方便大家阅读相关英文文献。
+\end{enumerate}
+
+此网站由授课老师高光远、助教程轶鹏、助教胡夏新管理，欢迎大家反馈意见到助教、微信群、或邮箱\href{mailto:guangyuan.gao@ruc.edu.cn}{\nolinkurl{guangyuan.gao@ruc.edu.cn}}。
+
+\hypertarget{interest-rate}{%
+\chapter{Interest rate}\label{interest-rate}}
+
+\hypertarget{key-concepts}{%
+\section{Key concepts}\label{key-concepts}}
+
+\hypertarget{functions}{%
+\subsection*{Functions}\label{functions}}
+\addcontentsline{toc}{subsection}{Functions}
+
+\begin{itemize}
+\item
+  Accumulation function
+\item
+  Discount function
+\end{itemize}
+
+\hypertarget{interest-rate-1}{%
+\subsection*{Interest rate}\label{interest-rate-1}}
+\addcontentsline{toc}{subsection}{Interest rate}
+
+\begin{itemize}
+\item
+  Effective rate of interest/discount
+\item
+  Simple interest
+\item
+  Compound interest
+\item
+  Nominal rate of interest/discount
+\item
+  Force of interest/discount
+\end{itemize}
+
+\hypertarget{values}{%
+\subsection*{Values}\label{values}}
+\addcontentsline{toc}{subsection}{Values}
+
+\begin{itemize}
+\item
+  Accumulated value (future value)
+\item
+  Present value
+\end{itemize}
+
+\hypertarget{key-equations}{%
+\section{Key equations}\label{key-equations}}
+
+\[a(t)=e^{\delta t}\]
+
+\[d=\frac{i}{1+i}\]
+
+\hypertarget{homework}{%
+\section{Homework}\label{homework}}
+
+\hypertarget{week-1}{%
+\subsection{Week 1}\label{week-1}}
+
+\hypertarget{problem-1}{%
+\subsubsection*{Problem 1}\label{problem-1}}
+\addcontentsline{toc}{subsubsection}{Problem 1}
+
+John invests \(X\) in a fund growing in accordance with the accumulation function implied by the amount function
+\[A(t)=4t^2+8t+4.\]
+Edna invests \(X\) in another fund growing in accordance with the accumulation function implied by the amount function \[A(t)=4t^2+2.\]
+When does Edna's investment \emph{exceed} John's?
+
+\hypertarget{problem-2}{%
+\subsubsection*{Problem 2}\label{problem-2}}
+\addcontentsline{toc}{subsubsection}{Problem 2}
+
+What deposit made today will provide for a payment of \(\$1000\) in 1 year and \(\$2000\) in 3 years, if the effective rate of interest is \(7.5\%\)?
+
+\hypertarget{problem-3}{%
+\subsubsection*{Problem 3}\label{problem-3}}
+\addcontentsline{toc}{subsubsection}{Problem 3}
+
+Company \(X\) received the approval to start no more than two projects in the current calendar year.
+Three different projects were recommended, each of which requires an investment of 800 to be made at the beginning of the year.
+
+The cash flows for each of the three projects are as follows:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-1}The cash flows of the three projects.}
+\centering
+\begin{tabular}[t]{r|r|r|r}
+\hline
+End of year & Project A & Project B & Project C\\
+\hline
+1 & 500 & 500 & 500\\
+\hline
+2 & 500 & 300 & 250\\
+\hline
+3 & -175 & -175 & -175\\
+\hline
+4 & 100 & 150 & 200\\
+\hline
+5 & 0 & 200 & 200\\
+\hline
+\end{tabular}
+\end{table}
+
+The company uses an annual effective interest rate of \(10\%\) to discount its cash flows.
+
+\hypertarget{week-2}{%
+\subsection{Week 2}\label{week-2}}
+
+  \bibliography{\_reference.bib}
+
+\end{document}

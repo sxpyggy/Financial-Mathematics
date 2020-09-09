@@ -22,7 +22,7 @@ editor_options:
 
 我们这里主要以英文表述，有以下两个原因
 
-1. 方便大家准备SOA/CAS的[Exam FM: Financial Mathematics](https://www.soa.org/education/exam-req/edu-exam-fm-detail/)考试；
+1. 方便大家准备SOA/CAS的 [Exam FM: Financial Mathematics](https://www.soa.org/education/exam-req/edu-exam-fm-detail/)考试；
 
 2. 方便大家阅读相关英文文献。
 
