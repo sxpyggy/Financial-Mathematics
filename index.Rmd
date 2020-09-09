@@ -1,6 +1,6 @@
 --- 
-title: "Telematics car driving data analytics"
-author: "Guangyuan Gao"
+title: "金融数学"
+author: ""
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -8,14 +8,13 @@ documentclass: book
 bibliography: [_reference.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: sxpyggy/Telematics-Analytics
+github-repo: sxpyggy/Financial-Mathematics
 description: "The output format is bookdown::gitbook."
 editor_options: 
   chunk_output_type: console
 ---
-# Overview {-}
 
-## 金融数学
+# 金融数学 {-}
 
 欢迎来到金融数学！
 
