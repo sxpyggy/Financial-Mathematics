@@ -1,7 +1,7 @@
 --- 
 title: "Telematics car driving data analytics"
 author: "Guangyuan Gao"
-date: "`r Sys.Date()`"
+date: "2020-09-09"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
