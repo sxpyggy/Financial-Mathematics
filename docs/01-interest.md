@@ -1,14 +1,46 @@
 # Interest
 
-## Key concepts:
+## Key concepts
 
-- Simple interest rate
+### Functions
 
-- Compound interest rate
+- Accumulation function
 
-- Nominate interest rate
+- Discount function
 
-## Homework 1 (2020.09.10)
+### Interest
+
+- Effective rate of interest/discount
+
+- Simple interest 
+
+- Compound interest 
+
+- Nominal rate of interest/discount
+
+- Force of interest/discount
+
+### Values
+
+- Accumulated value (future value)
+
+- Present value
+
+## Key equations
+
+$$a(t)=e^{\delta t}$$
+$$d=\frac{i}{1+i}$$
+
+
+## Homework
+
+### Week 1
+
+1. Problem 1: 
+
+2. Problem 2: 
+
+### Week 2
 
 
 
