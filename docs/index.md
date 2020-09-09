@@ -14,7 +14,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# 金融数学 {-}
+# {-}
 
 欢迎来到金融数学！
 

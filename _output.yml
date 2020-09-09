@@ -4,9 +4,9 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Telematics car driving data analytics</a></li>
+        <li><a href="./">Financial Mathematics</a></li>
       after: |
-        <li><a href="https://github.com/sxpyggy/Telematics-Analytics" target="blank">GitHub repo</a></li>
+        <li><a href="https://github.com/sxpyggy/Financial-Mathematics" target="blank">GitHub repo</a></li>
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
