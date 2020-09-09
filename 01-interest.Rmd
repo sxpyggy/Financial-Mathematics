@@ -38,7 +38,7 @@ $$d=\frac{i}{1+i}$$
 
 ## Homework
 
-### Week 1
+### Week 1 {-}
 
 #### Problem 1 {-}
 
@@ -69,7 +69,7 @@ knitr::kable(table1,caption = "The cash flows of the three projects.")
 
 The company uses an annual effective interest rate of $10\%$ to discount its cash flows.
 
-### Week 2
+### Week 2 {-}
 
 
 
