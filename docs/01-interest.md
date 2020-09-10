@@ -34,6 +34,12 @@
 
 ## Key equations
 
+### Accumulation and discount {-}
+
+$$a(t)=(1+i)^t=(1-d)^{-t}$$
+
+$$a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t$$
+
 ### Interest rate and discount rate {-}
 
 $$i=\frac{d}{1-d}$$
@@ -46,13 +52,6 @@ $$v=1-d$$
 
 $$i-d=id$$
 
-### Accumulation and discount {-}
-
-$$a(t)=(1+i)^t=(1-d)^{-t}$$
-
-$$a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t$$
-
-
 
 ## Homework
 
@@ -60,7 +59,7 @@ $$a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t$$
 
 #### Problem 1 {-}
 
-John invests $X$ in a fund growing in accordance with the accumulation function implied by the amount function
+John invests $X$ in a fund growing in accordance with the accumulation function implied by the *amount function*
 $$A(t)=4t^2+8t+4.$$
 Edna invests $X$ in another fund growing in accordance with the accumulation function implied by the amount function $$A(t)=4t^2+2.$$
 When does Edna's investment *exceed* John’s?
@@ -86,7 +85,9 @@ Table: (\#tab:week1)The cash flows of the three projects.
 |           4|       100|       150|       200|
 |           5|         0|       200|       200|
 
-The company uses an annual effective interest rate of $10\%$ to discount its cash flows.
+The company uses an annual effective interest rate of $10\%$ to discount its cash flows. 
+
+Determine which combination of projects the company should select.
 
 ### Week 2 {-}
 
