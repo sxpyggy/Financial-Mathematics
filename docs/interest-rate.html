@@ -76,7 +76,10 @@
 <li class="chapter" data-level="" data-path="interest-rate.html"><a href="interest-rate.html#interest-rate-1"><i class="fa fa-check"></i>Interest rate</a></li>
 <li class="chapter" data-level="" data-path="interest-rate.html"><a href="interest-rate.html#values"><i class="fa fa-check"></i>Values</a></li>
 </ul></li>
-<li class="chapter" data-level="1.2" data-path="interest-rate.html"><a href="interest-rate.html#key-equations"><i class="fa fa-check"></i><b>1.2</b> Key equations</a></li>
+<li class="chapter" data-level="1.2" data-path="interest-rate.html"><a href="interest-rate.html#key-equations"><i class="fa fa-check"></i><b>1.2</b> Key equations</a><ul>
+<li class="chapter" data-level="" data-path="interest-rate.html"><a href="interest-rate.html#interest-rate-and-discount-rate"><i class="fa fa-check"></i>Interest rate and discount rate</a></li>
+<li class="chapter" data-level="" data-path="interest-rate.html"><a href="interest-rate.html#accumulation-and-discount"><i class="fa fa-check"></i>Accumulation and discount</a></li>
+</ul></li>
 <li class="chapter" data-level="1.3" data-path="interest-rate.html"><a href="interest-rate.html#homework"><i class="fa fa-check"></i><b>1.3</b> Homework</a><ul>
 <li class="chapter" data-level="" data-path="interest-rate.html"><a href="interest-rate.html#week-1"><i class="fa fa-check"></i>Week 1</a></li>
 <li class="chapter" data-level="" data-path="interest-rate.html"><a href="interest-rate.html#week-2"><i class="fa fa-check"></i>Week 2</a></li>
@@ -109,18 +112,21 @@
 <div id="functions" class="section level3 unnumbered">
 <h3>Functions</h3>
 <ul>
-<li><p>Accumulation function</p></li>
-<li><p>Discount function</p></li>
+<li><p>Accumulation function <span class="math display">\[a(t)\]</span></p></li>
+<li><p>Discount function <span class="math display">\[a^{-1}(t)\]</span></p></li>
 </ul>
 </div>
 <div id="interest-rate-1" class="section level3 unnumbered">
 <h3>Interest rate</h3>
 <ul>
-<li><p>Effective rate of interest/discount</p></li>
-<li><p>Simple interest</p></li>
-<li><p>Compound interest</p></li>
-<li><p>Nominal rate of interest/discount</p></li>
-<li><p>Force of interest/discount</p></li>
+<li><p>Effective rate of interest/discount <span class="math display">\[i,d\]</span></p></li>
+<li><p>Simple interest <span class="math display">\[a(t)=1+it\]</span></p></li>
+<li><p>Compound interest <span class="math display">\[a(t)=(1+i)^t\]</span></p></li>
+<li><p>Discount factor <span class="math display">\[v=(1+i)^{-1}\]</span></p></li>
+<li><p>Accumulation factor of <span class="math inline">\(t\)</span> years <span class="math display">\[(1+i)^t\]</span></p></li>
+<li><p>Discount factor of <span class="math inline">\(t\)</span> years <span class="math display">\[(1+i)^{-t}\]</span></p></li>
+<li><p>Nominal rate of interest/discount <span class="math display">\[i^{(m)},d^{(m)}\]</span></p></li>
+<li><p>Force of interest <span class="math display">\[\delta\]</span></p></li>
 </ul>
 </div>
 <div id="values" class="section level3 unnumbered">
@@ -133,8 +139,19 @@
 </div>
 <div id="key-equations" class="section level2">
 <h2><span class="header-section-number">1.2</span> Key equations</h2>
-<p><span class="math display">\[a(t)=e^{\delta t}\]</span></p>
+<div id="interest-rate-and-discount-rate" class="section level3 unnumbered">
+<h3>Interest rate and discount rate</h3>
+<p><span class="math display">\[i=\frac{d}{1-d}\]</span></p>
 <p><span class="math display">\[d=\frac{i}{1+i}\]</span></p>
+<p><span class="math display">\[d=iv\]</span></p>
+<p><span class="math display">\[v=1-d\]</span></p>
+<p><span class="math display">\[i-d=id\]</span></p>
+</div>
+<div id="accumulation-and-discount" class="section level3 unnumbered">
+<h3>Accumulation and discount</h3>
+<p><span class="math display">\[a(t)=(1+i)^t=(1-d)^{-t}\]</span></p>
+<p><span class="math display">\[a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t\]</span></p>
+</div>
 </div>
 <div id="homework" class="section level2">
 <h2><span class="header-section-number">1.3</span> Homework</h2>

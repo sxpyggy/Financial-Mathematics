@@ -4,36 +4,54 @@
 
 ### Functions {-}
 
-- Accumulation function
+- Accumulation function $$a(t)$$
 
-- Discount function
+- Discount function $$a^{-1}(t)$$
 
 ### Interest rate {-}
 
-- Effective rate of interest/discount
+- Effective rate of interest/discount $$i,d$$
 
-- Simple interest 
+- Simple interest $$a(t)=1+it$$
 
-- Compound interest 
+- Compound interest $$a(t)=(1+i)^t$$
 
-- Nominal rate of interest/discount
+- Discount factor $$v=(1+i)^{-1}$$
 
-- Force of interest/discount
+- Accumulation factor of $t$ years $$(1+i)^t$$
+
+- Discount factor of $t$ years $$(1+i)^{-t}$$
+
+- Nominal rate of interest/discount $$i^{(m)},d^{(m)}$$
+
+- Force of interest $$\delta$$
 
 ### Values {-}
 
-- Accumulated value (future value)
+- Accumulated value (future value) 
 
 - Present value
 
 ## Key equations
 
+### Interest rate and discount rate {-}
 
-
-$$a(t)=e^{\delta t}$$
-
+$$i=\frac{d}{1-d}$$
 
 $$d=\frac{i}{1+i}$$
+
+$$d=iv$$
+
+$$v=1-d$$
+
+$$i-d=id$$
+
+### Accumulation and discount {-}
+
+$$a(t)=(1+i)^t=(1-d)^{-t}$$
+
+$$a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t$$
+
 
 
 ## Homework

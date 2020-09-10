@@ -37,6 +37,7 @@
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
   pdftitle={金融数学},
+  pdfauthor={Financial Mathematics},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -79,8 +80,8 @@
 \bibliographystyle{apalike}
 
 \title{金融数学}
-\author{}
-\date{\vspace{-2.5em}2020-09-09}
+\author{Financial Mathematics}
+\date{2020-09-10 13:00:10}
 
 \begin{document}
 \maketitle
@@ -121,9 +122,9 @@
 
 \begin{itemize}
 \item
-  Accumulation function
+  Accumulation function \[a(t)\]
 \item
-  Discount function
+  Discount function \[a^{-1}(t)\]
 \end{itemize}
 
 \hypertarget{interest-rate-1}{%
@@ -132,15 +133,21 @@
 
 \begin{itemize}
 \item
-  Effective rate of interest/discount
+  Effective rate of interest/discount \[i,d\]
 \item
-  Simple interest
+  Simple interest \[a(t)=1+it\]
 \item
-  Compound interest
+  Compound interest \[a(t)=(1+i)^t\]
 \item
-  Nominal rate of interest/discount
+  Discount factor \[v=(1+i)^{-1}\]
 \item
-  Force of interest/discount
+  Accumulation factor of \(t\) years \[(1+i)^t\]
+\item
+  Discount factor of \(t\) years \[(1+i)^{-t}\]
+\item
+  Nominal rate of interest/discount \[i^{(m)},d^{(m)}\]
+\item
+  Force of interest \[\delta\]
 \end{itemize}
 
 \hypertarget{values}{%
@@ -157,15 +164,34 @@
 \hypertarget{key-equations}{%
 \section{Key equations}\label{key-equations}}
 
-\[a(t)=e^{\delta t}\]
+\hypertarget{interest-rate-and-discount-rate}{%
+\subsection*{Interest rate and discount rate}\label{interest-rate-and-discount-rate}}
+\addcontentsline{toc}{subsection}{Interest rate and discount rate}
+
+\[i=\frac{d}{1-d}\]
 
 \[d=\frac{i}{1+i}\]
+
+\[d=iv\]
+
+\[v=1-d\]
+
+\[i-d=id\]
+
+\hypertarget{accumulation-and-discount}{%
+\subsection*{Accumulation and discount}\label{accumulation-and-discount}}
+\addcontentsline{toc}{subsection}{Accumulation and discount}
+
+\[a(t)=(1+i)^t=(1-d)^{-t}\]
+
+\[a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t\]
 
 \hypertarget{homework}{%
 \section{Homework}\label{homework}}
 
 \hypertarget{week-1}{%
-\subsection{Week 1}\label{week-1}}
+\subsection*{Week 1}\label{week-1}}
+\addcontentsline{toc}{subsection}{Week 1}
 
 \hypertarget{problem-1}{%
 \subsubsection*{Problem 1}\label{problem-1}}
@@ -215,7 +241,8 @@ End of year & Project A & Project B & Project C\\
 The company uses an annual effective interest rate of \(10\%\) to discount its cash flows.
 
 \hypertarget{week-2}{%
-\subsection{Week 2}\label{week-2}}
+\subsection*{Week 2}\label{week-2}}
+\addcontentsline{toc}{subsection}{Week 2}
 
   \bibliography{\_reference.bib}
 
