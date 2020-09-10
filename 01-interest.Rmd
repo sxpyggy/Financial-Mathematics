@@ -74,8 +74,8 @@ What deposit made today will provide for a payment of $\$1000$ in 1 year and $\$
 Company $X$ received the approval to start no more than two projects in the current calendar year.
 Three different projects were recommended, each of which requires an investment of 800 to be made at the beginning of the year.
 
-The cash flows for each of the three projects are as follows:
-```{r,echo=FALSE,}
+The cash flows for each of the three projects are shown in Table \@ref(tab:week1):
+```{r week1,echo=FALSE}
 table1<-data.frame(matrix(c(1,500,500,500, 
          2,500,300,250, 
          3,-175,-175,-175,

@@ -74,9 +74,9 @@ What deposit made today will provide for a payment of $\$1000$ in 1 year and $\$
 Company $X$ received the approval to start no more than two projects in the current calendar year.
 Three different projects were recommended, each of which requires an investment of 800 to be made at the beginning of the year.
 
-The cash flows for each of the three projects are as follows:
+The cash flows for each of the three projects are shown in Table \@ref(tab:week1):
 
-Table: (\#tab:unnamed-chunk-1)The cash flows of the three projects.
+Table: (\#tab:week1)The cash flows of the three projects.
 
 | End of year| Project A| Project B| Project C|
 |-----------:|---------:|---------:|---------:|
