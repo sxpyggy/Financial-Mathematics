@@ -26,5 +26,4 @@ vignettes/*.pdf
 *.knit.md
 # R Environment Variables
 .Renviron
-Financial-Mathematics.Rproj
 *.log

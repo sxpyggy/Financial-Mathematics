@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-09-10 21:03:15"
+date: "2020-09-10 23:30:37"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -14,7 +14,7 @@ editor_options:
   chunk_output_type: console
 ---
 
-# {-}
+# 概要{-}
 
 欢迎来到**金融数学**！
 
@@ -28,9 +28,17 @@ editor_options:
 
 此网站由授课老师<u>高光远</u>、助教<u>程轶鹏</u>、助教<u>胡夏新</u>管理，欢迎大家反馈意见到助教、微信群、或邮箱<guangyuan.gao@ruc.edu.cn>。
 
-## 计算器{-}
+**计算器**
 
 在课堂测验和期末考试，没有对计算器的严格要求，但至少需要科学计算器。大家不需要购买昂贵的可编程计算器，在这门课中，体现不出可编程计算器的优势。
 
 建议的计算器是SOA/CAS要求的[计算器](https://www.soa.org/education/exam-req/exam-day-info/edu-id-calculators/)。
+
+**最终成绩**
+
+1. 平时成绩占40%，期末成绩占60%。
+
+2. 平时成绩主要根据课堂点名、课外作业的完成态度、随堂测试的准确度评定。
+
+
 

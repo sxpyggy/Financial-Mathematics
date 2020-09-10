@@ -5,7 +5,7 @@ bookdown::gitbook:
   config:
     toc:
       before: |
-        <li><a href="./">Financial Mathematics</a></li>
+        <li><a href="./">金融数学</a></li>
       after: |
         <li><a href="https://github.com/sxpyggy/Financial-Mathematics" target="blank">GitHub repo</a></li>
     download: ["pdf", "epub"]
