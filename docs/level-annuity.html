@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 1 Interest rate | 金融数学</title>
+  <title>Chapter 2 Level annuity | 金融数学</title>
   <meta name="description" content="The output format is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 1 Interest rate | 金融数学" />
+  <meta property="og:title" content="Chapter 2 Level annuity | 金融数学" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="sxpyggy/Financial-Mathematics" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 1 Interest rate | 金融数学" />
+  <meta name="twitter:title" content="Chapter 2 Level annuity | 金融数学" />
   
   <meta name="twitter:description" content="The output format is bookdown::gitbook." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="level-annuity.html"/>
+<link rel="prev" href="interest-rate.html"/>
+<link rel="next" href="homework.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -124,68 +124,32 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="interest-rate" class="section level1">
-<h1><span class="header-section-number">Chapter 1</span> Interest rate</h1>
+<div id="level-annuity" class="section level1">
+<h1><span class="header-section-number">Chapter 2</span> Level annuity</h1>
 <div id="key-concepts" class="section level2">
-<h2><span class="header-section-number">1.1</span> Key concepts</h2>
-<div id="functions" class="section level3 unnumbered">
-<h3>Functions</h3>
-<ul>
-<li><p>Accumulation function <span class="math display">\[a(t)\]</span></p></li>
-<li><p>Discount function <span class="math display">\[a^{-1}(t)\]</span></p></li>
-</ul>
+<h2><span class="header-section-number">2.1</span> Key concepts</h2>
+<div id="annuity-immediate" class="section level3 unnumbered">
+<h3>Annuity immediate</h3>
 </div>
-<div id="interest-rate-1" class="section level3 unnumbered">
-<h3>Interest rate</h3>
-<ul>
-<li><p>Effective rate of interest/discount <span class="math display">\[i,d\]</span></p></li>
-<li><p>Simple interest <span class="math display">\[a(t)=1+it\]</span></p></li>
-<li><p>Compound interest <span class="math display">\[a(t)=(1+i)^t\]</span></p></li>
-<li><p>Discount factor <span class="math display">\[v=(1+i)^{-1}\]</span></p></li>
-<li><p>Accumulation factor of <span class="math inline">\(t\)</span> years <span class="math display">\[(1+i)^t\]</span></p></li>
-<li><p>Discount factor of <span class="math inline">\(t\)</span> years <span class="math display">\[(1+i)^{-t}\]</span></p></li>
-<li><p>Nominal rate of interest/discount <span class="math display">\[i^{(m)},d^{(m)}\]</span></p></li>
-<li><p>Force of interest <span class="math display">\[\delta\]</span></p></li>
-</ul>
+<div id="annuity-due" class="section level3 unnumbered">
+<h3>Annuity due</h3>
 </div>
-<div id="values" class="section level3 unnumbered">
-<h3>Values</h3>
-<ul>
-<li><p>Accumulated value (future value)</p></li>
-<li><p>Present value</p></li>
-</ul>
+<div id="deffered-annuity" class="section level3 unnumbered">
+<h3>Deffered annuity</h3>
+</div>
+<div id="perpetuity" class="section level3 unnumbered">
+<h3>Perpetuity</h3>
+</div>
+<div id="m-thly-payable-annuity" class="section level3 unnumbered">
+<h3><span class="math inline">\(m\)</span>-thly payable annuity</h3>
+</div>
+<div id="continuous-payable-annuity" class="section level3 unnumbered">
+<h3>Continuous payable annuity</h3>
 </div>
 </div>
 <div id="key-equations" class="section level2">
-<h2><span class="header-section-number">1.2</span> Key equations</h2>
-<div id="accumulation-and-discount" class="section level3 unnumbered">
-<h3>Accumulation and discount</h3>
-<p><span class="math display">\[a(t)=(1+i)^t=(1-d)^{-t}\]</span></p>
-<p><span class="math display">\[a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t\]</span></p>
-</div>
-<div id="effective-interest-rate-and-discount-rate" class="section level3 unnumbered">
-<h3>Effective interest rate and discount rate</h3>
-<p><span class="math display">\[i=\frac{d}{1-d}\]</span></p>
-<p><span class="math display">\[d=\frac{i}{1+i}\]</span></p>
-<p><span class="math display">\[d=iv\]</span></p>
-<p><span class="math display">\[v=1-d\]</span></p>
-<p><span class="math display">\[i-d=id\]</span></p>
-</div>
-<div id="nominal-interest-rate-and-effective-interest-rate" class="section level3 unnumbered">
-<h3>Nominal interest rate and effective interest rate</h3>
-<p><span class="math display">\[1+i=\left(1+\frac{i^{(m)}}{m}\right)^m\]</span>
-<span class="math display">\[1-d=\left(1-\frac{d^{(m)}}{m}\right)^m\]</span>
-<span class="math display">\[d^{(m)}=i^{(m)}\times\left(1+\frac{i^{(m)}}{m}\right)^{-1}\]</span></p>
-</div>
-<div id="force-of-interest" class="section level3 unnumbered">
-<h3>Force of interest</h3>
-<p><span class="math display">\[\delta(t)=\frac{a&#39;(t)}{a(t)}\]</span></p>
-<p><span class="math display">\[a(t)=e^{\int_0^t\delta(s)ds}\]</span></p>
-<p><span class="math display">\[\delta=\ln(1+i)\]</span>
-<span class="math display">\[\delta=\lim_{m\rightarrow\infty} i^{(m)}=\lim_{m\rightarrow\infty} d^{(m)}=\ln(1+i)\]</span></p>
-<p><span class="math display">\[d\le d^{(2)}\le d^{(3)}\le\cdots\le \delta\le\cdots\le i^{(3)}\le i^{(2)}\le i\]</span></p>
+<h2><span class="header-section-number">2.2</span> Key equations</h2>
 
-</div>
 </div>
 </div>
             </section>
@@ -193,8 +157,8 @@
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="level-annuity.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="interest-rate.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="homework.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

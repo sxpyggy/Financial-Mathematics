@@ -1,4 +1,3 @@
-
 bookdown::gitbook:
   split_by: chapter
   css: style.css
@@ -9,7 +8,6 @@ bookdown::gitbook:
       after: |
         <li><a href="https://github.com/sxpyggy/Financial-Mathematics" target="blank">GitHub repo</a></li>
     download: ["pdf", "epub"]
-
 bookdown::pdf_book:
   includes:
     in_header: _preamble.tex

@@ -81,7 +81,7 @@
 
 \title{金融数学}
 \author{Financial Mathematics}
-\date{2020-09-10 23:30:30}
+\date{2020-09-17 11:03:54}
 
 \begin{document}
 \maketitle
@@ -90,11 +90,9 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{ux6982ux8981}{%
-\chapter*{概要}\label{ux6982ux8981}}
-\addcontentsline{toc}{chapter}{概要}
-
-欢迎来到\textbf{金融数学}！
+\hypertarget{ux6b22ux8fce}{%
+\chapter*{欢迎}\label{ux6b22ux8fce}}
+\addcontentsline{toc}{chapter}{欢迎}
 
 在这里，我们同步课堂，总结每章的\textbf{重点、难点}，并发布\textbf{课后作业}。课后作业需在下次上课前交到老师信箱（明主1036门外邮箱柜右下角）。
 
@@ -110,13 +108,38 @@
 
 此网站由授课老师高光远、助教程轶鹏、助教胡夏新管理，欢迎大家反馈意见到助教、微信群、或邮箱\href{mailto:guangyuan.gao@ruc.edu.cn}{\nolinkurl{guangyuan.gao@ruc.edu.cn}}。
 
-\textbf{计算器}
+\hypertarget{ux7b54ux7591}{%
+\section*{答疑}\label{ux7b54ux7591}}
+\addcontentsline{toc}{section}{答疑}
+
+我定期把同学们的普遍疑问在这里解答，欢迎提问！
+
+\textbf{\(i\) 和 \(d\) 的关系} （2020/09/16）
+
+很多同学问课件上的这道题目。
+
+问题：已知年实际利率为5\%。回答下述问题：
+
+（1）100万元贷款在年末的利息是多少？\(100\times5%
+\)
+
+（2）如果在贷款起始日收取利息，应该收取多少利息？\(100\times i/(1+i)=100\times d\)
+
+（3）年实际贴现率是多少？\(d=i/(1+i)\)
+
+\(i\) 和 \(d\) 的区别可以理解为 \(i\) 是在\textbf{期末}付，\(d\) 是在\textbf{期初}付。\(d=i\times v\)，即期末 \(i\) 的\textbf{现值}是 \(d\)。
+
+所以（1）是期末收的利息，（2）是期初收的利息。期初收的利息要比期末收的少，因为银行收到的这部分利息在这一年中还能产生利息，期初收的 \(d\) 到期末是 \(i\)。
+
+贴现率 \(d\) 的另一种理解就是利息 \(i\) 的现值。
+
+\textbf{计算器} （2020/09/10）
 
 在课堂测验和期末考试，没有对计算器的严格要求，但至少需要科学计算器。大家不需要购买昂贵的可编程计算器，在这门课中，体现不出可编程计算器的优势。
 
 建议的计算器是SOA/CAS要求的\href{https://www.soa.org/education/exam-req/exam-day-info/edu-id-calculators/}{计算器}。
 
-\textbf{最终成绩}
+\textbf{最终成绩} （2020/09/10）
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -188,9 +211,9 @@
 
 \[a^{-1}(t)=(1+i)^{-t}=(1-d)^t=v^t\]
 
-\hypertarget{interest-rate-and-discount-rate}{%
-\subsection*{Interest rate and discount rate}\label{interest-rate-and-discount-rate}}
-\addcontentsline{toc}{subsection}{Interest rate and discount rate}
+\hypertarget{effective-interest-rate-and-discount-rate}{%
+\subsection*{Effective interest rate and discount rate}\label{effective-interest-rate-and-discount-rate}}
+\addcontentsline{toc}{subsection}{Effective interest rate and discount rate}
 
 \[i=\frac{d}{1-d}\]
 
@@ -202,16 +225,75 @@
 
 \[i-d=id\]
 
+\hypertarget{nominal-interest-rate-and-effective-interest-rate}{%
+\subsection*{Nominal interest rate and effective interest rate}\label{nominal-interest-rate-and-effective-interest-rate}}
+\addcontentsline{toc}{subsection}{Nominal interest rate and effective interest rate}
+
+\[1+i=\left(1+\frac{i^{(m)}}{m}\right)^m\]
+\[1-d=\left(1-\frac{d^{(m)}}{m}\right)^m\]
+\[d^{(m)}=i^{(m)}\times\left(1+\frac{i^{(m)}}{m}\right)^{-1}\]
+
+\hypertarget{force-of-interest}{%
+\subsection*{Force of interest}\label{force-of-interest}}
+\addcontentsline{toc}{subsection}{Force of interest}
+
+\[\delta(t)=\frac{a'(t)}{a(t)}\]
+
+\[a(t)=e^{\int_0^t\delta(s)ds}\]
+
+\[\delta=\ln(1+i)\]
+\[\delta=\lim_{m\rightarrow\infty} i^{(m)}=\lim_{m\rightarrow\infty} d^{(m)}=\ln(1+i)\]
+
+\[d\le d^{(2)}\le d^{(3)}\le\cdots\le \delta\le\cdots\le i^{(3)}\le i^{(2)}\le i\]
+
+\hypertarget{level-annuity}{%
+\chapter{Level annuity}\label{level-annuity}}
+
+\hypertarget{key-concepts}{%
+\section{Key concepts}\label{key-concepts}}
+
+\hypertarget{annuity-immediate}{%
+\subsection*{Annuity immediate}\label{annuity-immediate}}
+\addcontentsline{toc}{subsection}{Annuity immediate}
+
+\hypertarget{annuity-due}{%
+\subsection*{Annuity due}\label{annuity-due}}
+\addcontentsline{toc}{subsection}{Annuity due}
+
+\hypertarget{deffered-annuity}{%
+\subsection*{Deffered annuity}\label{deffered-annuity}}
+\addcontentsline{toc}{subsection}{Deffered annuity}
+
+\hypertarget{perpetuity}{%
+\subsection*{Perpetuity}\label{perpetuity}}
+\addcontentsline{toc}{subsection}{Perpetuity}
+
+\hypertarget{m-thly-payable-annuity}{%
+\subsection*{\texorpdfstring{\(m\)-thly payable annuity}{m-thly payable annuity}}\label{m-thly-payable-annuity}}
+\addcontentsline{toc}{subsection}{\(m\)-thly payable annuity}
+
+\hypertarget{continuous-payable-annuity}{%
+\subsection*{Continuous payable annuity}\label{continuous-payable-annuity}}
+\addcontentsline{toc}{subsection}{Continuous payable annuity}
+
+\hypertarget{key-equations}{%
+\section{Key equations}\label{key-equations}}
+
 \hypertarget{homework}{%
-\section{Homework}\label{homework}}
+\chapter*{Homework}\label{homework}}
+\addcontentsline{toc}{chapter}{Homework}
+
+\hypertarget{week-2}{%
+\section*{Week 2}\label{week-2}}
+\addcontentsline{toc}{section}{Week 2}
 
 \hypertarget{week-1}{%
-\subsection*{Week 1}\label{week-1}}
-\addcontentsline{toc}{subsection}{Week 1}
+\section*{Week 1}\label{week-1}}
+\addcontentsline{toc}{section}{Week 1}
 
 \hypertarget{problem-1}{%
-\subsubsection*{Problem 1}\label{problem-1}}
-\addcontentsline{toc}{subsubsection}{Problem 1}
+\subsection*{Problem 1}\label{problem-1}}
+\addcontentsline{toc}{subsection}{Problem 1}
 
 John invests \(X\) in a fund growing in accordance with the accumulation function implied by the \emph{amount function}
 \[A(t)=4t^2+8t+4.\]
@@ -219,14 +301,14 @@ Edna invests \(X\) in another fund growing in accordance with the accumulation f
 When does Edna's investment \emph{exceed} John's?
 
 \hypertarget{problem-2}{%
-\subsubsection*{Problem 2}\label{problem-2}}
-\addcontentsline{toc}{subsubsection}{Problem 2}
+\subsection*{Problem 2}\label{problem-2}}
+\addcontentsline{toc}{subsection}{Problem 2}
 
 What deposit made today will provide for a payment of \(\$1000\) in 1 year and \(\$2000\) in 3 years, if the effective rate of interest is \(7.5\%\)?
 
 \hypertarget{problem-3}{%
-\subsubsection*{Problem 3}\label{problem-3}}
-\addcontentsline{toc}{subsubsection}{Problem 3}
+\subsection*{Problem 3}\label{problem-3}}
+\addcontentsline{toc}{subsection}{Problem 3}
 
 Company \(X\) received the approval to start no more than two projects in the current calendar year.
 Three different projects were recommended, each of which requires an investment of 800 to be made at the beginning of the year.
@@ -257,10 +339,6 @@ End of year & Project A & Project B & Project C\\
 The company uses an annual effective interest rate of \(10\%\) to discount its cash flows.
 
 Determine which combination of projects the company should select.
-
-\hypertarget{week-2}{%
-\subsection*{Week 2}\label{week-2}}
-\addcontentsline{toc}{subsection}{Week 2}
 
   \bibliography{\_reference.bib}
 
