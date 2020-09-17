@@ -2,6 +2,40 @@
 
 ## Week 2 {-}
 
+### Problem 1 {-}
+
+*SOA 5/98 #2*
+
+John invests $1000$ in a fund which earns interest during the first year at a nominal rate of $K$ convertible quarterly. During the 2nd year the fund earns interest at a nominal discount rate of $K$ convertible quarterly. At the end of the 2nd year,the fund has accumulated to $1173.54$.
+
+Calculate $K$.
+
+### Problem 2{-}
+
+*SOA 5/89 #4*
+
+Two funds,$X$ and $Y$,start with the same amount.You are given:
+
+1. Fund $X$ accumulates at a force of interest of 5\%.
+
+2. Fund $Y$ accumulates at a rate of interest $j$, compounded semiannually.
+
+3. At the end of eight years, Fund $X$ is $1.05$ times as large as Fund $Y$.
+
+Calculate $j$.
+
+###  Problem 3{-}
+
+*SOA 11/89 #2*
+
+Fund $X$ starts with $1,000$ and accumulates with a force of interest $$\delta_{t}=\frac{1}{15-t} \text{ for } 0 \le t< 15.$$
+
+Fund Y starts with $1,000$ and accumulates with an interest rate of 8% per annum compounded semiannually for the first three years and an effective interest rate of $i$ per annum thereafter.
+
+Fund $X$ equals Fund $Y$ at the end of four years.
+
+Calculate $i$.
+
 ## Week 1 {-}
 
 ### Problem 1 {-}
