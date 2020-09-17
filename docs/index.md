@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-09-17 11:56:25"
+date: "2020-09-17 16:47:35"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -16,7 +16,7 @@ editor_options:
 
 # 欢迎 {-}
 
-在这里，我们同步课堂，总结每章的**重点、难点**，并发布**课后作业**。课后作业需在<u>下次上课前</u>交到老师信箱（明主1036门外邮箱柜右下角）。
+在这里，我们同步课堂，总结每章的**重点、难点**，并发布**课后作业**。课后作业需在<u>下次上课前</u>交到讲台上。
 
 我们这里主要以英文表述，有以下两个原因
 
