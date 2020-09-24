@@ -4,8 +4,6 @@
 
 ### Annuity immediate{-}
 
-$$\angl{n}$$
-
 ### Annuity due{-}
 
 ### Deffered annuity{-}
@@ -17,4 +15,8 @@ $$\angl{n}$$
 ### Continuous payable annuity {-}
 
 ## Key equations
+
+```{r}
+knitr::include_graphics("./plots/annuity.jpeg")
+```
 
