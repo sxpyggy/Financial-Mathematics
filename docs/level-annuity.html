@@ -94,7 +94,7 @@
 <li><a href="level-annuity.html#m-thly-payable-annuity"><span class="math inline">\(m\)</span>-thly payable annuity</a></li>
 <li class="chapter" data-level="" data-path="level-annuity.html"><a href="level-annuity.html#continuous-payable-annuity"><i class="fa fa-check"></i>Continuous payable annuity</a></li>
 </ul></li>
-<li class="chapter" data-level="2.2" data-path="interest-rate.html"><a href="interest-rate.html#key-equations"><i class="fa fa-check"></i><b>2.2</b> Key equations</a></li>
+<li class="chapter" data-level="2.2" data-path="level-annuity.html"><a href="level-annuity.html#key-relations"><i class="fa fa-check"></i><b>2.2</b> Key relations</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="homework.html"><a href="homework.html"><i class="fa fa-check"></i>Homework</a><ul>
 <li class="chapter" data-level="" data-path="homework.html"><a href="homework.html#week-3"><i class="fa fa-check"></i>Week 3</a><ul>
@@ -146,25 +146,39 @@
 <h2><span class="header-section-number">2.1</span> Key concepts</h2>
 <div id="annuity-immediate" class="section level3 unnumbered">
 <h3>Annuity immediate</h3>
+<p><span class="math display">\[a_{\overline{n}\mid}=\frac{1-v^n}{i}\]</span>
+<span class="math display">\[s_{\overline{n}\mid}=(1+i)^na_{\overline{n}\mid}=\frac{(1+i)^n-1}{i}\]</span></p>
 </div>
 <div id="annuity-due" class="section level3 unnumbered">
 <h3>Annuity due</h3>
+<p><span class="math display">\[\ddot{a}_{\overline{n}\mid}=\frac{1-v^n}{d}=(1+i)a_{\overline{n}\mid}=1+a_{\overline{n-1}\mid}\]</span></p>
+<p><span class="math display">\[\ddot{s}_{\overline{n}\mid}=(1+i)^n\ddot{a}_{\overline{n}\mid}\]</span></p>
 </div>
 <div id="deffered-annuity" class="section level3 unnumbered">
 <h3>Deffered annuity</h3>
+<p><span class="math display">\[_{m|}a_{\overline{n}\mid}=v^ma_{\overline{n}\mid}=a_{\overline{m+n}\mid}-a_{\overline{n}\mid}\]</span></p>
 </div>
 <div id="perpetuity" class="section level3 unnumbered">
 <h3>Perpetuity</h3>
+<p><span class="math display">\[a_{\overline{\infty}\mid}=\frac{1}{i}\]</span>
+<span class="math display">\[\ddot{a}_{\overline{\infty}\mid}=\frac{1}{d}\]</span></p>
 </div>
 <div id="m-thly-payable-annuity" class="section level3 unnumbered">
 <h3><span class="math inline">\(m\)</span>-thly payable annuity</h3>
+<p><span class="math display">\[a^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{i^{(m)}}=\frac{i}{i^{(m)}}a_{\overline{n}\mid}\]</span>
+<span class="math display">\[\ddot{a}^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{d^{(m)}}=\frac{d}{d^{(m)}}a_{\overline{n}\mid}\]</span>
+<span class="math display">\[a^{(m)}_{\overline{\infty}\mid}=\frac{1}{i^{(m)}}\]</span>
+<span class="math display">\[\ddot{a}^{(m)}_{\overline{\infty}\mid}=\frac{1}{d^{(m)}}\]</span>
+<span class="math display">\[\ddot{a}^{(m)}_{\overline{\infty}\mid}=(1+i)^{1/m}a^{(m)}_{\overline{\infty}\mid}\]</span></p>
 </div>
 <div id="continuous-payable-annuity" class="section level3 unnumbered">
 <h3>Continuous payable annuity</h3>
+<p><span class="math display">\[\bar{a}_{\overline{n}\mid}=\frac{i}{\delta}{a}_{\overline{n}\mid}=\frac{d}{\delta}\ddot{a}_{\overline{n}\mid}=\frac{1-v^n}{\delta}\]</span>
+<span class="math display">\[\bar{a}_{\overline{\infty}\mid}=\frac{1}{\delta}\]</span></p>
 </div>
 </div>
-<div id="key-equations" class="section level2">
-<h2><span class="header-section-number">2.2</span> Key equations</h2>
+<div id="key-relations" class="section level2">
+<h2><span class="header-section-number">2.2</span> Key relations</h2>
 <p><img src="plots/annuity-1.png" width="662" /></p>
 
 </div>
