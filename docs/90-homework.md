@@ -1,4 +1,6 @@
-# Homework {-}
+# 🖊️ Homework {-}
+
+
 
 ## Week 3 {-}
 
@@ -17,9 +19,11 @@ Calculate $Y-X$.
 
 ### Problem 2 {-}
 
-*11/01 #27*
+*SOA 11/01 #27*
 
-A man turns 40 today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life.
+A man turns $40$ today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. 
+
+The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life.
 
 Calculate $X$.
 

@@ -1,4 +1,8 @@
-# Homework {-}
+# 🖊️ Homework {-}
+
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
+```
 
 ## Week 3 {-}
 
@@ -17,9 +21,11 @@ Calculate $Y-X$.
 
 ### Problem 2 {-}
 
-*11/01 #27*
+*SOA 11/01 #27*
 
-A man turns 40 today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life.
+A man turns $40$ today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. 
+
+The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life.
 
 Calculate $X$.
 
@@ -94,7 +100,7 @@ table1<-data.frame(matrix(c(1,500,500,500,
          4,100,150,200,
          5,0,200,200),nrow=5,byrow = T))
 names(table1)<-c("End of year", "Project A", "Project B", "Project C")
-knitr::kable(table1,caption = "The cash flows of the three projects.")
+knitr::kable(table1,caption = "The cash flows of the three projects.",position = "!h")
 ```
 
 The company uses an annual effective interest rate of $10\%$ to discount its cash flows. 

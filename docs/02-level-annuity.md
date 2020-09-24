@@ -38,5 +38,5 @@ $$\bar{a}_{\overline{\infty}\mid}=\frac{1}{\delta}$$
 
 ## Key relations
 
-<img src="./plots/annuity-1.png" width="1325" />
+<img src="./plots/annuity-1.png" width="80%" style="display: block; margin: auto;" />
 

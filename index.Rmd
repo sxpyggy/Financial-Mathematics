@@ -14,23 +14,36 @@ editor_options:
   chunk_output_type: console
 ---
 
-# 欢迎 {-}
+# 👨‍🏫 欢迎  {-}
 
-在这里，我们同步课堂，总结每章的**重点、难点**，并发布**课后作业**。课后作业需在<u>下次上课前</u>交到讲台上。
+在这里，我们同步课堂，总结每章的**重点、难点**，并发布**课后作业**。课后作业需在<u>下次上课</u>交到讲台上。
 
 我们这里主要以英文表述，有以下两个原因
 
-1. 方便大家准备SOA/CAS的 [Exam FM: Financial Mathematics](https://www.soa.org/education/exam-req/edu-exam-fm-detail/)考试；
+1. 方便大家准备SOA/CAS的 [Exam FM: Financial Mathematics](https://www.soa.org/education/exam-req/edu-exam-fm-detail/) 考试；
 
 2. 方便大家阅读相关英文文献。
 
-此网站由授课老师<u>高光远</u>、助教<u>程轶鹏</u>、助教<u>胡夏新</u>管理，欢迎大家反馈意见到助教、微信群、或邮箱<guangyuan.gao@ruc.edu.cn>。
+此网站由授课老师<u>高光远</u>、助教<u>程轶鹏</u>、助教<u>胡夏新</u>管理，欢迎大家反馈意见到助教、微信群、或邮箱 <guangyuan.gao@ruc.edu.cn>。
 
-## 答疑{-}
+## 🤔 答疑{-}
 
-我定期把同学们的普遍疑问在这里解答，欢迎提问！
+**我定期把同学们的普遍疑问在这里解答，欢迎提问！**
 
-**$i$ 和 $d$ 的关系** （2020/09/16）
+**👉 证明$\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i$** (2020/09/24)
+
+假设有A, B, C三种年金：
+
+- A：$n$年期期末付等额年金，一共$n$个$\frac{1}{a_{\overline{n}\mid}}$，分别在$t=1,\ldots,n$。A的现值为$$\frac{1}{a_{\overline{n}\mid}} a_{\overline{n}\mid}=1$$
+
+- B：$n$年期期末付年金，一共$n-1$个$i$和一个$1+i$, 分别在$t=1,\ldots,n$。 B的现值为$$ia_{\overline{n}\mid}+v^n=1.$$
+
+- C：C为B的“平滑”化年金，即把在时间$t=n$的1转化为$n$个在$t=1,\ldots,n$的等额年金（其在$t=n$的累计值应为1），所以分摊到每个时刻的金额为$\frac{1}{s_{\overline{n}\mid}}$。 “平滑”后的年金为$n$年期期末付等额年金，一共$n$个$\frac{1}{s_{\overline{n}\mid}}+i$。 C和B的现值相同都为1。
+
+可见，A和C同为$n$年期期末付等额年金，其现值都为1。所以，它们每期的金额也应该相同：
+$$\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i.$$
+
+**👉 $i$ 和 $d$ 的关系** （2020/09/16）
 
 很多同学问课件上的这道题目。
 
@@ -49,13 +62,13 @@ $i$ 和 $d$ 的区别可以理解为 $i$ 是在**期末**付，$d$ 是在**期�
 贴现率 $d$ 的另一种理解就是利息 $i$ 的现值。
 
 
-**计算器** （2020/09/10）
+**👉 计算器** （2020/09/10）
 
 在课堂测验和期末考试，没有对计算器的严格要求，但至少需要科学计算器。大家不需要购买昂贵的可编程计算器，在这门课中，体现不出可编程计算器的优势。
 
 建议的计算器是SOA/CAS要求的[计算器](https://www.soa.org/education/exam-req/exam-day-info/edu-id-calculators/)。
 
-**最终成绩** （2020/09/10）
+**👉 最终成绩** （2020/09/10）
 
 1. 平时成绩占40%，期末成绩占60%。
 

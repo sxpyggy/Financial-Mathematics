@@ -1,4 +1,42 @@
-# Solutions to homework {-}
+# 💡 Solutions to homework {-}
+
+```{r include=FALSE}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
+```
+
+## Week 2 {-}
+
+### Problem 1 {-}
+
+AV in 2 years = 1173.54, so we set: 
+$$1173.54=1000\left(1+\frac{K}{4}\right)^{4}\left(1-\frac{K}{4}\right)^{-4}=1000\left(\frac{4+K}{4-K}\right)^{4}$$
+Thus,
+$$\frac{4+K}{4-K}=1.17354^{1/4}=1.0408$$
+Solving for K, we get:
+$$K=0.08$$
+
+
+### Problem 2 {-}
+AV in 8 years:
+
+**Fund X**:$$e^{(0.05)(8)}=e^{0.4}$$
+**Fund Y**:$$\left(1+\frac{j}{2}\right)^{(2)(8)}=\left(1+\frac{j}{2}\right)^{16}$$
+At the end of eight years, Fund $X$ is 1.05 times as large as Fund $Y$, so we set:
+$$e^{0.4}=1.05\left(1+\frac{j}{2}\right)^{16}$$
+Thus,
+$$j=2\left[\left(\frac{e^{0.4}}{1.05}\right)^{\frac{1}{16}}-1\right]=0.044$$
+
+### Problem 3 {-}
+
+Fund $X$ equals Fund $Y$ at the end of four years, so we set:
+$$1000(1.04)^{6}(1+i)=1000e^{\int_{0}^{4} \frac{1}{(15-t)} dt}$$
+Then,
+$$1000e^{\int_{0}^{4} \frac{1}{(15-t)} dt}=1000e^{-\ln(15-t)|_{0}^{4}}=1000\left(\frac{15}{11}\right)$$
+
+Thus,
+$$(1+i)=\frac{15}{(11)(1.04)^6}=1.0777$$
+$$i=0.0777$$
+
 
 ## Week 1 {-}
 

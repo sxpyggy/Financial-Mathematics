@@ -76,12 +76,13 @@
   \thm@postskip=\thm@preskip
 }
 \makeatother
+\usepackage{flafter}
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
 \title{金融数学}
 \author{Financial Mathematics}
-\date{2020-09-24 13:46:18}
+\date{2020-09-24 21:16:42}
 
 \begin{document}
 \maketitle
@@ -91,30 +92,46 @@
 \tableofcontents
 }
 \hypertarget{ux6b22ux8fce}{%
-\chapter*{欢迎}\label{ux6b22ux8fce}}
-\addcontentsline{toc}{chapter}{欢迎}
+\chapter*{👨‍🏫 欢迎}\label{ux6b22ux8fce}}
+\addcontentsline{toc}{chapter}{👨‍🏫 欢迎}
 
-在这里，我们同步课堂，总结每章的\textbf{重点、难点}，并发布\textbf{课后作业}。课后作业需在下次上课前交到讲台上。
+在这里，我们同步课堂，总结每章的\textbf{重点、难点}，并发布\textbf{课后作业}。课后作业需在下次上课交到讲台上。
 
 我们这里主要以英文表述，有以下两个原因
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
-  方便大家准备SOA/CAS的 \href{https://www.soa.org/education/exam-req/edu-exam-fm-detail/}{Exam FM: Financial Mathematics}考试；
+  方便大家准备SOA/CAS的 \href{https://www.soa.org/education/exam-req/edu-exam-fm-detail/}{Exam FM: Financial Mathematics} 考试；
 \item
   方便大家阅读相关英文文献。
 \end{enumerate}
 
-此网站由授课老师高光远、助教程轶鹏、助教胡夏新管理，欢迎大家反馈意见到助教、微信群、或邮箱\href{mailto:guangyuan.gao@ruc.edu.cn}{\nolinkurl{guangyuan.gao@ruc.edu.cn}}。
+此网站由授课老师高光远、助教程轶鹏、助教胡夏新管理，欢迎大家反馈意见到助教、微信群、或邮箱 \href{mailto:guangyuan.gao@ruc.edu.cn}{\nolinkurl{guangyuan.gao@ruc.edu.cn}}。
 
 \hypertarget{ux7b54ux7591}{%
-\section*{答疑}\label{ux7b54ux7591}}
-\addcontentsline{toc}{section}{答疑}
+\section*{🤔 答疑}\label{ux7b54ux7591}}
+\addcontentsline{toc}{section}{🤔 答疑}
 
-我定期把同学们的普遍疑问在这里解答，欢迎提问！
+\textbf{我定期把同学们的普遍疑问在这里解答，欢迎提问！}
 
-\textbf{\(i\) 和 \(d\) 的关系} （2020/09/16）
+\textbf{👉 证明\(\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i\)} (2020/09/24)
+
+假设有A, B, C三种年金：
+
+\begin{itemize}
+\item
+  A：\(n\)年期期末付等额年金，一共\(n\)个\(\frac{1}{a_{\overline{n}\mid}}\)，分别在\(t=1,\ldots,n\)。A的现值为\[\frac{1}{a_{\overline{n}\mid}} a_{\overline{n}\mid}=1\]
+\item
+  B：\(n\)年期期末付年金，一共\(n-1\)个\(i\)和一个\(1+i\), 分别在\(t=1,\ldots,n\)。 B的现值为\[ia_{\overline{n}\mid}+v^n=1.\]
+\item
+  C：C为B的``平滑''化年金，即把在时间\(t=n\)的1转化为\(n\)个在\(t=1,\ldots,n\)的等额年金（其在\(t=n\)的累计值应为1），所以分摊到每个时刻的金额为\(\frac{1}{s_{\overline{n}\mid}}\)。 ``平滑''后的年金为\(n\)年期期末付等额年金，一共\(n\)个\(\frac{1}{s_{\overline{n}\mid}}+i\)。 C和B的现值相同都为1。
+\end{itemize}
+
+可见，A和C同为\(n\)年期期末付等额年金，其现值都为1。所以，它们每期的金额也应该相同：
+\[\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i.\]
+
+\textbf{👉 \(i\) 和 \(d\) 的关系} （2020/09/16）
 
 很多同学问课件上的这道题目。
 
@@ -133,13 +150,13 @@
 
 贴现率 \(d\) 的另一种理解就是利息 \(i\) 的现值。
 
-\textbf{计算器} （2020/09/10）
+\textbf{👉 计算器} （2020/09/10）
 
 在课堂测验和期末考试，没有对计算器的严格要求，但至少需要科学计算器。大家不需要购买昂贵的可编程计算器，在这门课中，体现不出可编程计算器的优势。
 
 建议的计算器是SOA/CAS要求的\href{https://www.soa.org/education/exam-req/exam-day-info/edu-id-calculators/}{计算器}。
 
-\textbf{最终成绩} （2020/09/10）
+\textbf{👉 最终成绩} （2020/09/10）
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -300,11 +317,11 @@
 \hypertarget{key-relations}{%
 \section{Key relations}\label{key-relations}}
 
-\includegraphics[width=18.4in]{./plots/annuity-1}
+\begin{center}\includegraphics[width=0.8\linewidth]{./plots/annuity-1} \end{center}
 
 \hypertarget{homework}{%
-\chapter*{Homework}\label{homework}}
-\addcontentsline{toc}{chapter}{Homework}
+\chapter*{🖊️ Homework}\label{homework}}
+\addcontentsline{toc}{chapter}{🖊️ Homework}
 
 \hypertarget{week-3}{%
 \section*{Week 3}\label{week-3}}
@@ -328,9 +345,11 @@ Calculate \(Y-X\).
 \subsection*{Problem 2}\label{problem-2}}
 \addcontentsline{toc}{subsection}{Problem 2}
 
-\emph{11/01 \#27}
+\emph{SOA 11/01 \#27}
 
-A man turns 40 today and wishes to provide supplemental retirement income of \(3000\) at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of \(X\) to a fund for \(25\) years. The fund earns a nominal rate of \(8\%\) compounded monthly. Each \(1000\) will provide for \(9.65\) income at the beginning of month starting on his 65th birthday until the end of his life.
+A man turns \(40\) today and wishes to provide supplemental retirement income of \(3000\) at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of \(X\) to a fund for \(25\) years.
+
+The fund earns a nominal rate of \(8\%\) compounded monthly. Each \(1000\) will provide for \(9.65\) income at the beginning of month starting on his 65th birthday until the end of his life.
 
 Calculate \(X\).
 
@@ -420,7 +439,7 @@ Three different projects were recommended, each of which requires an investment 
 
 The cash flows for each of the three projects are shown in Table \ref{tab:week1}:
 
-\begin{table}
+\begin{table}[!h]
 
 \caption{\label{tab:week1}The cash flows of the three projects.}
 \centering
@@ -446,15 +465,56 @@ The company uses an annual effective interest rate of \(10\%\) to discount its c
 Determine which combination of projects the company should select.
 
 \hypertarget{solutions-to-homework}{%
-\chapter*{Solutions to homework}\label{solutions-to-homework}}
-\addcontentsline{toc}{chapter}{Solutions to homework}
+\chapter*{💡 Solutions to homework}\label{solutions-to-homework}}
+\addcontentsline{toc}{chapter}{💡 Solutions to homework}
+
+\hypertarget{week-2}{%
+\section*{Week 2}\label{week-2}}
+\addcontentsline{toc}{section}{Week 2}
+
+\hypertarget{problem-1}{%
+\subsection*{Problem 1}\label{problem-1}}
+\addcontentsline{toc}{subsection}{Problem 1}
+
+AV in 2 years = 1173.54, so we set:
+\[1173.54=1000\left(1+\frac{K}{4}\right)^{4}\left(1-\frac{K}{4}\right)^{-4}=1000\left(\frac{4+K}{4-K}\right)^{4}\]
+Thus,
+\[\frac{4+K}{4-K}=1.17354^{1/4}=1.0408\]
+Solving for K, we get:
+\[K=0.08\]
+
+\hypertarget{problem-2}{%
+\subsection*{Problem 2}\label{problem-2}}
+\addcontentsline{toc}{subsection}{Problem 2}
+
+AV in 8 years:
+
+\textbf{Fund X}:\[e^{(0.05)(8)}=e^{0.4}\]
+\textbf{Fund Y}:\[\left(1+\frac{j}{2}\right)^{(2)(8)}=\left(1+\frac{j}{2}\right)^{16}\]
+At the end of eight years, Fund \(X\) is 1.05 times as large as Fund \(Y\), so we set:
+\[e^{0.4}=1.05\left(1+\frac{j}{2}\right)^{16}\]
+Thus,
+\[j=2\left[\left(\frac{e^{0.4}}{1.05}\right)^{\frac{1}{16}}-1\right]=0.044\]
+
+\hypertarget{problem-3}{%
+\subsection*{Problem 3}\label{problem-3}}
+\addcontentsline{toc}{subsection}{Problem 3}
+
+Fund \(X\) equals Fund \(Y\) at the end of four years, so we set:
+\[1000(1.04)^{6}(1+i)=1000e^{\int_{0}^{4} \frac{1}{(15-t)} dt}\]
+Then,
+\[1000e^{\int_{0}^{4} \frac{1}{(15-t)} dt}=1000e^{-\ln(15-t)|_{0}^{4}}=1000\left(\frac{15}{11}\right)\]
+
+Thus,
+\[(1+i)=\frac{15}{(11)(1.04)^6}=1.0777\]
+\[i=0.0777\]
 
 \hypertarget{week-1}{%
 \section*{Week 1}\label{week-1}}
 \addcontentsline{toc}{section}{Week 1}
 
-\hypertarget{problem-1}{%
-\subsection*{Problem 1}\label{problem-1}}
+\hypertarget{problem-1-1}{%
+\subsection*{Problem 1}\label{problem-1-1}}
 \addcontentsline{toc}{subsection}{Problem 1}
 
 To compare the two funds, we assume that equal investments of \(X\) are made at time 0.
@@ -473,16 +533,16 @@ which reduces to:
 
 Thus, Edna's fund exceeds John's after 2 years.
 
-\hypertarget{problem-2}{%
-\subsection*{Problem 2}\label{problem-2}}
+\hypertarget{problem-2-1}{%
+\subsection*{Problem 2}\label{problem-2-1}}
 \addcontentsline{toc}{subsection}{Problem 2}
 
 \[PV=1000v+2000v^{3}=2540.15 \]
 
 since \[v=1.075^{-1}\]
 
-\hypertarget{problem-3}{%
-\subsection*{Problem 3}\label{problem-3}}
+\hypertarget{problem-3-1}{%
+\subsection*{Problem 3}\label{problem-3-1}}
 \addcontentsline{toc}{subsection}{Problem 3}
 
 Discounting at \(10\%\), the net present values are \(4.59\),\(-2.36\) and \(-9.54\) for Projects A,B,and C respectively.

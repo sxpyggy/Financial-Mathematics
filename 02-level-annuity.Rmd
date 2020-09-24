@@ -38,7 +38,8 @@ $$\bar{a}_{\overline{\infty}\mid}=\frac{1}{\delta}$$
 
 ## Key relations
 
-```{r,echo=FALSE}
+```{r,echo=FALSE,out.width="80%",fig.align = 'center'}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 knitr::include_graphics("./plots/annuity-1.png")
 ```
 
