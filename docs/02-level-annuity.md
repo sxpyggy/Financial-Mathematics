@@ -4,8 +4,6 @@
 
 ### Annuity immediate{-}
 
-$$\angl{n}$$
-
 ### Annuity due{-}
 
 ### Deffered annuity{-}
@@ -17,4 +15,6 @@ $$\angl{n}$$
 ### Continuous payable annuity {-}
 
 ## Key equations
+
+<img src="./plots/annuity-1.png" width="1325" />
 

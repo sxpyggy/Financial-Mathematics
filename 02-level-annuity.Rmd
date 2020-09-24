@@ -16,7 +16,7 @@
 
 ## Key equations
 
-```{r}
-knitr::include_graphics("./plots/annuity.jpeg")
+```{r,echo=FALSE}
+knitr::include_graphics("./plots/annuity-1.png")
 ```
 
