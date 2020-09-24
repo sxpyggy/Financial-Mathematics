@@ -1,5 +1,37 @@
 # Homework {-}
 
+## Week 3 {-}
+
+### Problem 1 {-}
+
+*SAMPLE/00 #27*
+
+Susan and Jeff each make deposits of $100$ at the end of each year for $40$ years.
+
+Starting at the end of the $41st$ year, Susan makes annual withdrawals of $X$ for $15$ years and Jeff makes annual withdrawals of $Y$ for $15$ years. Both funds have a balance of $0$ after the last withdrawal.
+
+Susan's fund earns an annual effective interest rate of $8\%$. Jeff's fund earns an annual effective interest rate at $10\%$.
+
+Calculate $Y-X$.
+
+
+### Problem 2 {-}
+
+*11/01 #27*
+
+A man turns 40 today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life.
+
+Calculate $X$.
+
+
+### Problem 3 {-}
+
+*SOA 11/93 #4*
+
+At time $t=0$, Paul deposits $P$ into a fund crediting interest at an effective annual interest rate of $8\%$. At the end of each year in years $6$ through $20$, Paul withdraws an amount sufficient to purchase an annuity-due of $100$ per month for $10$ years at a nominal interest rate of $12\%$ compounded monthly. Immediately after the withdrawal at the end of year $20$, the fund value is zero.
+
+Calculate $P$.
+
 ## Week 2 {-}
 
 ### Problem 1 {-}

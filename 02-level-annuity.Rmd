@@ -4,6 +4,8 @@
 
 ### Annuity immediate{-}
 
+$$\angl{n}$$
+
 ### Annuity due{-}
 
 ### Deffered annuity{-}
