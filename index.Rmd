@@ -30,6 +30,13 @@ editor_options:
 
 **我定期把同学们的普遍疑问在这里解答，欢迎提问！**
 
+**👉 期末中文考题** (2020/09/26)
+
+```{r,echo=FALSE,out.width="80%",fig.align = 'center'}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
+knitr::include_graphics("./plots/english.png")
+```
+
 **👉 证明$\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i$** (2020/09/24)
 
 假设有A, B, C三种年金：

@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-09-24 21:16:51"
+date: "2020-09-26 11:15:00"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -29,6 +29,10 @@ editor_options:
 ## 🤔 答疑{-}
 
 **我定期把同学们的普遍疑问在这里解答，欢迎提问！**
+
+**👉 期末中文考题** (2020/09/26)
+
+<img src="./plots/english.png" width="80%" style="display: block; margin: auto;" />
 
 **👉 证明$\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i$** (2020/09/24)
 
