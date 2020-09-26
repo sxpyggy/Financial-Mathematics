@@ -32,7 +32,7 @@ editor_options:
 
 **👉 期末中文考题** (2020/09/26)
 
-```{r,echo=FALSE,out.width="80%",fig.align = 'center'}
+```{r,echo=FALSE,out.width="30%",fig.align = 'center'}
 knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 knitr::include_graphics("./plots/english.png")
 ```
