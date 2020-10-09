@@ -4,6 +4,27 @@
 knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 ```
 
+## Week 5 {-}
+
+### Problem 1 {-}
+
+*SOA 11/01 #16*
+
+Olga buys a $5$-year increasing annuity for $X$. Olga will receive $2$ at the end of the first month, $4$ at the end of the second month, and for each month thereafter the payment increases by $2$. The nominal interest rate is $9\%$ convertible quarterly. Calculate $X$.
+
+
+### Problem 2 {-}
+
+*SOA 5/95 #7*
+
+The first payment of a perpetuity-immediate is $60$. Subsequent payments decrease by $1$ per year until they reach a level of $k$. Payments remain constant at $k$ thereafter. The present value of the perpetuity is equal to the present of a perpetuity-immediate paying $44$ each year. The annual effective interest rate is $5\%$. Calculate $k$.
+
+### Problem 3 {-}
+
+*SOA 11/01 #5*
+
+Mike buys a perpetuity-immediate with varying annual payments. During the first $5$ years, the payment is constant and equal to $10$. Beginning in year $6$, the payments start to increase. For year $6$ and all future years, the current year’s payment is $K\%$ larger than the previous year’s payment. At an annual effective interest rate of $9.2\%$, the perpetuity has a present value of $167.50$. Calculate $K$, given $K < 9.2$.
+
 ## Week 3 {-}
 
 ### Problem 1 {-}
