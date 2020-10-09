@@ -82,7 +82,7 @@
 
 \title{金融数学}
 \author{Financial Mathematics}
-\date{2020-10-09 14:19:50}
+\date{2020-10-09 16:53:29}
 
 \begin{document}
 \maketitle
@@ -306,7 +306,7 @@
 \addcontentsline{toc}{subsection}{\(m\)-thly payable annuity}
 
 \[a^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{i^{(m)}}=\frac{i}{i^{(m)}}a_{\overline{n}\mid}\]
-\[\ddot{a}^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{d^{(m)}}=\frac{d}{d^{(m)}}a_{\overline{n}\mid}\]
+\[\ddot{a}^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{d^{(m)}}=\frac{d}{d^{(m)}}{\ddot{a}}_{\overline{n}\mid}\]
 \[a^{(m)}_{\overline{\infty}\mid}=\frac{1}{i^{(m)}}\]
 \[\ddot{a}^{(m)}_{\overline{\infty}\mid}=\frac{1}{d^{(m)}}\]
 \[\ddot{a}^{(m)}_{\overline{\infty}\mid}=(1+i)^{1/m}a^{(m)}_{\overline{\infty}\mid}\]
@@ -322,6 +322,121 @@
 \section{Key relations}\label{key-relations}}
 
 \begin{center}\includegraphics[width=0.5\linewidth]{./plots/annuity-1} \end{center}
+
+\hypertarget{varying-annuity}{%
+\chapter{Varying annuity}\label{varying-annuity}}
+
+\hypertarget{key-concepts}{%
+\section{Key concepts}\label{key-concepts}}
+
+\hypertarget{increasing-annuity-immediate}{%
+\subsection*{Increasing annuity immediate}\label{increasing-annuity-immediate}}
+\addcontentsline{toc}{subsection}{Increasing annuity immediate}
+
+\[(Ia)_{\overline{n}\mid}=\frac{\ddot{a}_{\overline{n}\mid}-nv^n}{i}\]
+\[(Is)_{\overline{n}\mid}=(1+i)^n(Ia)_{\overline{n}\mid}\]
+
+\hypertarget{increasing-annuity-due}{%
+\subsection*{Increasing annuity due}\label{increasing-annuity-due}}
+\addcontentsline{toc}{subsection}{Increasing annuity due}
+
+\[(I\ddot{a})_{\overline{n}\mid}=(1+i)(Ia)_{\overline{n}\mid}\]
+
+\[(I\ddot{s})_{\overline{n}\mid}=(1+i)(Is)_{\overline{n}\mid}\]
+
+\hypertarget{decreasing-annuity-immediate}{%
+\subsection*{Decreasing annuity immediate}\label{decreasing-annuity-immediate}}
+\addcontentsline{toc}{subsection}{Decreasing annuity immediate}
+
+\[(Da)_{\overline{n}\mid}=\frac{n-a_{\overline{n}\mid}}{i}\]
+
+\hypertarget{compound-increasing-annuity-immediate}{%
+\subsection*{Compound increasing annuity immediate}\label{compound-increasing-annuity-immediate}}
+\addcontentsline{toc}{subsection}{Compound increasing annuity immediate}
+
+\[(Ca)_{\overline{n}\mid i}=\frac{(C\ddot{a})_{\overline{n}\mid i}}{1+i}=\frac{\ddot{a}_{\overline{n}\mid j}}{1+i}\neq{a}_{\overline{n}\mid j},\]
+where \(j=(i-r)/(1+r).\)
+
+\hypertarget{compound-increasing-annuity-due}{%
+\subsection*{Compound increasing annuity due}\label{compound-increasing-annuity-due}}
+\addcontentsline{toc}{subsection}{Compound increasing annuity due}
+
+\[(C\ddot{a})_{\overline{n}\mid i}=\ddot{a}_{\overline{n}\mid j},\]
+where \(j=(i-r)/(1+r).\)
+
+\hypertarget{m-thly-payable-increasing-annuity-immediate}{%
+\subsection*{\texorpdfstring{\(m\)-thly payable increasing annuity immediate}{m-thly payable increasing annuity immediate}}\label{m-thly-payable-increasing-annuity-immediate}}
+\addcontentsline{toc}{subsection}{\(m\)-thly payable increasing annuity immediate}
+
+\[(Ia)^{(m)}_{\overline{n}\mid}=\frac{i}{i^{(m)}}(Ia)_{\overline{n}\mid}\]
+
+\hypertarget{m-thly-payable-increasing-annuity-due}{%
+\subsection*{\texorpdfstring{\(m\)-thly payable increasing annuity due}{m-thly payable increasing annuity due}}\label{m-thly-payable-increasing-annuity-due}}
+\addcontentsline{toc}{subsection}{\(m\)-thly payable increasing annuity due}
+
+\[(I\ddot{a})^{(m)}_{\overline{n}\mid}=\frac{d}{d^{(m)}}(I\ddot{a})_{\overline{n}\mid}\]
+
+\hypertarget{m-thly-payable-varying-annuity}{%
+\subsection*{\texorpdfstring{\(m\)-thly payable varying annuity}{m-thly payable varying annuity}}\label{m-thly-payable-varying-annuity}}
+\addcontentsline{toc}{subsection}{\(m\)-thly payable varying annuity}
+
+The above equations are also applied to decreasing annuity and compound increasing annuity. In general we have
+
+\[V^{(m)}_{\overline{n}\mid}=\frac{i}{i^{(m)}}V_{\overline{n}\mid}\]
+\[\ddot{V}^{(m)}_{\overline{n}\mid}=\frac{d}{d^{(m)}}\ddot{V}_{\overline{n}\mid}\]
+
+\hypertarget{continuous-payable-varying-annuity}{%
+\subsection*{Continuous payable varying annuity}\label{continuous-payable-varying-annuity}}
+\addcontentsline{toc}{subsection}{Continuous payable varying annuity}
+
+\[\bar{V}_{\overline{n}\mid}=\frac{i}{\delta}V_{\overline{n}\mid}=\frac{d}{\delta}\ddot{V}_{\overline{n}\mid}\]
+
+\hypertarget{increasing-perpetuity}{%
+\subsection*{Increasing perpetuity}\label{increasing-perpetuity}}
+\addcontentsline{toc}{subsection}{Increasing perpetuity}
+
+\[(Ia)_{\overline{\infty}\mid}=\frac{1}{di}\]
+
+\hypertarget{continuous-payable-increasing-perpetuity}{%
+\subsection*{Continuous payable increasing perpetuity}\label{continuous-payable-increasing-perpetuity}}
+\addcontentsline{toc}{subsection}{Continuous payable increasing perpetuity}
+
+\[(I\bar{a})_{\overline{\infty}\mid}=\frac{1}{d\delta}\]
+
+\hypertarget{present-value-of-a-general-varying-annuity-with-payment-rate-of-rhot}{%
+\subsection*{\texorpdfstring{Present value of a general varying annuity with payment rate of \(\rho(t)\)}{Present value of a general varying annuity with payment rate of \textbackslash rho(t)}}\label{present-value-of-a-general-varying-annuity-with-payment-rate-of-rhot}}
+\addcontentsline{toc}{subsection}{Present value of a general varying annuity with payment rate of \(\rho(t)\)}
+
+\[\int_0^{\infty}\rho(t)\exp\left(-\int_0^t\delta(s)ds\right)dt\]
+
+\hypertarget{cumulative-value-of-a-general-varying-annuity-with-payment-rate-of-rhot}{%
+\subsection*{\texorpdfstring{Cumulative value of a general varying annuity with payment rate of \(\rho(t)\)}{Cumulative value of a general varying annuity with payment rate of \textbackslash rho(t)}}\label{cumulative-value-of-a-general-varying-annuity-with-payment-rate-of-rhot}}
+\addcontentsline{toc}{subsection}{Cumulative value of a general varying annuity with payment rate of \(\rho(t)\)}
+
+\[\int_0^{T}\rho(t)\exp\left(\int_t^T\delta(s)ds\right)dt\]
+
+\hypertarget{continuously-increasing-annuity-with-payment-rate-of-t}{%
+\subsection*{\texorpdfstring{Continuously increasing annuity with payment rate of \(t\)}{Continuously increasing annuity with payment rate of t}}\label{continuously-increasing-annuity-with-payment-rate-of-t}}
+\addcontentsline{toc}{subsection}{Continuously increasing annuity with payment rate of \(t\)}
+
+\[(\bar{I}\bar{a})_{\overline{n}\mid}=\int_0^nte^{-\delta t}dt=\frac{\bar{a}_{\overline{n}\mid}-nv^n}{\delta}\]
+
+\hypertarget{continuously-increasing-perpetuity}{%
+\subsection*{Continuously increasing perpetuity}\label{continuously-increasing-perpetuity}}
+\addcontentsline{toc}{subsection}{Continuously increasing perpetuity}
+
+\[(\bar{I}\bar{a})_{\overline{\infty}\mid}=\frac{1}{\delta^2}\]
+
+\hypertarget{continuously-decreasing-annuity-with-payment-rate-of-n-t}{%
+\subsection*{\texorpdfstring{Continuously decreasing annuity with payment rate of \(n-t\)}{Continuously decreasing annuity with payment rate of n-t}}\label{continuously-decreasing-annuity-with-payment-rate-of-n-t}}
+\addcontentsline{toc}{subsection}{Continuously decreasing annuity with payment rate of \(n-t\)}
+
+\[(\bar{D}\bar{a})_{\overline{n}\mid}=\int_0^n (n-t) e^{-\delta t}dt=\frac{n-\bar{a}_{\overline{n}\mid}}{\delta}\]
+
+\hypertarget{key-relations}{%
+\section{Key relations}\label{key-relations}}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{./plots/annuity-2} \end{center}
 
 \hypertarget{homework}{%
 \chapter*{🖊️ Homework}\label{homework}}

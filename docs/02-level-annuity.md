@@ -26,7 +26,7 @@ $$\ddot{a}_{\overline{\infty}\mid}=\frac{1}{d}$$
 ### $m$-thly payable annuity {-}
 
 $$a^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{i^{(m)}}=\frac{i}{i^{(m)}}a_{\overline{n}\mid}$$
-$$\ddot{a}^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{d^{(m)}}=\frac{d}{d^{(m)}}a_{\overline{n}\mid}$$
+$$\ddot{a}^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{d^{(m)}}=\frac{d}{d^{(m)}}{\ddot{a}}_{\overline{n}\mid}$$
 $$a^{(m)}_{\overline{\infty}\mid}=\frac{1}{i^{(m)}}$$
 $$\ddot{a}^{(m)}_{\overline{\infty}\mid}=\frac{1}{d^{(m)}}$$
 $$\ddot{a}^{(m)}_{\overline{\infty}\mid}=(1+i)^{1/m}a^{(m)}_{\overline{\infty}\mid}$$

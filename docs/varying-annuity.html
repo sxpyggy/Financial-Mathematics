@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>🖊️ Homework | 金融数学</title>
+  <title>Chapter 3 Varying annuity | 金融数学</title>
   <meta name="description" content="The output format is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="🖊️ Homework | 金融数学" />
+  <meta property="og:title" content="Chapter 3 Varying annuity | 金融数学" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="sxpyggy/Financial-Mathematics" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="🖊️ Homework | 金融数学" />
+  <meta name="twitter:title" content="Chapter 3 Varying annuity | 金融数学" />
   
   <meta name="twitter:description" content="The output format is bookdown::gitbook." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="varying-annuity.html"/>
-<link rel="next" href="solutions-to-homework.html"/>
+<link rel="prev" href="level-annuity.html"/>
+<link rel="next" href="homework.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -171,143 +171,85 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="homework" class="section level1 unnumbered">
-<h1>🖊️ Homework</h1>
-<div id="week-5" class="section level2 unnumbered">
-<h2>Week 5</h2>
-<div id="problem-1" class="section level3 unnumbered">
-<h3>Problem 1</h3>
-<p><em>SOA 11/01 #16</em></p>
-<p>Olga buys a <span class="math inline">\(5\)</span>-year increasing annuity for <span class="math inline">\(X\)</span>. Olga will receive <span class="math inline">\(2\)</span> at the end of the first month, <span class="math inline">\(4\)</span> at the end of the second month, and for each month thereafter the payment increases by <span class="math inline">\(2\)</span>. The nominal interest rate is <span class="math inline">\(9\%\)</span> convertible quarterly. Calculate <span class="math inline">\(X\)</span>.</p>
+<div id="varying-annuity" class="section level1">
+<h1><span class="header-section-number">Chapter 3</span> Varying annuity</h1>
+<div id="key-concepts" class="section level2">
+<h2><span class="header-section-number">3.1</span> Key concepts</h2>
+<div id="increasing-annuity-immediate" class="section level3 unnumbered">
+<h3>Increasing annuity immediate</h3>
+<p><span class="math display">\[(Ia)_{\overline{n}\mid}=\frac{\ddot{a}_{\overline{n}\mid}-nv^n}{i}\]</span>
+<span class="math display">\[(Is)_{\overline{n}\mid}=(1+i)^n(Ia)_{\overline{n}\mid}\]</span></p>
 </div>
-<div id="problem-2" class="section level3 unnumbered">
-<h3>Problem 2</h3>
-<p><em>SOA 5/95 #7</em></p>
-<p>The first payment of a perpetuity-immediate is <span class="math inline">\(60\)</span>. Subsequent payments decrease by <span class="math inline">\(1\)</span> per year until they reach a level of <span class="math inline">\(k\)</span>. Payments remain constant at <span class="math inline">\(k\)</span> thereafter. The present value of the perpetuity is equal to the present of a perpetuity-immediate paying <span class="math inline">\(44\)</span> each year. The annual effective interest rate is <span class="math inline">\(5\%\)</span>. Calculate <span class="math inline">\(k\)</span>.</p>
+<div id="increasing-annuity-due" class="section level3 unnumbered">
+<h3>Increasing annuity due</h3>
+<p><span class="math display">\[(I\ddot{a})_{\overline{n}\mid}=(1+i)(Ia)_{\overline{n}\mid}\]</span></p>
+<p><span class="math display">\[(I\ddot{s})_{\overline{n}\mid}=(1+i)(Is)_{\overline{n}\mid}\]</span></p>
 </div>
-<div id="problem-3" class="section level3 unnumbered">
-<h3>Problem 3</h3>
-<p><em>SOA 11/01 #5</em></p>
-<p>Mike buys a perpetuity-immediate with varying annual payments. During the first <span class="math inline">\(5\)</span> years, the payment is constant and equal to <span class="math inline">\(10\)</span>. Beginning in year <span class="math inline">\(6\)</span>, the payments start to increase. For year <span class="math inline">\(6\)</span> and all future years, the current year’s payment is <span class="math inline">\(K\%\)</span> larger than the previous year’s payment. At an annual effective interest rate of <span class="math inline">\(9.2\%\)</span>, the perpetuity has a present value of <span class="math inline">\(167.50\)</span>. Calculate <span class="math inline">\(K\)</span>, given <span class="math inline">\(K &lt; 9.2\)</span>.</p>
+<div id="decreasing-annuity-immediate" class="section level3 unnumbered">
+<h3>Decreasing annuity immediate</h3>
+<p><span class="math display">\[(Da)_{\overline{n}\mid}=\frac{n-a_{\overline{n}\mid}}{i}\]</span></p>
+</div>
+<div id="compound-increasing-annuity-immediate" class="section level3 unnumbered">
+<h3>Compound increasing annuity immediate</h3>
+<p><span class="math display">\[(Ca)_{\overline{n}\mid i}=\frac{(C\ddot{a})_{\overline{n}\mid i}}{1+i}=\frac{\ddot{a}_{\overline{n}\mid j}}{1+i}\neq{a}_{\overline{n}\mid j},\]</span>
+where <span class="math inline">\(j=(i-r)/(1+r).\)</span></p>
+</div>
+<div id="compound-increasing-annuity-due" class="section level3 unnumbered">
+<h3>Compound increasing annuity due</h3>
+<p><span class="math display">\[(C\ddot{a})_{\overline{n}\mid i}=\ddot{a}_{\overline{n}\mid j},\]</span>
+where <span class="math inline">\(j=(i-r)/(1+r).\)</span></p>
+</div>
+<div id="m-thly-payable-increasing-annuity-immediate" class="section level3 unnumbered">
+<h3><span class="math inline">\(m\)</span>-thly payable increasing annuity immediate</h3>
+<p><span class="math display">\[(Ia)^{(m)}_{\overline{n}\mid}=\frac{i}{i^{(m)}}(Ia)_{\overline{n}\mid}\]</span></p>
+</div>
+<div id="m-thly-payable-increasing-annuity-due" class="section level3 unnumbered">
+<h3><span class="math inline">\(m\)</span>-thly payable increasing annuity due</h3>
+<p><span class="math display">\[(I\ddot{a})^{(m)}_{\overline{n}\mid}=\frac{d}{d^{(m)}}(I\ddot{a})_{\overline{n}\mid}\]</span></p>
+</div>
+<div id="m-thly-payable-varying-annuity" class="section level3 unnumbered">
+<h3><span class="math inline">\(m\)</span>-thly payable varying annuity</h3>
+<p>The above equations are also applied to decreasing annuity and compound increasing annuity. In general we have</p>
+<p><span class="math display">\[V^{(m)}_{\overline{n}\mid}=\frac{i}{i^{(m)}}V_{\overline{n}\mid}\]</span>
+<span class="math display">\[\ddot{V}^{(m)}_{\overline{n}\mid}=\frac{d}{d^{(m)}}\ddot{V}_{\overline{n}\mid}\]</span></p>
+</div>
+<div id="continuous-payable-varying-annuity" class="section level3 unnumbered">
+<h3>Continuous payable varying annuity</h3>
+<p><span class="math display">\[\bar{V}_{\overline{n}\mid}=\frac{i}{\delta}V_{\overline{n}\mid}=\frac{d}{\delta}\ddot{V}_{\overline{n}\mid}\]</span></p>
+</div>
+<div id="increasing-perpetuity" class="section level3 unnumbered">
+<h3>Increasing perpetuity</h3>
+<p><span class="math display">\[(Ia)_{\overline{\infty}\mid}=\frac{1}{di}\]</span></p>
+</div>
+<div id="continuous-payable-increasing-perpetuity" class="section level3 unnumbered">
+<h3>Continuous payable increasing perpetuity</h3>
+<p><span class="math display">\[(I\bar{a})_{\overline{\infty}\mid}=\frac{1}{d\delta}\]</span></p>
+</div>
+<div id="present-value-of-a-general-varying-annuity-with-payment-rate-of-rhot" class="section level3 unnumbered">
+<h3>Present value of a general varying annuity with payment rate of <span class="math inline">\(\rho(t)\)</span></h3>
+<p><span class="math display">\[\int_0^{\infty}\rho(t)\exp\left(-\int_0^t\delta(s)ds\right)dt\]</span></p>
+</div>
+<div id="cumulative-value-of-a-general-varying-annuity-with-payment-rate-of-rhot" class="section level3 unnumbered">
+<h3>Cumulative value of a general varying annuity with payment rate of <span class="math inline">\(\rho(t)\)</span></h3>
+<p><span class="math display">\[\int_0^{T}\rho(t)\exp\left(\int_t^T\delta(s)ds\right)dt\]</span></p>
+</div>
+<div id="continuously-increasing-annuity-with-payment-rate-of-t" class="section level3 unnumbered">
+<h3>Continuously increasing annuity with payment rate of <span class="math inline">\(t\)</span></h3>
+<p><span class="math display">\[(\bar{I}\bar{a})_{\overline{n}\mid}=\int_0^nte^{-\delta t}dt=\frac{\bar{a}_{\overline{n}\mid}-nv^n}{\delta}\]</span></p>
+</div>
+<div id="continuously-increasing-perpetuity" class="section level3 unnumbered">
+<h3>Continuously increasing perpetuity</h3>
+<p><span class="math display">\[(\bar{I}\bar{a})_{\overline{\infty}\mid}=\frac{1}{\delta^2}\]</span></p>
+</div>
+<div id="continuously-decreasing-annuity-with-payment-rate-of-n-t" class="section level3 unnumbered">
+<h3>Continuously decreasing annuity with payment rate of <span class="math inline">\(n-t\)</span></h3>
+<p><span class="math display">\[(\bar{D}\bar{a})_{\overline{n}\mid}=\int_0^n (n-t) e^{-\delta t}dt=\frac{n-\bar{a}_{\overline{n}\mid}}{\delta}\]</span></p>
 </div>
 </div>
-<div id="week-3" class="section level2 unnumbered">
-<h2>Week 3</h2>
-<div id="problem-1-1" class="section level3 unnumbered">
-<h3>Problem 1</h3>
-<p><em>SAMPLE/00 #27</em></p>
-<p>Susan and Jeff each make deposits of <span class="math inline">\(100\)</span> at the end of each year for <span class="math inline">\(40\)</span> years.</p>
-<p>Starting at the end of the <span class="math inline">\(41st\)</span> year, Susan makes annual withdrawals of <span class="math inline">\(X\)</span> for <span class="math inline">\(15\)</span> years and Jeff makes annual withdrawals of <span class="math inline">\(Y\)</span> for <span class="math inline">\(15\)</span> years. Both funds have a balance of <span class="math inline">\(0\)</span> after the last withdrawal.</p>
-<p>Susan’s fund earns an annual effective interest rate of <span class="math inline">\(8\%\)</span>. Jeff’s fund earns an annual effective interest rate at <span class="math inline">\(10\%\)</span>.</p>
-<p>Calculate <span class="math inline">\(Y-X\)</span>.</p>
-</div>
-<div id="problem-2-1" class="section level3 unnumbered">
-<h3>Problem 2</h3>
-<p><em>SOA 11/01 #27</em></p>
-<p>A man turns <span class="math inline">\(40\)</span> today and wishes to provide supplemental retirement income of <span class="math inline">\(3000\)</span> at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of <span class="math inline">\(X\)</span> to a fund for <span class="math inline">\(25\)</span> years.</p>
-<p>The fund earns a nominal rate of <span class="math inline">\(8\%\)</span> compounded monthly. Each <span class="math inline">\(1000\)</span> will provide for <span class="math inline">\(9.65\)</span> income at the beginning of month starting on his 65th birthday until the end of his life.</p>
-<p>Calculate <span class="math inline">\(X\)</span>.</p>
-</div>
-<div id="problem-3-1" class="section level3 unnumbered">
-<h3>Problem 3</h3>
-<p><em>SOA 11/93 #4</em></p>
-<p>At time <span class="math inline">\(t=0\)</span>, Paul deposits <span class="math inline">\(P\)</span> into a fund crediting interest at an effective annual interest rate of <span class="math inline">\(8\%\)</span>. At the end of each year in years <span class="math inline">\(6\)</span> through <span class="math inline">\(20\)</span>, Paul withdraws an amount sufficient to purchase an annuity-due of <span class="math inline">\(100\)</span> per month for <span class="math inline">\(10\)</span> years at a nominal interest rate of <span class="math inline">\(12\%\)</span> compounded monthly. Immediately after the withdrawal at the end of year <span class="math inline">\(20\)</span>, the fund value is zero.</p>
-<p>Calculate <span class="math inline">\(P\)</span>.</p>
-</div>
-</div>
-<div id="week-2" class="section level2 unnumbered">
-<h2>Week 2</h2>
-<div id="problem-1-2" class="section level3 unnumbered">
-<h3>Problem 1</h3>
-<p><em>SOA 5/98 #2</em></p>
-<p>John invests <span class="math inline">\(1000\)</span> in a fund which earns interest during the first year at a nominal rate of <span class="math inline">\(K\)</span> convertible quarterly. During the 2nd year the fund earns interest at a nominal discount rate of <span class="math inline">\(K\)</span> convertible quarterly. At the end of the 2nd year,the fund has accumulated to <span class="math inline">\(1173.54\)</span>.</p>
-<p>Calculate <span class="math inline">\(K\)</span>.</p>
-</div>
-<div id="problem-2-2" class="section level3 unnumbered">
-<h3>Problem 2</h3>
-<p><em>SOA 5/89 #4</em></p>
-<p>Two funds,<span class="math inline">\(X\)</span> and <span class="math inline">\(Y\)</span>,start with the same amount.You are given:</p>
-<ol style="list-style-type: decimal">
-<li><p>Fund <span class="math inline">\(X\)</span> accumulates at a force of interest of 5%.</p></li>
-<li><p>Fund <span class="math inline">\(Y\)</span> accumulates at a rate of interest <span class="math inline">\(j\)</span>, compounded semiannually.</p></li>
-<li><p>At the end of eight years, Fund <span class="math inline">\(X\)</span> is <span class="math inline">\(1.05\)</span> times as large as Fund <span class="math inline">\(Y\)</span>.</p></li>
-</ol>
-<p>Calculate <span class="math inline">\(j\)</span>.</p>
-</div>
-<div id="problem-3-2" class="section level3 unnumbered">
-<h3>Problem 3</h3>
-<p><em>SOA 11/89 #2</em></p>
-<p>Fund <span class="math inline">\(X\)</span> starts with <span class="math inline">\(1,000\)</span> and accumulates with a force of interest <span class="math display">\[\delta_{t}=\frac{1}{15-t} \text{ for } 0 \le t&lt; 15.\]</span></p>
-<p>Fund Y starts with <span class="math inline">\(1,000\)</span> and accumulates with an interest rate of 8% per annum compounded semiannually for the first three years and an effective interest rate of <span class="math inline">\(i\)</span> per annum thereafter.</p>
-<p>Fund <span class="math inline">\(X\)</span> equals Fund <span class="math inline">\(Y\)</span> at the end of four years.</p>
-<p>Calculate <span class="math inline">\(i\)</span>.</p>
-</div>
-</div>
-<div id="week-1" class="section level2 unnumbered">
-<h2>Week 1</h2>
-<div id="problem-1-3" class="section level3 unnumbered">
-<h3>Problem 1</h3>
-<p>John invests <span class="math inline">\(X\)</span> in a fund growing in accordance with the accumulation function implied by the <em>amount function</em>
-<span class="math display">\[A(t)=4t^2+8t+4.\]</span>
-Edna invests <span class="math inline">\(X\)</span> in another fund growing in accordance with the accumulation function implied by the amount function <span class="math display">\[A(t)=4t^2+2.\]</span>
-When does Edna’s investment <em>exceed</em> John’s?</p>
-</div>
-<div id="problem-2-3" class="section level3 unnumbered">
-<h3>Problem 2</h3>
-<p>What deposit made today will provide for a payment of <span class="math inline">\(\$1000\)</span> in 1 year and <span class="math inline">\(\$2000\)</span> in 3 years, if the effective rate of interest is <span class="math inline">\(7.5\%\)</span>?</p>
-</div>
-<div id="problem-3-3" class="section level3 unnumbered">
-<h3>Problem 3</h3>
-<p>Company <span class="math inline">\(X\)</span> received the approval to start no more than two projects in the current calendar year.
-Three different projects were recommended, each of which requires an investment of 800 to be made at the beginning of the year.</p>
-<p>The cash flows for each of the three projects are shown in Table <a href="homework.html#tab:week1">3.1</a>:</p>
-<table>
-<caption><span id="tab:week1">Table 3.1: </span>The cash flows of the three projects.</caption>
-<thead>
-<tr class="header">
-<th align="right">End of year</th>
-<th align="right">Project A</th>
-<th align="right">Project B</th>
-<th align="right">Project C</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">1</td>
-<td align="right">500</td>
-<td align="right">500</td>
-<td align="right">500</td>
-</tr>
-<tr class="even">
-<td align="right">2</td>
-<td align="right">500</td>
-<td align="right">300</td>
-<td align="right">250</td>
-</tr>
-<tr class="odd">
-<td align="right">3</td>
-<td align="right">-175</td>
-<td align="right">-175</td>
-<td align="right">-175</td>
-</tr>
-<tr class="even">
-<td align="right">4</td>
-<td align="right">100</td>
-<td align="right">150</td>
-<td align="right">200</td>
-</tr>
-<tr class="odd">
-<td align="right">5</td>
-<td align="right">0</td>
-<td align="right">200</td>
-<td align="right">200</td>
-</tr>
-</tbody>
-</table>
-<p>The company uses an annual effective interest rate of <span class="math inline">\(10\%\)</span> to discount its cash flows.</p>
-<p>Determine which combination of projects the company should select.</p>
+<div id="key-relations" class="section level2">
+<h2><span class="header-section-number">3.2</span> Key relations</h2>
+<p><img src="plots/annuity-2.png" width="50%" style="display: block; margin: auto;" /></p>
 
-</div>
 </div>
 </div>
             </section>
@@ -315,8 +257,8 @@ Three different projects were recommended, each of which requires an investment 
           </div>
         </div>
       </div>
-<a href="varying-annuity.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="solutions-to-homework.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="level-annuity.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="homework.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
