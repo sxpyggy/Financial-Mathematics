@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-10-09 16:53:37"
+date: "2020-10-11 09:30:35"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -26,7 +26,11 @@ editor_options:
 
 此网站由授课老师<u>高光远</u>、助教<u>程轶鹏</u>、助教<u>胡夏新</u>管理，欢迎大家反馈意见到助教、微信群、或邮箱 <guangyuan.gao@ruc.edu.cn>。
 
-## 🤔 答疑{-}
+## ⏱️ 随堂测验 {- #exe}
+
+- 第一次随堂测验（中文）在**10月15日14:05至14:20**，内容为第一章至第三章，每章一道题目。请大家携带计算器，分散就座，遵守开卷考试纪律。
+
+## 🤔 答疑 {-}
 
 **我定期把同学们的普遍疑问在这里解答，欢迎提问！**
 

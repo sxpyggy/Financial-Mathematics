@@ -4,32 +4,26 @@
 knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 ```
 
-## Week 5 {-}
+**[⏱️ 随堂测验](#exe)**
 
-### Problem 1 {-}
+## Week 5 {- #w5}
 
-*SOA 11/01 #16*
+**Problem 1 (SOA 11/01 #16)**
 
 Olga buys a $5$-year increasing annuity for $X$. Olga will receive $2$ at the end of the first month, $4$ at the end of the second month, and for each month thereafter the payment increases by $2$. The nominal interest rate is $9\%$ convertible quarterly. Calculate $X$.
 
 
-### Problem 2 {-}
-
-*SOA 5/95 #7*
+**Problem 2 (SOA 5/95 #7)**
 
 The first payment of a perpetuity-immediate is $60$. Subsequent payments decrease by $1$ per year until they reach a level of $k$. Payments remain constant at $k$ thereafter. The present value of the perpetuity is equal to the present of a perpetuity-immediate paying $44$ each year. The annual effective interest rate is $5\%$. Calculate $k$.
 
-### Problem 3 {-}
-
-*SOA 11/01 #5*
+**Problem 3 (SOA 11/01 #5)**
 
 Mike buys a perpetuity-immediate with varying annual payments. During the first $5$ years, the payment is constant and equal to $10$. Beginning in year $6$, the payments start to increase. For year $6$ and all future years, the current year’s payment is $K\%$ larger than the previous year’s payment. At an annual effective interest rate of $9.2\%$, the perpetuity has a present value of $167.50$. Calculate $K$, given $K < 9.2$.
 
-## Week 3 {-}
+## Week 3 {- #w3}
 
-### Problem 1 {-}
-
-*SAMPLE/00 #27*
+**Problem 1 (SAMPLE/00 #27)**
 
 Susan and Jeff each make deposits of $100$ at the end of each year for $40$ years.
 
@@ -40,9 +34,7 @@ Susan's fund earns an annual effective interest rate of $8\%$. Jeff's fund earns
 Calculate $Y-X$.
 
 
-### Problem 2 {-}
-
-*SOA 11/01 #27*
+**Problem 2 (SOA 11/01 #27)**
 
 A man turns $40$ today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. 
 
@@ -50,28 +42,21 @@ The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will prov
 
 Calculate $X$.
 
-
-### Problem 3 {-}
-
-*SOA 11/93 #4*
+**Problem 3 (SOA 11/93 #4)**
 
 At time $t=0$, Paul deposits $P$ into a fund crediting interest at an effective annual interest rate of $8\%$. At the end of each year in years $6$ through $20$, Paul withdraws an amount sufficient to purchase an annuity-due of $100$ per month for $10$ years at a nominal interest rate of $12\%$ compounded monthly. Immediately after the withdrawal at the end of year $20$, the fund value is zero.
 
 Calculate $P$.
 
-## Week 2 {-}
+## Week 2 {- #w2}
 
-### Problem 1 {-}
-
-*SOA 5/98 #2*
+**Problem 1 (SOA 5/98 #2)**
 
 John invests $1000$ in a fund which earns interest during the first year at a nominal rate of $K$ convertible quarterly. During the 2nd year the fund earns interest at a nominal discount rate of $K$ convertible quarterly. At the end of the 2nd year,the fund has accumulated to $1173.54$.
 
 Calculate $K$.
 
-### Problem 2{-}
-
-*SOA 5/89 #4*
+**Problem 2 (SOA 5/89 #4)**
 
 Two funds,$X$ and $Y$,start with the same amount.You are given:
 
@@ -83,9 +68,7 @@ Two funds,$X$ and $Y$,start with the same amount.You are given:
 
 Calculate $j$.
 
-###  Problem 3{-}
-
-*SOA 11/89 #2*
+**Problem 3 (SOA 11/89 #2)**
 
 Fund $X$ starts with $1,000$ and accumulates with a force of interest $$\delta_{t}=\frac{1}{15-t} \text{ for } 0 \le t< 15.$$
 
@@ -95,20 +78,20 @@ Fund $X$ equals Fund $Y$ at the end of four years.
 
 Calculate $i$.
 
-## Week 1 {-}
+## Week 1 {- #w1}
 
-### Problem 1 {-}
+**Problem 1 **
 
 John invests $X$ in a fund growing in accordance with the accumulation function implied by the *amount function*
 $$A(t)=4t^2+8t+4.$$
 Edna invests $X$ in another fund growing in accordance with the accumulation function implied by the amount function $$A(t)=4t^2+2.$$
 When does Edna's investment *exceed* John’s?
 
-### Problem 2 {-}
+**Problem 2**
 
 What deposit made today will provide for a payment of $\$1000$ in 1 year and $\$2000$ in 3 years, if the effective rate of interest is $7.5\%$?
 
-### Problem 3 {-}
+**Problem 3**
 
 Company $X$ received the approval to start no more than two projects in the current calendar year.
 Three different projects were recommended, each of which requires an investment of 800 to be made at the beginning of the year.

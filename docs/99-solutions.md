@@ -2,9 +2,49 @@
 
 
 
-## Week 2 {-}
+**[⏱️ 随堂测验](#exe)**
 
-### Problem 1 {-}
+## Week 3 {- #w3s}
+
+**Problem 1**
+
+The most convenient comparison date is **the end of the 40th year**.
+
+For Susan:
+
+$$100s_{\overline{40}\mid}=Xa_{\overline{15}\mid}$$ at $8\%$
+
+$$X=3026.55$$
+
+For Jeff:
+
+$$100s_{\overline{40}\mid}=Ya_{\overline{15}\mid}$$ at $10\%$
+
+$$Y=5818.93$$
+
+$$Y-X=2792.38$$
+
+**Problem 2**
+
+Amount to be paid at age $65$ to guarantee a monthly life income of $\$3000$ is
+
+$$3000\times\frac{\$1000}{9.65}$$
+
+$AV$ of contributions at age $65$ is $X\ddot s_{\overline{300}\mid}$ at $\frac{2}{3}\%$
+
+Namely, $$X=\frac{(3000)\frac{\$1000}{9.65}}{\ddot s_{\overline{300}\mid}}=324.72$$
+
+**Problem 3**
+
+Paul withdraws $100\ddot a_{\overline{120}\mid 0.01}=7039.76$ at the end of years $6$ to $20$.
+
+$P$ is the $PV$ of these withdrawals at $8\%$
+
+$$P=7039.76v^5a_{\overline{15}\mid}=41009.68$$
+
+## Week 2 {- #w2s}
+
+**Problem 1**
 
 AV in 2 years = 1173.54, so we set: 
 $$1173.54=1000\left(1+\frac{K}{4}\right)^{4}\left(1-\frac{K}{4}\right)^{-4}=1000\left(\frac{4+K}{4-K}\right)^{4}$$
@@ -13,8 +53,8 @@ $$\frac{4+K}{4-K}=1.17354^{1/4}=1.0408$$
 Solving for K, we get:
 $$K=0.08$$
 
+**Problem 2**
 
-### Problem 2 {-}
 AV in 8 years:
 
 **Fund X**:$$e^{(0.05)(8)}=e^{0.4}$$
@@ -24,7 +64,7 @@ $$e^{0.4}=1.05\left(1+\frac{j}{2}\right)^{16}$$
 Thus,
 $$j=2\left[\left(\frac{e^{0.4}}{1.05}\right)^{\frac{1}{16}}-1\right]=0.044$$
 
-### Problem 3 {-}
+**Problem 3**
 
 Fund $X$ equals Fund $Y$ at the end of four years, so we set:
 $$1000(1.04)^{6}(1+i)=1000e^{\int_{0}^{4} \frac{1}{(15-t)} dt}$$
@@ -35,10 +75,9 @@ Thus,
 $$(1+i)=\frac{15}{(11)(1.04)^6}=1.0777$$
 $$i=0.0777$$
 
+## Week 1 {- #w1s}
 
-## Week 1 {-}
-
-### Problem 1 {-}
+**Problem 1** 
 
 To compare the two funds, we assume that equal investments of $X$ are made at time 0.
 
@@ -57,14 +96,14 @@ $$t^{2}-2t>0$$ or $$t(t-2)>0$$
 Thus, Edna's fund exceeds John's after 2 years.
 
 
-### Problem 2 {-}
+**Problem 2**
 
 $$PV=1000v+2000v^{3}=2540.15 $$
 
 since $$v=1.075^{-1}$$
 
 
-### Problem 3 {-}
+**Problem 3**
 
 Discounting at $10\%$, the net present values are $4.59$,$-2.36$ and $-9.54$ for Projects A,B,and C respectively.
 
