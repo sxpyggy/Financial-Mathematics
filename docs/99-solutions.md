@@ -4,6 +4,39 @@
 
 **[⏱️ 随堂测验](#exe)**
 
+
+## Week 5 {- #w5s}
+
+**Problem 1**
+
+Since there are monthly payments for $5$ years, there are $60$ payments:
+$$X=2(Ia)_{\overline{60}\mid{j}}$$
+
+Since the nominal rate is $9\%$ convertible quarterly,the effective rate for a $\frac{1}{4}$ year period
+is $2.25\%$, and $j$ can be determined from:
+$$(1+j)^3=1.0225$$
+$$j=0.7444\%$$
+$$2(Ia)_{\overline{60}\mid{j}}=2\left(\frac{\ddot{a}_{\overline{60}\mid{j}}-60v^{60}}{0.007444} \right)$$
+$$2(Ia)_{\overline{60}\mid{j}}=2\left(\frac{48.6077-38.4490}{0.007444} \right)=2729$$
+
+**Problem 2**
+
+The perpetuity can be viewed as decreasing annuity with payments of $(60-k)$, $(59-k)$, $\cdots$, 1
+plus a perpetuity with payments of $k$ each year.(The sums of the payments under the decreasing annuity and
+the perpetuity are $60$,$59$,$\cdots$,$k+1$,$k$,$k$,$k$,$\cdots$,which are the same as the payments under the given annuity.)
+$$PV=(Da)_{\overline{60-k}\mid{}}+\frac{k}{i}$$
+$$PV=\frac{(60-k)-a_{\overline{60-k}\mid{}}}{0.05}+\frac{k}{0.05}=\frac{44}{0.05}$$
+$$a_{\overline{60-k}\mid{0.05}}=16, 60-k=33$$
+$$k=27$$
+
+**Problem 3**
+
+Let $k$ = $\frac{K}{100}$,
+$$PV=10{a}_{\overline{5}\mid{}}+10v^{5}\left(\frac{1+k}{1.092}+\left(\frac{1+k}{1.092}\right)^{2}+\cdots\right)$$
+$$=38.7+\frac{(6.44)(1+k)}{0.092-k}=167.50$$
+$$k=0.04$$
+$$K=100k=4.0$$
+
 ## Week 3 {- #w3s}
 
 **Problem 1**

@@ -6,6 +6,39 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+## Week 6 {- #w6}
+
+**Problem 1 (SOA 11/00 #9)**
+
+Victor invests $300$ into a bank account at the beginning of each year for $20$ years. The account pays
+out interest at the end of every year at an annual effective interest rate of $i\%$. The interest is 
+reinvested at an annual effective rate of $(\frac{i}{2})\%$. The yield rate on the entire investment over the $20$ year period is $8\%$ annual effective. Determine $i$.
+
+**Problem 2 (SOA 5/03 #17)**
+
+An association had a fund balance of $75$ on January $1$ and $60$ on December $31$. At the end of
+every month during the year, the association deposited $10$ from membership fees. There were withdrawals
+of $5$ on Februrary $28$, $25$ on June $30$, $80$ on October $15$, and $35$ on October $31$. Calculate
+the dollar-weighted rate of return for the year.
+
+**Problem 3 (SOA 11/00 #27)**
+
+An investor deposits $50$ in an investment account on January $1$. The following summarizes the activity
+in the account during the year :
+```{r week6,echo=FALSE}
+table1<-data.frame(matrix(c(
+         "March 15",40,20, 
+         "June 1",80,80,
+         "October 1",175,75
+         ),nrow=3,byrow = T))
+names(table1)<-c("Date","Value Immediately Before Deposit","Deposit")
+knitr::kable(table1)
+```
+
+On June $30$,the value of the account is $157.50$. On December $31$, the value of the account is $X$.
+ Using the time-weighted method, the equivalent annual effective yield during the first $6$ months is
+ equal to the (time-weighted) annual effective yield during the entire $1$-year period. Calculate $X$.
+
 ## Week 5 {- #w5}
 
 **Problem 1 (SOA 11/01 #16)**
