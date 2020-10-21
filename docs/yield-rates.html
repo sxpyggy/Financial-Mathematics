@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 2 Level annuity | 金融数学</title>
+  <title>Chapter 4 Yield rates | 金融数学</title>
   <meta name="description" content="The output format is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.20 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 2 Level annuity | 金融数学" />
+  <meta property="og:title" content="Chapter 4 Yield rates | 金融数学" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="sxpyggy/Financial-Mathematics" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 2 Level annuity | 金融数学" />
+  <meta name="twitter:title" content="Chapter 4 Yield rates | 金融数学" />
   
   <meta name="twitter:description" content="The output format is bookdown::gitbook." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="interest-rate.html"/>
-<link rel="next" href="varying-annuity.html"/>
+<link rel="prev" href="varying-annuity.html"/>
+<link rel="next" href="loan-repayment.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -112,30 +112,17 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="level-annuity" class="section level1">
-<h1><span class="header-section-number">Chapter 2</span> Level annuity</h1>
-<p><strong>Annuity immediate</strong></p>
-<p><span class="math display">\[a_{\overline{n}\mid}=\frac{1-v^n}{i}\]</span>
-<span class="math display">\[s_{\overline{n}\mid}=(1+i)^na_{\overline{n}\mid}=\frac{(1+i)^n-1}{i}\]</span></p>
-<p><strong>Annuity due</strong></p>
-<p><span class="math display">\[\ddot{a}_{\overline{n}\mid}=\frac{1-v^n}{d}=(1+i)a_{\overline{n}\mid}=1+a_{\overline{n-1}\mid}\]</span></p>
-<p><span class="math display">\[\ddot{s}_{\overline{n}\mid}=(1+i)^n\ddot{a}_{\overline{n}\mid}\]</span></p>
-<p><strong>Deffered annuity</strong></p>
-<p><span class="math display">\[_{m|}a_{\overline{n}\mid}=v^ma_{\overline{n}\mid}=a_{\overline{m+n}\mid}-a_{\overline{n}\mid}\]</span></p>
-<p><strong>Perpetuity</strong></p>
-<p><span class="math display">\[a_{\overline{\infty}\mid}=\frac{1}{i}\]</span>
-<span class="math display">\[\ddot{a}_{\overline{\infty}\mid}=\frac{1}{d}\]</span></p>
-<p><strong><span class="math inline">\(m\)</span>-thly payable annuity</strong></p>
-<p><span class="math display">\[a^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{i^{(m)}}=\frac{i}{i^{(m)}}a_{\overline{n}\mid}\]</span>
-<span class="math display">\[\ddot{a}^{(m)}_{\overline{n}\mid}=\frac{1-v^n}{d^{(m)}}=\frac{d}{d^{(m)}}{\ddot{a}}_{\overline{n}\mid}\]</span>
-<span class="math display">\[a^{(m)}_{\overline{\infty}\mid}=\frac{1}{i^{(m)}}\]</span>
-<span class="math display">\[\ddot{a}^{(m)}_{\overline{\infty}\mid}=\frac{1}{d^{(m)}}\]</span>
-<span class="math display">\[\ddot{a}^{(m)}_{\overline{\infty}\mid}=(1+i)^{1/m}a^{(m)}_{\overline{\infty}\mid}\]</span></p>
-<p><strong>Continuous payable annuity</strong></p>
-<p><span class="math display">\[\bar{a}_{\overline{n}\mid}=\frac{i}{\delta}{a}_{\overline{n}\mid}=\frac{d}{\delta}\ddot{a}_{\overline{n}\mid}=\frac{1-v^n}{\delta}\]</span>
-<span class="math display">\[\bar{a}_{\overline{\infty}\mid}=\frac{1}{\delta}\]</span></p>
-<p><strong>Key relations</strong></p>
-<p><img src="plots/annuity-1.png" width="50%" style="display: block; margin: auto;" /></p>
+<div id="yield-rates" class="section level1">
+<h1><span class="header-section-number">Chapter 4</span> Yield rates</h1>
+<p><strong>Net present value (NPV)</strong></p>
+<p><strong>Yield rates or internal rates of return (IRR)</strong></p>
+<p><strong>Uniqueness of the yield rate</strong></p>
+<p><strong>NPV v.s. IRR</strong> Sometimes NPV is preferred.</p>
+<p><strong>Reinvestment rates</strong></p>
+<p><strong>Dollar-weighted interest rate</strong> Appropriate for investor.</p>
+<p><strong>Time-weighted interest rate</strong> Appropriate for underlying performance of a fund</p>
+<p><strong>Portfolio method</strong></p>
+<p><strong>Investment year method</strong></p>
 
 </div>
             </section>
@@ -143,8 +130,8 @@
           </div>
         </div>
       </div>
-<a href="interest-rate.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="varying-annuity.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="varying-annuity.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="loan-repayment.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

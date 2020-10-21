@@ -6,6 +6,23 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+
+## Week 7{-#w7}
+
+**Problem 1 (5/01 #37)**
+
+Seth borrows $X$ for four years at an annual effective interest rate of $8\%$, to be repaid with equal payments at the end of each year. The outstanding loan balance at the end of the second year is $1076.82$ and at the end of the third year is $559.12$. Calculate the principal repaid in the first payment.
+
+
+**Problem 2 (5/03 #39)**
+
+A $30-year$ loan of $1000$ is repaid with payments at the end of each year. Each of the first ten payments equals the amount of interest due. Each of the next ten payments equals $150\%$ of the amount of interest due. Each of the last ten payments is $X$. The lender charges interest at an annual effective rate of $10\%$. Calculate $X$.
+
+
+**Problem 3 (SOA SAMPLE/84 #15)**
+
+A $\$30,000$ bank loan is to be repaid by $30$ annual installments of $\$1,000$ payable on the first day of each year beginning one year hence. In addition, interest at $4\%$ is payable on the last day of each year on the principal outstanding at the beginning of the year. At time of issue, the bank establishes a value $L$ for the loan, such that the yield rate is $5\%$ annually. Find $L$. 
+
 ## Week 6 {- #w6}
 
 **Problem 1 (SOA 11/00 #9)**
