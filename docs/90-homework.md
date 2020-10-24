@@ -5,7 +5,7 @@
 **[⏱️ 随堂测验](#exe)**
 
 
-## Week 7{-#w7}
+#### Weeks 7-8 {-#w7}
 
 **Problem 1 (5/01 #37)**
 
@@ -21,7 +21,7 @@ A $30-year$ loan of $1000$ is repaid with payments at the end of each year. Each
 
 A $\$30,000$ bank loan is to be repaid by $30$ annual installments of $\$1,000$ payable on the first day of each year beginning one year hence. In addition, interest at $4\%$ is payable on the last day of each year on the principal outstanding at the beginning of the year. At time of issue, the bank establishes a value $L$ for the loan, such that the yield rate is $5\%$ annually. Find $L$. 
 
-## Week 6 {- #w6}
+#### Week 6 {- #w6}
 
 **Problem 1 (SOA 11/00 #9)**
 
@@ -51,7 +51,7 @@ On June $30$,the value of the account is $157.50$. On December $31$, the value o
  Using the time-weighted method, the equivalent annual effective yield during the first $6$ months is
  equal to the (time-weighted) annual effective yield during the entire $1$-year period. Calculate $X$.
 
-## Week 5 {- #w5}
+#### Week 5 {- #w5}
 
 **Problem 1 (SOA 11/01 #16)**
 
@@ -66,7 +66,7 @@ The first payment of a perpetuity-immediate is $60$. Subsequent payments decreas
 
 Mike buys a perpetuity-immediate with varying annual payments. During the first $5$ years, the payment is constant and equal to $10$. Beginning in year $6$, the payments start to increase. For year $6$ and all future years, the current year’s payment is $K\%$ larger than the previous year’s payment. At an annual effective interest rate of $9.2\%$, the perpetuity has a present value of $167.50$. Calculate $K$, given $K < 9.2$.
 
-## Week 3 {- #w3}
+#### Week 3 {- #w3}
 
 **Problem 1 (SAMPLE/00 #27)**
 
@@ -93,7 +93,7 @@ At time $t=0$, Paul deposits $P$ into a fund crediting interest at an effective 
 
 Calculate $P$.
 
-## Week 2 {- #w2}
+#### Week 2 {- #w2}
 
 **Problem 1 (SOA 5/98 #2)**
 
@@ -123,7 +123,7 @@ Fund $X$ equals Fund $Y$ at the end of four years.
 
 Calculate $i$.
 
-## Week 1 {- #w1}
+#### Week 1 {- #w1}
 
 **Problem 1 **
 

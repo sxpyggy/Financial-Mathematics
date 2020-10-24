@@ -6,8 +6,37 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+#### Week 6 {- #w6s}
 
-## Week 5 {- #w5s}
+**Problem 1**
+
+$$300\ddot{s}_{\overline{20}\mid{0.08}}=(20)(300)+300i(Is)_{\overline{20}\mid{i/2}}$$
+$$14826.88=6000+300i\left(\frac{{s}_{\overline{21}\mid{i/2}}-21}{i/2} \right)$$
+$$14826.88=6000+600{s}_{\overline{21}\mid{i/2}}-12600$$
+$${s}_{\overline{21}\mid{i/2}}=35.711467$$
+$$i/2=0.05$$
+$$i=0.10$$
+
+**Problem 2**
+
+Total deposits = $120$, total withdrawls = $145$, investment income = $60+145-120-75$ = $10$
+
+Thus, Dollar-weighted rate
+$$=\frac{10}{75+\left(\frac{1}{12}+\cdots+\frac{11}{12}\right)(10)-\left(\frac{10}{12}\right)(5)
+-\left(\frac{6}{12}\right)(25)-\left(\frac{2.5}{12}\right)(80)-\left(\frac{2}{12}\right)(35)}$$
+$$=\frac{10}{90.83}=11\%$$
+
+**Problem 3**
+
+6-month yield: $\left(\frac{40}{50}\right)\left(\frac{80}{60}\right)\left(\frac{157.50}{160}\right)=1+j=1.05$.
+
+Effective annual yield = $1.05^2-1$ = $10.25\%$.
+
+1-year yield: $\left(\frac{40}{50}\right)\left(\frac{80}{60}\right)\left(\frac{175}{160}\right)\left(\frac{X}{250}\right)=1.1025$.
+
+$$X=\frac{1.1025}{0.004667}=236.25$$
+
+#### Week 5 {- #w5s}
 
 **Problem 1**
 
@@ -39,7 +68,7 @@ $$=38.7+\frac{(6.44)(1+k)}{0.092-k}=167.50$$
 $$k=0.04$$
 $$K=100k=4.0$$
 
-## Week 3 {- #w3s}
+#### Week 3 {- #w3s}
 
 **Problem 1**
 
@@ -77,7 +106,7 @@ $P$ is the $PV$ of these withdrawals at $8\%$
 
 $$P=7039.76v^5a_{\overline{15}\mid}=41009.68$$
 
-## Week 2 {- #w2s}
+#### Week 2 {- #w2s}
 
 **Problem 1**
 
@@ -110,7 +139,7 @@ Thus,
 $$(1+i)=\frac{15}{(11)(1.04)^6}=1.0777$$
 $$i=0.0777$$
 
-## Week 1 {- #w1s}
+#### Week 1 {- #w1s}
 
 **Problem 1** 
 
