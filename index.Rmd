@@ -16,6 +16,8 @@ editor_options:
 
 # 👨‍🏫 欢迎  {-}
 
+![](https://raw.githubusercontent.com/sxpyggy/Financial-Mathematics/master/plots/head.gif)
+
 在这里，我们同步课堂，总结每章的**重点、难点**，并发布**课后作业**。课后作业需在<u>下次上课</u>交到讲台上。
 
 我们这里主要以英文表述，有以下两个原因
