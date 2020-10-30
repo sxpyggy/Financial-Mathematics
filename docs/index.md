@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-10-28 16:45:16"
+date: "2020-10-30 14:54:13"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -15,8 +15,6 @@ editor_options:
 ---
 
 # 👨‍🏫 欢迎  {-}
-
-![](https://raw.githubusercontent.com/sxpyggy/Financial-Mathematics/master/plots/head.gif)
 
 在这里，我们同步课堂，总结每章的**重点、难点**，并发布**课后作业**。课后作业需在<u>下次上课</u>交到讲台上。
 
