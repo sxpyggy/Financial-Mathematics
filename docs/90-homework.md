@@ -21,6 +21,24 @@ A $30-year$ loan of $1000$ is repaid with payments at the end of each year. Each
 
 A $\$30,000$ bank loan is to be repaid by $30$ annual installments of $\$1,000$ payable on the first day of each year beginning one year hence. In addition, interest at $4\%$ is payable on the last day of each year on the principal outstanding at the beginning of the year. At time of issue, the bank establishes a value $L$ for the loan, such that the yield rate is $5\%$ annually. Find $L$. 
 
+
+**Problem 4 (SOA 11/00 #12)**
+
+Kevin takes out a $10$-year loan of $L$, which he repays by the amortization method at an annual effective
+interest rate of $i$. Kevin makes payments of $1000$ at the end of each year. The total amount of interest
+repaid during the life of the loan is also equal to $L$. Calculate the amount of interest repaid during
+the first year of the loan.
+
+
+
+**Problem 5 (Sample/00 #36)**
+
+Don takes out a $10$-year loan of $L$, which he repays with annual payments at the end of each year
+using the amortization method. Interest on the loan is charged at an annual effective rate of $i$. Don
+repays the loan with a decreasing series of payments. He repays $1000$ in year one, $900$ in year two, $800$
+in year three, ... , and $100$ in year ten. The amount of principal repaid in year three is equal to $600$.
+Calculate $L$.
+
 #### Week 6 {- #w6}
 
 **Problem 1 (SOA 11/00 #9)**
