@@ -4,3 +4,4 @@ level-annuity
 varying-annuity
 yield-rates
 loan-repayment
+bonds-and-stocks
