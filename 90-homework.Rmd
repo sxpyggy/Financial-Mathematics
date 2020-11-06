@@ -6,13 +6,27 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+#### Week 9{-#w9}
+
+**Problem 1 (11/00 #30)**
+
+A $1000$ par value $20$-year bond with annual coupons and redeemable at maturity at $1050$ is purchased for $P$ to yield an annual effective rate of $8.25\%$. The first coupon is $75$. Each subsequent coupon is $3\%$ greater than the preceding coupon. Determine $P$.
+
+
+**Problem 2 (SOA 5/91 #15)**
+
+An investor bought a $15$-year bond with par value of $100,000$ and $8\%$ semiannual coupons. The bond is callable at par on any coupon date beginning with the $24th$ coupon. Find the highest price paid that will yield a rate not less than $i^{(2)}=10\%$.
+
+
+**Problem 3 (SOA SAMPLE/83 #5)**
+
+A $1000$ $20$-year $8\%$ bond with semiannual coupons is purchased for $1014$. The redemption value is $1000$. The coupons are reinvested at a *nominal* annual rate of $6\%$, compounded semiannually. Determine the purchaser's annual effective yield rate over the $20$ year period.
 
 #### Weeks 7-8 {-#w7}
 
 **Problem 1 (5/01 #37)**
 
 Seth borrows $X$ for four years at an annual effective interest rate of $8\%$, to be repaid with equal payments at the end of each year. The outstanding loan balance at the end of the second year is $1076.82$ and at the end of the third year is $559.12$. Calculate the principal repaid in the first payment.
-
 
 **Problem 2 (5/03 #39)**
 
@@ -30,8 +44,6 @@ Kevin takes out a $10$-year loan of $L$, which he repays by the amortization met
 interest rate of $i$. Kevin makes payments of $1000$ at the end of each year. The total amount of interest
 repaid during the life of the loan is also equal to $L$. Calculate the amount of interest repaid during
 the first year of the loan.
-
-
 
 **Problem 5 (Sample/00 #36)**
 

@@ -4,6 +4,55 @@
 
 **[⏱️ 随堂测验](#exe)**
 
+
+#### Week 7 {- #w7s}
+
+**Problem 1**
+
+$$B_3=Ra_{\overline{1}\mid}=\frac{R}{1.08}=559.12$$
+$$R=603.8496$$
+$$P_1=603.8496v^{4-1+1}=443.85$$
+
+
+**Problem 2**
+
+At the end of $10$ years, the loan balance is still $1000$, since *only* the interest of $100$ has been paid each year.
+
+Thereafter, $150\%$ of the interest due is paid, which means that the loan balance is reduced by $5\%$ each year.(Interest due$=1.5\times10\%\times$loan balance end of previous year$=15\%$ of loan balance, of which $10\%$ is the interest due.)
+
+Thus, at the end of $20$ years, the loan balance is $1000(1-0.05)^{10}=598.74$. The next $10$ payments are $X$, so
+$$Xa_{\overline{10}\mid{0.10}}=598.74$$
+$$X=97.44$$
+
+
+**Problem 3**
+
+The loan payments are $\frac{30,000}{30}=1,000$ toward principal plus $4\%\times30,000=1,200$ in interest in year 1, $4\%\times29,000=1,160$ in year 2, etc.
+
+The loan value $L$ is the PV of these payments at $5\%$:
+
+$$L=1,000a_{\overline{30}\mid}+40(Da)_{\overline{30}\mid}=15,372+40(\frac{30-15.3724}{0.05})=15,372+11,702=27,074$$
+
+**Problem 4**
+
+$$L = 1000{a}_{\overline{10}\mid{i}}$$
+Total interest = sum of the payments minus amount of loan, thus
+$$(10)(1000)-1000{a}_{\overline{10}\mid{i}} = 1000{a}_{\overline{10}\mid{i}}$$
+$${a}_{\overline{10}\mid{i}} = 5$$
+$$i = 15.1\%$$
+Interest in first year = $1000(1-v^{10}) = 754.95$
+
+**Problem 5**
+
+The principal repaid in year $3$ can be expressed as the decrease in the loan balance in that year,i.e.:
+$$P_3=B_2-B_3=100\left[({Da})_{\overline{8}\mid{}}-({Da})_{\overline{7}\mid{}}\right]=600$$
+$${(Da)}_{\overline{8}\mid{}}-{(Da)}_{\overline{7}\mid{}}={a}_{\overline{8}\mid{}}$$
+So,
+$${a}_{\overline{8}\mid{}}=6$$
+$$i=6.876426\%$$
+$$L=100{(Da)}_{\overline{10}\mid{}}=100\left(\frac{10-{a}_{\overline{10}\mid{}}}{i}\right)=4270$$
+
+
 #### Week 6 {- #w6s}
 
 **Problem 1**
