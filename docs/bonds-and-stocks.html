@@ -105,6 +105,40 @@
             <section class="normal" id="section-">
 <div id="bonds-and-stocks" class="section level1">
 <h1><span class="header-section-number">Chapter 6</span> Bonds and stocks</h1>
+<p><strong>Notations</strong></p>
+<ul>
+<li><p>Price of bond <span class="math inline">\(P\)</span>.</p></li>
+<li><p>Number of payments (term of bond) <span class="math inline">\(n\)</span>.</p></li>
+<li><p>Yield-to-maturity (IRR, yield, interest rate per payment period) <span class="math inline">\(i\)</span>.</p></li>
+<li><p>Current yield <span class="math inline">\(i_c=\frac{rF}{P}\)</span>.</p></li>
+<li><p>Coupon rate per payment period <span class="math inline">\(r\)</span>.</p></li>
+<li><p>Modified coupon rate <span class="math inline">\(g=\frac{Fr}{C}\)</span>.</p></li>
+<li><p>Face value of bond <span class="math inline">\(F\)</span>.</p></li>
+<li><p>Redemption value of bond <span class="math inline">\(C\)</span>.</p></li>
+<li><p>Book value <span class="math inline">\(V_t\)</span>. Similar to outstanding loan balance.</p></li>
+</ul>
+<p><strong>Pricing formulas</strong></p>
+<ul>
+<li><p>Basic formula: <span class="math display">\[P=Fra_{\overline{n}\mid i} + Cv^n_i.\]</span></p></li>
+<li><p>Premium/discount formula: <span class="math display">\[P=C+(Fr-Ci)a_{\overline{n}\mid i}=C\left[1+(g-i)a_{\overline{n}\mid i}\right].\]</span></p>
+<ul>
+<li><p><span class="math inline">\(P&gt;C, g&gt;i\)</span> means the bond is purchased at a premium. <strong>Amortization of premium</strong>.</p></li>
+<li><p><span class="math inline">\(P&lt;C, g&lt;i\)</span> means the bond is purchased at a discount. <strong>Accumulation of discount</strong>.</p></li>
+</ul></li>
+<li><p>Base amount formula: <span class="math display">\[P=G+(C-G)v^n,\]</span> where <span class="math inline">\(G=\frac{rF}{i}.\)</span></p></li>
+<li><p>Makeham formula: <span class="math display">\[P=K+\frac{g}{i}(C-K),\]</span> with <span class="math inline">\(K=Cv^n_i.\)</span></p></li>
+</ul>
+<p><strong>Price between coupon dates</strong> <span class="math display">\[P_{t+k}=P_t(1+i)^k,\]</span> with <span class="math inline">\(t\in\mathbf{N}^+, k\in(0,1).\)</span></p>
+<p><strong>Book value between coupon dates</strong> <span class="math display">\[V_{t+k}=P_{t+k}-kFr=P_{t}(1+i)^k-\frac{rF}{i}\left[(1+i)^t-1\right] \approx P_{t}(1+i)^k-kFr,\]</span> with <span class="math inline">\(t\in\mathbf{N}^+, k\in(0,1).\)</span></p>
+<p><strong>Price of callable bond</strong></p>
+<ul>
+<li><p><span class="math inline">\(g&gt;i\)</span> (sold at a premium): the call date will most likely be at the earliest date possible .</p></li>
+<li><p><span class="math inline">\(g&lt;i\)</span> (sold at a discount): the call date will most likely be at the latest date possible.</p></li>
+</ul>
+<p><strong>Discounted dividend formula of stock</strong> <span class="math display">\[P=\sum_{t=1}^\infty div_t v^t.\]</span></p>
+<p><strong>Price-to-earnings (P/E) ratio formula of stock</strong> <span class="math display">\[\text{P/E ration}=\frac{\text{stock price per share}}{\text{earnings per share}}=\frac{P_0}{EPS},\]</span> where <span class="math display">\[EPS=\frac{\text{net income}}{\text{number of outstanding shares}}.\]</span></p>
+<p><strong>Profit of short sale</strong> <span class="math display">\[\text{Profit}=(P_0-P_t) + \text{Margin deposit}\times i - \text{Div}.\]</span></p>
+<p><strong>Yield of short sale</strong> <span class="math display">\[\text{Yield of short sale}=\frac{\text{Profit}}{\text{Margin deposit}}.\]</span></p>
 
 </div>
             </section>
