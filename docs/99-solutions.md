@@ -5,7 +5,25 @@
 **[⏱️ 随堂测验](#exe)**
 
 
-#### Week 7 {- #w7s}
+#### Week 9 {- #w9s}
+
+**Problem 1**
+
+$$P=75(v+1.03v^2+\cdots+1.03^{19}v^{20})+1050v^{20}=1115\quad since\quad i=0.0825$$
+
+**Problem 2**
+
+Since $g<i$, the bond is purchased at a discount. The latest call date should be assumed:
+$$P=4,000a_{\overline{30}\mid}+100,000v^{30}\quad at\quad i=5\%$$
+$$P=84,627.55$$
+
+
+**Problem 3**
+
+The purchaser receives a total of $40s_{\overline{40}\mid{0.03}}+1000=4016.05$ at the end of $20$ years. The investment was $1014$, so if $i$ is the effective annual rate, we have $1014(1+i)^{20}=4016.05$.
+$$i=7.12\%$$
+
+#### Weeks 7-8 {- #w7s}
 
 **Problem 1**
 

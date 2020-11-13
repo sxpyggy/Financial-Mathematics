@@ -6,6 +6,21 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+#### Week 10 {-#w10}
+
+**Problem 1 (SOA 5/93 #17)**
+Matt purchases a $20$-year par value bond with $8\%$ semiannual coupons at a price of $1722.25$. The
+bond can be called at par value $X$ on any coupon date starting at the end of year $15$. The price guarantees that Matt will receive a nominal semiannual yield of at least $6\%$. Bert purchases a $20$-year par value bond identical to the one purchased by Matt except it is not callable. Assuming a nominal semiannual yield of $6\%$, the cost of the bond purchased by Bert is $P$. Calculate $P$.
+
+
+**Problem 2 (SOA 5/01 #48)**
+
+A company's stock is currently selling for $28.50$. Its next dividend, payable one year from now, is expected to be $0.50$ per share. Analysts forecast a long-run dividend growth rate of $7.5\%$ for the company. Tomorrow the long-run dividend growth rate estimate changes to $7\%$. Calculate the new stock price that would result in the same yield rate as the previous day's price of $28.50$.
+
+**Problem 3 (SOA 11/93 #16)**
+
+Lenny buys a stock for $200$ which pays a dividend of $12$ at the end of every $6$ months. Lenny deposits the dividend payments into a bank account earning a nominal interest rate of $10\%$ convertible semiannually. At the end of $10$ years, immediately after receiving the $20$th dividend payment of $12$, Lenny sells the stock. The sale price assumes a nominal yield of $8\%$ convertible semiannually and that the semiannual dividend of $12$ will continue forever. Lenny's annual effective yield over the $10$-year period is $i$. Calculate $i$.
+
 #### Week 9{-#w9}
 
 **Problem 1 (11/00 #30)**
