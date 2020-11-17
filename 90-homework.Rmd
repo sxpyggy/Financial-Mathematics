@@ -6,6 +6,8 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+#### Week 11 {-#w11}
+
 #### Week 10 {-#w10}
 
 **Problem 1 (SOA 5/93 #17)**
