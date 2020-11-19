@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-11-17 21:18:37"
+date: "2020-11-19 17:43:23"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book

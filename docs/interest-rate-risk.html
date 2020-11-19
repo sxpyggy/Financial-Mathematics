@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 5 Loan repayment | 金融数学</title>
+  <title>Chapter 7 Interest rate risk | 金融数学</title>
   <meta name="description" content="The output format is bookdown::gitbook." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 5 Loan repayment | 金融数学" />
+  <meta property="og:title" content="Chapter 7 Interest rate risk | 金融数学" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="sxpyggy/Financial-Mathematics" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 5 Loan repayment | 金融数学" />
+  <meta name="twitter:title" content="Chapter 7 Interest rate risk | 金融数学" />
   
   <meta name="twitter:description" content="The output format is bookdown::gitbook." />
   
@@ -30,8 +30,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="yield-rates.html"/>
-<link rel="next" href="bonds-and-stocks.html"/>
+<link rel="prev" href="bonds-and-stocks.html"/>
+<link rel="next" href="homework.html"/>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -104,12 +104,26 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="loan-repayment" class="section level1">
-<h1><span class="header-section-number">Chapter 5</span> Loan repayment</h1>
-<p><strong>Amortizing a loan (debt, mortgage)</strong> Part of the repayment is used to repay the <strong>interest due</strong> called <strong>interest payments</strong>. The excess of the interest due is used repay the original loan (the principal), called <strong>principal repayments</strong>. The remaining amount of the loan is called the <strong>outstanding loan balance</strong>.</p>
-<p><strong>Amortization schedule</strong> A table which shows the interrelationships between the balance, principal payments, and interest payments over the life of a loan.</p>
-<p><strong>Sinking fund approach</strong> Repay the interest due and the principal separately (the loan amount does not change over the life of the loan): the interest due is repaid regularly during the loan period; the principal is repaid at the end of the loan period by a sinking fund. A fund designed to accumulate a specified amount of money in a specified time by making regular deposits is called a <strong>sinking fund</strong>.</p>
-<p><strong>Equal principal repayments</strong> Each repayments (decreasing repayments) involves (1) the level amounts of principal and (2) the interest on the outstanding balance.</p>
+<div id="interest-rate-risk" class="section level1">
+<h1><span class="header-section-number">Chapter 7</span> Interest rate risk</h1>
+<p><strong>Durations</strong></p>
+<ul>
+<li>Macaulay duration: The present-value-weighted average time to the cash flows</li>
+</ul>
+<p><span class="math display">\[D_{mac}(\delta)=\frac{\sum_tt\cdot CF_t\cdot v^t}{\sum_t CF_t\cdot v^t}=\frac{\sum_tt\cdot CF_t\cdot v^t}{P(\delta)}=-\frac{P&#39;(\delta)}{P(\delta)}\]</span>
+- Modified duration: The sensitivity of price to change in the interest rate</p>
+<p><span class="math display">\[D_{mod}\left(i^{(m)}\right)=-\frac{P&#39;\left(i^{(m)}\right)}{P\left(i^{(m)}\right)}=\frac{D_{mac}}{1+i^{(m)}/m}\]</span>
+<span class="math display">\[\lim_{m\rightarrow\infty} D_{mod}\left(i^{(m)}\right)=D_{mac}(\delta)\]</span></p>
+<ul>
+<li>Effective duration for interest-sensitive cash flows</li>
+</ul>
+<p><span class="math display">\[D_{eff}=\frac{P(i+\Delta i)-P(i-\Delta i)}{2\times\Delta i\times P(i)}\]</span></p>
+<ul>
+<li>The relative price changes with (small) changes in the nominal interest rate</li>
+</ul>
+<p><span class="math display">\[\frac{\Delta P}{P\left(i^{(m)}\right)} \approx -\Delta i^{(m)}\times D_{mod}\left(i^{(m)}\right)\]</span></p>
+<p><strong>Convexity</strong></p>
+<p><strong>Immunization</strong></p>
 
 </div>
             </section>
@@ -117,8 +131,8 @@
           </div>
         </div>
       </div>
-<a href="yield-rates.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="bonds-and-stocks.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="bonds-and-stocks.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="homework.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>

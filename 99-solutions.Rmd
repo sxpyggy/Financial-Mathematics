@@ -8,6 +8,44 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 #### Week 10 {- #w10s}
 
+
+**Problem 1**
+
+The bond the Matt buys is sold at a premium, since $g>i$. Thus, the price that guarantees an effective rate of $3\%$ per $\frac{1}{2}$-year period is based on assuming the earliest possible redemption date. This is $15$ years, or $30$ coupons, after purchase:
+$$1722.25=0.04X{a}_{\overline{30}\mid{0.03}}+Xv^{30}$$
+$$1722.25=(0.7840+0.4120)X=1.1960X$$
+$$X=1440$$
+Bert's bond:
+$$P = (0.04)(1440){a}_{\overline{40}\mid{0.03}}+1440v^{40} = 1772.85$$
+
+
+
+**Problem 2**
+
+The price of stock $P$ when dividends are in geometric progression $= \frac{D}{i-k}$
+
+We have $28.50=\frac{0.50}{i-0.075}$.
+
+Solving, $i = 0.092544$.
+
+At a dividend growth rate of $7\%$, to keep the same $i$ we have:
+
+$$P=\frac{0.50}{0.092544-0.07}=22.18$$
+
+
+**Problem 3**
+
+AV of Lenny's dividends at the end of $10$ years = $12{s}_{\overline{20}\mid{0.05}}$ = $396.79$.
+
+He sells the stock for $\frac{12}{0.04}=300$.
+
+Since his original investment was $200$, we have $200(1+i)^{10}=396.79+300=696.79$
+
+Thus,
+
+$$(1+i)^{10}=3.4840$$
+$$i=13.29\%$$
+
 #### Week 9 {- #w9s}
 
 **Problem 1**

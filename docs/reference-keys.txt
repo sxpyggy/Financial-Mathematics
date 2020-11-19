@@ -5,3 +5,4 @@ varying-annuity
 yield-rates
 loan-repayment
 bonds-and-stocks
+interest-rate-risk

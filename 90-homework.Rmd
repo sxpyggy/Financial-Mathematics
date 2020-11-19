@@ -8,6 +8,22 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 #### Week 11 {-#w11}
 
+*As used in these questions, "duration" is the same as "Macaulay duration"*
+
+**Problem 1**
+
+A bond with $7.5\%$ annual coupons will mature at par on June 30, 2022. Determine the duration of the bond on December 31, 2020 if the effective rate of interest is $5.5\%$ per annum.
+
+
+**Problem 2**
+
+A $\$100$ par value bond with $7\%$ annual coupons and maturing at par in $4$ years sells at a price to yield $6\%$. Determine the modified duration of the bond.
+
+
+**Problem 3**
+
+The duration of a perpetuity-due with level annual payment is $25$. Determine the effective rate of interest.
+
 #### Week 10 {-#w10}
 
 **Problem 1 (SOA 5/93 #17)**
