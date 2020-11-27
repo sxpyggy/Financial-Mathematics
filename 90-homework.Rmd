@@ -6,6 +6,23 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+
+#### Week 12 {- #w12}
+
+**Problem 1**
+
+An annuity-immediate has payments of $1000$, $3000$ and $7000$ at the end of one, two and three years, respectively. Determine the modified convexity of the payments evaluated at $i$ = $10\%$.
+
+
+**Problem 2**
+
+Determine the modified convexity of a five-year annuity-immediate with level annual payments, evaluated at $i$ = $0$.
+
+**Problem 3**
+
+An investment will return $1000$ in two years and $5000$ in five years. Determine the ratio of the modified convexity of the payments to their modified duration, evaluated at $i$ = $7.5\%$
+
+
 #### Week 11 {-#w11}
 
 *As used in these questions, "duration" is the same as "Macaulay duration"*

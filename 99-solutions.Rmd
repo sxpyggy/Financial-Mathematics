@@ -6,6 +6,29 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[⏱️ 随堂测验](#exe)**
 
+#### Week 11 {-#w11s}
+
+**Problem 1**
+At $5.5\%$, the numerator of the duration is the time of each payment weighted by its PV:
+$$0.5\times 7.50\times v^{0.5}+1.5\times 107.50\times v^{1.5}=152.457$$
+The denominator of the duration is the PV of the payments (i.e.,the price of the bond):
+$$7.50\times v^{0.5}+107.50\times v^{1.5}=106.506$$
+$$D=1.43$$
+
+**Problem 2**
+At $6\%$,the numerator of duration is:
+$$1\times7\times v+2\times7\times v^{2}+3\times7\times v^{3}+4\times107\times v^{4}=375.712$$
+The denominator is the PV of bond payments (price):$103.465$.
+$$D=3.6313$$
+$$D_{mod}=\frac{D}{1.06}=3.43$$
+
+**Problem 3**
+The numerator of duration is:$$0+v+2v^{2}+3v^{3}+\cdots$$
+This is equal to $$(Ia)_{\overline{\infty}\mid}=\frac{1}{i}+\frac{1}{i^{2}}=\frac{i+1}{i^{2}}$$.
+The denominator is the PV of perpetuity-due: $$\frac{1}{d}=\frac{i+1}{i}$$
+$$D=\frac{\frac{i+1}{i^{2}}}{\frac{i+1}{i}}=\frac{1}{i}$$
+We are given that duration is $25$, so $i=4\%$.
+
 #### Week 10 {- #w10s}
 
 
