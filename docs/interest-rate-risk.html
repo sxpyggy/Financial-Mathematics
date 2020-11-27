@@ -110,8 +110,10 @@
 <ul>
 <li>Macaulay duration: The present-value-weighted average time to the cash flows</li>
 </ul>
-<p><span class="math display">\[D_{mac}(\delta)=\frac{\sum_tt\cdot CF_t\cdot v^t}{\sum_t CF_t\cdot v^t}=\frac{\sum_tt\cdot CF_t\cdot v^t}{P(\delta)}=-\frac{P&#39;(\delta)}{P(\delta)}\]</span>
-- Modified duration: The sensitivity of price to change in the interest rate</p>
+<p><span class="math display">\[D_{mac}(\delta)=\frac{\sum_tt\cdot CF_t\cdot v^t}{\sum_t CF_t\cdot v^t}=\frac{\sum_tt\cdot CF_t\cdot v^t}{P(\delta)}=-\frac{P&#39;(\delta)}{P(\delta)}\]</span></p>
+<ul>
+<li>Modified duration: The sensitivity of price to change in the interest rate</li>
+</ul>
 <p><span class="math display">\[D_{mod}\left(i^{(m)}\right)=-\frac{P&#39;\left(i^{(m)}\right)}{P\left(i^{(m)}\right)}=\frac{D_{mac}}{1+i^{(m)}/m}\]</span>
 <span class="math display">\[\lim_{m\rightarrow\infty} D_{mod}\left(i^{(m)}\right)=D_{mac}(\delta)\]</span></p>
 <ul>
@@ -123,6 +125,27 @@
 </ul>
 <p><span class="math display">\[\frac{\Delta P}{P\left(i^{(m)}\right)} \approx -\Delta i^{(m)}\times D_{mod}\left(i^{(m)}\right)\]</span></p>
 <p><strong>Convexity</strong></p>
+<ul>
+<li>Macaulay convexity</li>
+</ul>
+<p><span class="math display">\[C_{mac}=\frac{P&#39;&#39;(\delta)}{P(\delta)}\]</span></p>
+<ul>
+<li>Modified convexity</li>
+</ul>
+<p><span class="math display">\[C_{mod}=\frac{P&#39;&#39;(i^{(m)})}{P(i^{(m)})}\]</span></p>
+<ul>
+<li>Effective convexity</li>
+</ul>
+<p><span class="math display">\[C_{eff}=\frac{P(i+\Delta i)+P(i-\Delta i)-2P}{(\Delta i)^2P}\]</span></p>
+<ul>
+<li>The relative price changes with (small) changes in the nominal interest rate</li>
+</ul>
+<p><span class="math display">\[\frac{\Delta P}{P(i^{(m)})} \approx - D_{mod}(i^{(m)})\times\Delta i^{(m)}+\frac{1}{2}C_{mod}(i^{(m)})\times(\Delta i^{(m)})^2\]</span></p>
+<ul>
+<li>The duration and convexity of a portfolio</li>
+</ul>
+<p><span class="math display">\[D=\sum_{k=1}^n \frac{P_k}{P}D_k\]</span></p>
+<p><span class="math display">\[C=\sum_{k=1}^n \frac{P_k}{P}C_k\]</span></p>
 <p><strong>Immunization</strong></p>
 
 </div>

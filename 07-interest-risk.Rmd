@@ -5,6 +5,7 @@
 - Macaulay duration: The present-value-weighted average time to the cash flows
 
 $$D_{mac}(\delta)=\frac{\sum_tt\cdot CF_t\cdot v^t}{\sum_t CF_t\cdot v^t}=\frac{\sum_tt\cdot CF_t\cdot v^t}{P(\delta)}=-\frac{P'(\delta)}{P(\delta)}$$
+
 - Modified duration: The sensitivity of price to change in the interest rate
 
 $$D_{mod}\left(i^{(m)}\right)=-\frac{P'\left(i^{(m)}\right)}{P\left(i^{(m)}\right)}=\frac{D_{mac}}{1+i^{(m)}/m}$$
@@ -21,6 +22,29 @@ $$\frac{\Delta P}{P\left(i^{(m)}\right)} \approx -\Delta i^{(m)}\times D_{mod}\l
 
 **Convexity**
 
+- Macaulay convexity 
+
+$$C_{mac}=\frac{P''(\delta)}{P(\delta)}$$
+
+
+- Modified convexity
+
+$$C_{mod}=\frac{P''(i^{(m)})}{P(i^{(m)})}$$
+
+
+- Effective convexity
+
+$$C_{eff}=\frac{P(i+\Delta i)+P(i-\Delta i)-2P}{(\Delta i)^2P}$$
+
+- The relative price changes with (small) changes in the nominal interest rate
+
+$$\frac{\Delta P}{P(i^{(m)})} \approx - D_{mod}(i^{(m)})\times\Delta i^{(m)}+\frac{1}{2}C_{mod}(i^{(m)})\times(\Delta i^{(m)})^2$$
+
+- The duration and convexity of a portfolio
+
+$$D=\sum_{k=1}^n \frac{P_k}{P}D_k$$
+
+$$C=\sum_{k=1}^n \frac{P_k}{P}C_k$$
 
 **Immunization**
 
