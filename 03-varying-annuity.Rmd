@@ -1,4 +1,4 @@
-# Varying annuity
+# Varying Annuity
 
 **Increasing annuity immediate**
 

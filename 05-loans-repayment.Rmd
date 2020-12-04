@@ -1,4 +1,4 @@
-# Loan repayment
+# Loan Repayment
 
 **Amortizing a loan (debt, mortgage)** Part of the repayment is used to repay the **interest due** called **interest payments**. The excess of the interest due is used repay the original loan (the principal), called **principal repayments**. The remaining amount of the loan is called the **outstanding loan balance**. 
 

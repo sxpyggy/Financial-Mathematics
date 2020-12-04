@@ -1,4 +1,4 @@
-# Level annuity
+# Level Annuity
 
 **Annuity immediate**
 

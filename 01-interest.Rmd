@@ -1,4 +1,4 @@
-# Interest rate
+# Interest Rate
 
 **Functions**
 

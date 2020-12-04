@@ -1,4 +1,4 @@
-# Yield rates
+# Yield Rates
 
 **Net present value (NPV)** The present value of the cash inflows minus the present value of the cash outflows.
 

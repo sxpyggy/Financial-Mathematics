@@ -1,4 +1,4 @@
-# Interest rate risk
+# Interest Rate Risk
 
 **Durations** 
 
@@ -47,4 +47,15 @@ $$D=\sum_{k=1}^n \frac{P_k}{P}D_k$$
 $$C=\sum_{k=1}^n \frac{P_k}{P}C_k$$
 
 **Immunization**
+
+- Redington immunization: (1) $P_A=P_L$ (2) $D_A=D_L$ (3) $C_A>C_L$.
+
+- Full immunization: (1) $P_A=P_L$ (2) $D_A=D_L$ (3) $T_L\in (T_{A_1},T_{A_2})$.
+
+- Cash flow matching: solve a system of simultaneous equations.
+
+
+
+
+
 

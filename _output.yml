@@ -7,6 +7,25 @@ bookdown::gitbook:
         <li><a href="./">金融数学</a></li>
       after: |
         <li><a href="https://github.com/sxpyggy/Financial-Mathematics" target="blank">GitHub repo</a></li>
+    toolbar:
+      position: fixed
+    edit : null
+    download: null
+    search: yes
+    fontsettings:
+      theme: sepia
+      family: serif
+      size: 2
+    sharing:
+      facebook: no
+      github: yes
+      twitter: no
+      linkedin: no
+      weibo: no
+      instapaper: no
+      vk: no
+      all: ['github']
+    info: yes
 # download: ["pdf", "epub"]
 # bookdown::pdf_book:
 #  includes:

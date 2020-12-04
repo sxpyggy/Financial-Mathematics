@@ -1,4 +1,4 @@
-# Bonds and stocks
+# Bonds and Stocks
 
 **Notations** 
 
