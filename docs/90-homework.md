@@ -2,8 +2,30 @@
 
 
 
-**[⏱️ 随堂测验](#exe)**
+**[✍️ 期末考试](#final)**
 
+
+#### Week 13{- #w13}
+
+**Problem 1**
+
+A company must pay a liability of $L$ due one year from now and $2L$ due two years from now. The company exactly matches the liabilities by buying a one-year bond with face value $\$800$ and a two-year bond with face value $\$2000$. Both bonds have annual coupons, with a coupon rate of $r$ for the one-year bond and $1.25r$ for the two-year bond. Determine $r$.
+
+
+**Problem 2**
+
+The following are the prices of $\$1000$ par value zero-coupon bonds with one and two year maturities:
+
+*One year maturity*:$\$950$
+
+*Two year maturity*:$\$850$
+
+Calculate the one-year forward rate, deferred one year. 
+
+
+**Problem 3**
+
+The one-year spot rate is $5.5\%$. A two-year $\$100$ bond maturing at par, with $7\%$ annual coupons, is currently selling for its par value. Determine the two-year spot rate.
 
 #### Week 12 {- #w12}
 

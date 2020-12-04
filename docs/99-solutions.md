@@ -2,7 +2,57 @@
 
 
 
-**[⏱️ 随堂测验](#exe)**
+**[✍️ 期末考试](#final)**
+
+#### Week 12 {-#w12s}
+
+**Problem 1**
+
+$C_{mod}$ is equal to the second derivative of the PV of the payments divided by the PV.
+
+$$C_{mod}=\frac{P^{''}(i)}{P(i)}$$
+
+Using $\$1000$ units, we have:
+
+$$P(i)=v+3v^{2}+7v^{3}=8.648$$
+
+$$P^{'}(i)=-v^{2}-6v^{3}-21v^{4}$$
+
+$$P^{''}(i)=2v^{3}+18v^{4}+84v^{5}=65.954$$
+
+$$C_{mod}=65.954/8.648=7.63$$
+
+
+
+**Problem 2**
+
+
+Use a unit of 1, since the amount of the level payment will cancel out.
+
+$$P(i)=v+v^{2}+v^{3}+v^{4}+v^{5}=5$$
+
+$$P^{'}(i)=-v^{2}-2v^{3}-\dddot{}-5v^{6}$$
+
+$$P^{''}(i)=2v^{3}+6v^{4}+\dddot{}+30v^{7}=70$$
+
+$$C_{mod}=\frac{P^{''}(i)}{P(i)}=\frac{70}{5}=14$$
+
+
+**Problem 3**
+
+$C_{mod}=\frac{P^{''}(i)}{P(i)}$, $D_{mod}=-\frac{P^{'}(i)}{P(i)}$, ratio$=-\frac{P^{''}(i)}{P^{'}(i)}$
+
+Using $\$1000$ units:
+
+$$P(i)=v^{2}+5v^{5}$$
+
+$$P^{'}(i)=-2v^{3}-25v^{6}$$
+
+$$P^{''}(i)=6v^{4}+150v^{7}$$
+
+Required ratio$=(6v^{4}+150v^{7})/(2v^{3}+25v^{6})=94.906/17.809=5.33$
+
+
 
 #### Week 11 {-#w11s}
 
