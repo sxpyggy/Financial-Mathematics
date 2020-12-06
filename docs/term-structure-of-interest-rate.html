@@ -111,8 +111,12 @@
 <div id="term-structure-of-interest-rate" class="section level1">
 <h1><span class="header-section-number">Chapter 10</span> Term Structure of Interest Rate</h1>
 <p><strong>Yield to maturity</strong>: The internal rate of return which makes NPV as zero.</p>
-<p><strong>Spot rates</strong>: The interest rates in the next <span class="math inline">\(t\)</span> years, denoted by <span class="math inline">\(s_t\)</span>.</p>
-<p><strong>Forward rates</strong>: The interest rates of the year <span class="math inline">\(t\)</span>, denoted by <span class="math inline">\(f_{t-1}\)</span>. Note that <span class="math inline">\(f_0=s_1, s_t=s_{t-1}f_{t-1}\)</span>.</p>
+<p><strong>Yield curve</strong>: A graph of yield rates on investments, organized by the term of the investment.</p>
+<p><strong>Spot rates</strong>: The yield rate for a zero-coupon bonds with a given term to maturity. The interest rates in the next <span class="math inline">\(t\)</span> years, denoted by <span class="math inline">\(s_t\)</span>.</p>
+<p><strong>Forward rates</strong>: The interest rates of the future year <span class="math inline">\(t\)</span>, denoted by <span class="math inline">\(f_{t-1}\)</span>.</p>
+<p><span class="math display">\[f_0=s_1\]</span></p>
+<p><span class="math display">\[(1+s_t)^t=(1+s_{t-1})^{t-1}f_{t-1}\]</span></p>
+<p><span class="math display">\[P=\sum_{t}\frac{CF_t}{(1+s_t)^t}=\sum_{t}\frac{CF_t}{(1+i)^t}\]</span></p>
 <p><img src="plots/term_structure.png" width="60%" style="display: block; margin: auto;" /></p>
 
 </div>

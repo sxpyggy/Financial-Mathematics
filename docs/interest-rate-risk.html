@@ -118,8 +118,8 @@
 <ul>
 <li>Modified duration: The sensitivity of price to change in the interest rate</li>
 </ul>
-<p><span class="math display">\[D_{mod}\left(i^{(m)}\right)=-\frac{P&#39;\left(i^{(m)}\right)}{P\left(i^{(m)}\right)}=\frac{D_{mac}}{1+i^{(m)}/m}\]</span>
-<span class="math display">\[\lim_{m\rightarrow\infty} D_{mod}\left(i^{(m)}\right)=D_{mac}(\delta)\]</span></p>
+<p><span class="math display">\[D_{mod}\left(i^{(m)}\right)=-\frac{P&#39;\left(i^{(m)}\right)}{P\left(i^{(m)}\right)}=\frac{D_{mac}}{1+i^{(m)}/m}\]</span></p>
+<p><span class="math display">\[\lim_{m\rightarrow\infty} D_{mod}\left(i^{(m)}\right)=D_{mac}(\delta)\]</span></p>
 <ul>
 <li>Effective duration for interest-sensitive cash flows</li>
 </ul>
@@ -132,11 +132,11 @@
 <ul>
 <li>Macaulay convexity</li>
 </ul>
-<p><span class="math display">\[C_{mac}=\frac{P&#39;&#39;(\delta)}{P(\delta)}\]</span></p>
+<p><span class="math display">\[C_{mac}=\frac{P&#39;&#39;(\delta)}{P(\delta)}=\frac{\sum_tt^2\cdot CF_t\cdot v^t}{P(\delta)}\]</span></p>
 <ul>
 <li>Modified convexity</li>
 </ul>
-<p><span class="math display">\[C_{mod}=\frac{P&#39;&#39;(i^{(m)})}{P(i^{(m)})}\]</span></p>
+<p><span class="math display">\[C_{mod}=\frac{P&#39;&#39;(i^{(m)})}{P(i^{(m)})}=\frac{\sum_{t}t(t+1)v^{t+2}CF_t}{P(i^{(m)})}\]</span></p>
 <ul>
 <li>Effective convexity</li>
 </ul>
@@ -152,8 +152,9 @@
 <p><span class="math display">\[C=\sum_{k=1}^n \frac{P_k}{P}C_k\]</span></p>
 <p><strong>Immunization</strong></p>
 <ul>
-<li><p>Redington immunization: (1) <span class="math inline">\(P_A=P_L\)</span> (2) <span class="math inline">\(D_A=D_L\)</span> (3) <span class="math inline">\(C_A&gt;C_L\)</span>.</p></li>
-<li><p>Full immunization: (1) <span class="math inline">\(P_A=P_L\)</span> (2) <span class="math inline">\(D_A=D_L\)</span> (3) <span class="math inline">\(T_L\in (T_{A_1},T_{A_2})\)</span>.</p></li>
+<li><p>Definition: immunization is a process of protecting a financial organization from changes in interest rates.</p></li>
+<li><p>Conditions for <em>Redington immunization</em> protecting against small changes in interest rates: (1) <span class="math inline">\(P_A=P_L\)</span> (2) <span class="math inline">\(D_A=D_L\)</span> (3) <span class="math inline">\(C_A&gt;C_L\)</span>.</p></li>
+<li><p><em>Full immunization</em> protecting against any changes in interest rates: (1) <span class="math inline">\(P_A=P_L\)</span> (2) <span class="math inline">\(D_A=D_L\)</span> (3) <span class="math inline">\(T_L\in (T_{A_1},T_{A_2})\)</span>.</p></li>
 <li><p>Cash flow matching: solve a system of simultaneous equations.</p></li>
 </ul>
 

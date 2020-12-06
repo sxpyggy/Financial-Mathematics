@@ -2,11 +2,19 @@
 
 **Yield to maturity**: The internal rate of return which makes NPV as zero.
 
-**Spot rates**: The interest rates in the next $t$ years, denoted by $s_t$.
+**Yield curve**: A graph of yield rates on investments, organized by the term of the investment.
 
-**Forward rates**: The interest rates of the year $t$, denoted by $f_{t-1}$. Note that $f_0=s_1, s_t=s_{t-1}f_{t-1}$.
+**Spot rates**: The yield rate for a zero-coupon bonds with a given term to maturity. The interest rates in the next $t$ years, denoted by $s_t$. 
+
+**Forward rates**: The interest rates of the future year $t$, denoted by $f_{t-1}$. 
 
 
+
+$$f_0=s_1$$
+
+$$(1+s_t)^t=(1+s_{t-1})^{t-1}f_{t-1}$$
+
+$$P=\sum_{t}\frac{CF_t}{(1+s_t)^t}=\sum_{t}\frac{CF_t}{(1+i)^t}$$
 
 
 ```{r,echo=FALSE,out.width="60%",fig.align = 'center'}
