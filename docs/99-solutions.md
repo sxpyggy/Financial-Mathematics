@@ -4,6 +4,30 @@
 
 **[✍️ 期末考试](#final)**
 
+
+#### Week 13 {-#w13s}
+
+**Problem 1**
+
+The two-year bond returns $2000\times(1+1.25r)=2L$ at the end of two years and $2000\times1.25r=2500r$ at the end of one year.
+The one-year bond returns $800\times(1+r)$ at the end of one year.
+So, $800\times(1+r)+2500r=L$.
+$$r=9.76\%$$
+
+
+**Problem 2**
+
+$$1+f_{[1,2]}=\frac{a(2)}{a(1)}=\frac{\frac{1000}{850}}{\frac{1000}{950}}=1.1176$$
+So the forward rate is $11.8\%$.
+
+
+**Problem 3**
+
+Let $r_{2}$ be the two-year spot rate.
+$$100=\frac{7}{1.055}+\frac{107}{(1+r_{2})^2}$$
+$$r_{2}=7.05\%$$
+
+
 #### Week 12 {-#w12s}
 
 **Problem 1**

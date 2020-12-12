@@ -51,9 +51,21 @@ $$C=\sum_{k=1}^n \frac{P_k}{P}C_k$$
 
 - Definition: immunization is a process of protecting a financial organization from changes in interest rates.
 
-- Conditions for *Redington immunization* protecting against small changes in interest rates: (1) $P_A=P_L$ (2) $D_A=D_L$ (3) $C_A>C_L$.
+- Conditions for *Redington immunization* protecting against small changes in interest rates: 
 
-- *Full immunization* protecting against any changes in interest rates: (1) $P_A=P_L$ (2) $D_A=D_L$ (3) $T_L\in (T_{A_1},T_{A_2})$.
+   1. $P_A=P_L$ 
+
+   2. $D_A=D_L$ 
+
+   3. $C_A>C_L$.
+
+- *Full immunization* protecting against any changes in interest rates: 
+
+   1. $P_A=P_L$ 
+
+   2. $D_A=D_L$
+
+   3. $T_L\in (T_{A_1},T_{A_2})$.
 
 - Cash flow matching: solve a system of simultaneous equations.
 
