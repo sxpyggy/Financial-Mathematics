@@ -6,6 +6,42 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[✍️ 期末考试](#final)**
 
+#### Week 15{-#w15}
+
+**Problem 1**
+
+A customer buys a $50$-strike put on an index when the market price of the index is also $50$.
+
+The premium for the put is $5$. Assume that the option contracts is for an underlying $100$ units of the index.
+
+Ignoring the interest on the premium, calculate the customer's profit if the index declines to $45$ at expiration.
+
+
+**Problem 2**
+
+A four-month European call option with a strike price of $60$ is selling for $5$.
+
+The price of the underlying stock is $61$, and the annual continuously compounded risk-free rate is $12\%$. 
+
+The stock pays no dividends.
+
+Calculate the value of a four-month European put option with a strike price of $60$.
+
+
+**Problem 3**
+
+A nondividend paying stock has price $30$. You are given:
+
+i) The continuously compounded risk-free interest rate is $5\%$.
+
+ii) A $6$-month European call option on the stock costs $3.10$.
+
+iii) A $6$-month European put option on the stock with the same strike price as the call option cost $5.00$.
+
+Determine the strike price.
+
+**Two more problems are coming**
+
 #### Week 14 {- #w14}
 
 **Problem 1**
