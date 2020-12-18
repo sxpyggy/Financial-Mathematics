@@ -6,6 +6,10 @@
 
 #### Week 15{-#w15}
 
+To be released on Friday evening.
+
+#### Week 16{-#w16}
+
 **Problem 1**
 
 A customer buys a $50$-strike put on an index when the market price of the index is also $50$.
