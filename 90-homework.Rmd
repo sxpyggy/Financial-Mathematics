@@ -8,7 +8,19 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 #### Week 15{-#w15}
 
-To be released on Friday evening.
+**Problem 1**
+
+Ryan borrowed $\$2300$ in year 1 and an additional $\$1600$ in year 2 for total of $\$3900$. The 1-year spot rate is $3\%$ and the two-year spot rate is $4\%$. Under the loan, the interest rate resets annually to the 1-year spot rate. Ryan entered into a 2-year interest rate swap to pay the fixed interest rate and receive the variable rate. The notional amount of the swap matches the notional amount of the loan. Determine the level swap rate $R$.
+
+
+**Problem 2**
+
+Sue borrowed $\$20,000$ for $2$ years at a variable interest rate. She will make an interest payment to the lender at the end of each year and repays the loan of $\$20,000$ at the end of $2$ years. The 1-year spot rate is $3.5\%$ and the 2-year spot rate is $4\%$. Sue decided to enter into a 2-year interest rate swap under which she will swap the variable interest rate for a fixed interest rate with annual settlement periods and a notional amount of $\$20,000$. The variable rate is the 1-year spot interest rate at the beginning of the settlement period. Determine the net swap payment at the end of the second year and state whether she will be paying or receiving this payment.
+
+
+**Problem 3**
+
+William has a $25,000$ loan from AIN Bank. Under the terms of the loan, William will pay interest annually to AIN Bank based on LIBOR plus $75$ basis points and will pay the principal of $25,000$ at the end of $10$ years. William enters into a 10-year interest rate swap with a notional amount of $25,000$ and annual settlement dates. He will pay a fixed rate of $3.35\%$ and will receive a variable rate of LIBOR plus $65$ basis points. Calculate the net interest payment made by William at the end of the *fifth* year given a LIBOR rate of $3.18\%$ during the fifth year.
 
 #### Week 16{-#w16}
 
@@ -43,8 +55,6 @@ ii) A $6$-month European call option on the stock costs $3.10$.
 iii) A $6$-month European put option on the stock with the same strike price as the call option cost $5.00$.
 
 Determine the strike price.
-
-**Two more problems are coming**
 
 #### Week 14 {- #w14}
 
