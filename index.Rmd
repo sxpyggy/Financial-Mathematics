@@ -42,6 +42,16 @@ editor_options:
 
 **我定期把同学们的普遍疑问在这里解答，欢迎提问！**
 
+**👉  习题5.17** (2020/12/21)**
+
+答案更正如下
+
+```{r,echo=FALSE,out.width="30%",fig.align = 'center'}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
+knitr::include_graphics("./plots/517.png")
+```
+
+
 **👉  0时刻现金流对久期的影响** (2020/11/25)
 
 教材图7-1之前的那段话有问题，0时刻的现金流虽然$t=0$，但它的存在（相较于0时刻无现金流）会影响价格，进而影响其他时刻的权重。

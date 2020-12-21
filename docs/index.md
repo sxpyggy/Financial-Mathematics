@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-12-19 09:33:05"
+date: "2020-12-21 11:36:01"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -42,6 +42,13 @@ editor_options:
 
 **我定期把同学们的普遍疑问在这里解答，欢迎提问！**
 
+**👉  习题5.17** (2020/12/21)**
+
+答案更正如下
+
+<img src="./plots/517.png" width="30%" style="display: block; margin: auto;" />
+
+
 **👉  0时刻现金流对久期的影响** (2020/11/25)
 
 教材图7-1之前的那段话有问题，0时刻的现金流虽然$t=0$，但它的存在（相较于0时刻无现金流）会影响价格，进而影响其他时刻的权重。
@@ -57,7 +64,7 @@ editor_options:
 
 **👉 期末中文考题** (2020/09/26)
 
-<img src="./plots/english.png" width="30%" style="display: block; margin: auto;" />
+<img src="./plots/english.png" width="30%"  style="display: block; margin: auto;" />
 
 **👉 证明$\frac{1}{a_{\overline{n}\mid}}=\frac{1}{s_{\overline{n}\mid}}+i$** (2020/09/24)
 
