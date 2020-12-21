@@ -110,6 +110,64 @@
             <section class="normal" id="section-">
 <div id="forward-future-and-swap" class="section level1">
 <h1><span class="header-section-number">Chapter 8</span> Forward, Future and Swap</h1>
+<p><strong>Forward</strong>: an agreement to enter into a transaction at a pre-specified time and price</p>
+<ul>
+<li><p><em>Underlying asset</em>: the asset on which the agreement is based</p></li>
+<li><p><em>Expiration date</em>: date on which transaction will take place</p></li>
+<li><p><em>Forward price</em>: price at which the transaction will take place</p>
+<ul>
+<li><p>Non-dividend-paying stock <span class="math inline">\(F_{0,T}=S_0e^{rT}\)</span></p></li>
+<li><p>Stock with discrete dividends <span class="math inline">\(F_{0,T}=S_0-PV(dividends)\)</span></p></li>
+<li><p>Stock with continuous dividends <span class="math inline">\(F_{0,T}=S_0e^{(r-\delta)T}\)</span></p></li>
+</ul></li>
+<li><p>Forward price is set such that <em>no up-front payment or premium</em> need be paid by either
+party to the other</p></li>
+<li><p><em>Positions</em> in a forward contract</p>
+<ul>
+<li><p><em>Long</em>: party which is obligated to buy the underlying asset</p></li>
+<li><p><em>Short</em>: party which is obligated to sell the underlying asset</p></li>
+</ul></li>
+<li><p><em>Payoffs</em> to forward contract positions</p>
+<ul>
+<li><p>Long-forward payoff = <span class="math inline">\(S_T-F\)</span></p></li>
+<li><p>Short-forward payoff = <span class="math inline">\(F-S_T\)</span></p></li>
+</ul></li>
+</ul>
+<p><strong>Long position of stock</strong></p>
+<ul>
+<li><p>Outright purchase</p></li>
+<li><p>Borrow to pay for stock</p></li>
+<li><p>Prepaid forward contract</p></li>
+<li><p>Forward contract</p></li>
+</ul>
+<p><strong>Synthetic forward contract</strong></p>
+<ul>
+<li><p>Long forward = Stock - Bond</p></li>
+<li><p>Short forward = Bond - Stock</p></li>
+</ul>
+<p><strong>Arbitrage strategy</strong></p>
+<ul>
+<li><p>Forward price is too low: short forward + stock - bond (cash-and-carry)</p></li>
+<li><p>Forward price is too high: long forward - stock + bond (reverse cash-and-carry)</p></li>
+</ul>
+<p><strong>Futures contracts</strong></p>
+<ul>
+<li><p>Traded on an exchange</p></li>
+<li><p>Relatively standardized</p></li>
+<li><p>More liquid</p></li>
+<li><p>Marked-to-market and settled daily</p></li>
+</ul>
+<p><strong>Swap contracts</strong>: covers a stream of cash flows over a period of time</p>
+<ul>
+<li><p>A forward is like a single-payment swap</p></li>
+<li><p>The possible types of swaps are:</p>
+<ul>
+<li><p>Commodity swaps</p></li>
+<li><p>Foreign exchange rate swaps</p></li>
+<li><p>Interest rate swaps: Parties exchange fixed and floating interest</p></li>
+</ul></li>
+<li><p>Typically, the price of a swap involves a <em>level</em> payment. This level payment is generally calculated such that the swap initially has some specified market value (generally <em>zero</em>, as with a forward)</p></li>
+</ul>
 
 </div>
             </section>

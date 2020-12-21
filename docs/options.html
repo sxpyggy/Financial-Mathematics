@@ -110,6 +110,72 @@
             <section class="normal" id="section-">
 <div id="options" class="section level1">
 <h1><span class="header-section-number">Chapter 9</span> Options</h1>
+<p><strong>Call options</strong>: an agreement in which the <em>holder/buyer</em> of the option has the <em>right</em> to <em>buy</em>, from
+the <em>writer/seller</em> of the option, the underlying asset at a pre-specified time and price.</p>
+<ul>
+<li><p><em>Holder/buyer</em> of option has the <em>right</em>, not the obligation, to <em>buy</em> the underlying asset</p></li>
+<li><p><em>Seller</em> of the call option is <em>obligated</em> to <em>sell</em> the underlying asset to the buyer of the option
+if the buyer exercises her/his right to buy the underlying asset</p></li>
+<li><p><strong>Underlying asset</strong>:the asset on which the option is based</p></li>
+<li><p><strong>Expiration date</strong>:date on which the option expires</p></li>
+<li><p><strong>Exercise (strike) price</strong>: price at which the transaction will take place if the option is
+exercised by the holder</p></li>
+<li><p><strong>Premium</strong>: up-front price for the option, paid by the buyer to the seller of the option</p></li>
+<li><p>Style of call option</p>
+<ul>
+<li><p><strong>European</strong>: holder of the option can exercise her/his right to buy the underlying asset
+only on the expiration date of the option</p></li>
+<li><p><strong>American</strong>: holder of the option can exercise her/his right to buy the underlying asset any
+time during the life of the option, up to and including the expiration date of the option</p></li>
+</ul></li>
+<li><p><strong>Payoffs</strong> to call option positions</p>
+<ul>
+<li><p>Purchased call option payoff = <span class="math inline">\(\max[0, S_T-K]\)</span></p></li>
+<li><p>Written call option payoff = <span class="math inline">\(-\max[0,S_T-k]\)</span></p></li>
+<li><p>Payoffs on a call option reflect a zero-sum game between the parties</p></li>
+</ul></li>
+<li><p><strong>Profits</strong> to call option positions</p>
+<ul>
+<li><p>Purchased call option profit = <span class="math inline">\(\max[0, S_T-K]-FV[C(K,T)]\)</span></p></li>
+<li><p>Written call option profit = <span class="math inline">\(FV[C(K,T)]-\max[0, S_T-K]\)</span></p></li>
+</ul></li>
+</ul>
+<p><strong>Put options</strong>: an agreement in which the <em>holder/buyer</em> of the option has the <em>right</em> to <em>sell</em>, from
+the <em>writer/seller</em> of the option, the underlying asset at a pre-specified time and price.</p>
+<ul>
+<li><p><em>Holder/buyer</em> of option has the <em>right</em>, not the obligation, to <em>sell</em> the underlying asset</p></li>
+<li><p><em>Seller</em> of the call option is <em>obligated</em> to <em>buy</em> the underlying asset to the buyer of the option
+if the buyer exercises her/his right to buy the underlying asset</p></li>
+<li><p><strong>Underlying asset</strong>:the asset on which the option is based</p></li>
+<li><p><strong>Expiration date</strong>:date on which the option expires</p></li>
+<li><p><strong>Exercise (strike) price</strong>: price at which the transaction will take place if the option is
+exercised by the holder</p></li>
+<li><p><strong>Premium</strong>: up-front price for the option, paid by the buyer to the seller of the option</p></li>
+<li><p>Style of call option</p>
+<ul>
+<li><p><strong>European</strong>: holder of the option can exercise her/his right to sell the underlying asset
+only on the expiration date of the option</p></li>
+<li><p><strong>American</strong>: holder of the option can exercise her/his right to sell the underlying asset any
+time during the life of the option, up to and including the expiration date of the option</p></li>
+</ul></li>
+<li><p><strong>Payoffs</strong> to put option positions</p>
+<ul>
+<li><p>Purchased put option payoff = <span class="math inline">\(\max[0, K-S_T]\)</span></p></li>
+<li><p>Written put option payoff = <span class="math inline">\(-\max[0,K-S_T]\)</span></p></li>
+<li><p>Payoffs on a put option reflect a zero-sum game between the parties</p></li>
+</ul></li>
+<li><p><strong>Profits</strong> to put option positions</p>
+<ul>
+<li><p>Purchased put option profit = <span class="math inline">\(\max[0, K-S_T]-FV[P(K,T)]\)</span></p></li>
+<li><p>Written put option profit = <span class="math inline">\(FV[P(K,T)]-\max[0, K-S_T]\)</span></p></li>
+</ul></li>
+</ul>
+<p><strong>Put-call parity</strong></p>
+<p><span class="math display">\[Call - Put = PV(Forward~~price) - PV(Strike~~price)\]</span></p>
+<p><span class="math display">\[C(K,T) - P(K,T) = PV(F_{0,T})-PV(K)\]</span></p>
+<p><strong>Binomial tree model</strong></p>
+<p><span class="math display">\[f=e^{-rT}[p f_u + (1-p) f_d]\]</span>
+<span class="math display">\[u=e^{\sigma\sqrt{\Delta t}}, d=e^{-\sigma\sqrt{\Delta t}},p=\frac{e^{r\Delta t}-d}{u-d}\]</span></p>
 
 </div>
             </section>

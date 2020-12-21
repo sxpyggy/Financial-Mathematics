@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2020-12-21 11:36:01"
+date: "2020-12-21 16:04:45"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -42,7 +42,7 @@ editor_options:
 
 **我定期把同学们的普遍疑问在这里解答，欢迎提问！**
 
-**👉  习题5.17** (2020/12/21)**
+**👉  习题5.17** (2020/12/21)
 
 答案更正如下
 
