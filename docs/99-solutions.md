@@ -23,16 +23,18 @@ $$R=4.24\%$$
 
 **Problem 2**
 
-Since the notional amount of the swap is level,
-$$R=\frac{1-P_2}{P_1+P_2}=\frac{1-1.04^{-2}}{1.035^{-1}+1.04^{-2}}=0.0399017$$
+The implied forward rate is $f_{[1,2]}=\frac{1.04^2}{1.035}-1=0.045$
 
-At the end of the second year, Sue pays the fixed rate: $20,000\times R = 798.034$.
+Since the notional amount of the swap is level,
+$$R=\frac{f_{[0,1]}P_1+f_{[1,2]}P_2}{P_1+P_2}=\frac{0.035*1.035^{-1}+0.045*1.04^{-2}}{1.035^{-1}+1.04^{-2}}=0.03988992$$
+
+At the end of the second year, Sue pays the fixed rate: $20,000\times R = 797.798$.
 
 She receives the 1-year spot rate at the beginning of the second year:
 
 $$20,000\times f_{[1,2]}=20,000\times(\frac{1.04^2}{1.035}-1)=900.483$$
 
-At the end of the second year, Sue *receives* a net swap payment of $900.483-798.034=102.45$ from the swap counterparty.
+At the end of the second year, Sue *receives* a net swap payment of $900.483-797.798=102.69$ from the swap counterparty.
 
 
 **Problem 3**
