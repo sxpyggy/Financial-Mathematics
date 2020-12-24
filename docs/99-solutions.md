@@ -4,6 +4,50 @@
 
 **[✍️ 期末考试](#final)**
 
+
+#### Week 15 {-#w15s}
+
+**Problem 1**
+
+Since the notional amount of the swap is not level,
+$$R=\frac{Q_1f_{[0,1]}P_1+Q_2f_{[1,2]}P_2}{Q_1P_1+Q_2P_2}$$
+
+The notional amount are $Q_1=2300$ and $Q_2=3900$.
+
+The implied 1-year interest rates are $f_{[0,1]}=0.03$ and $f_{[1,2]}=\frac{1.04^2}{1.03}-1=0.050097$.
+
+Since $P_1=1.03^{-1}$ and $P_2=1.04^{-2}$,
+
+$$R=4.24\%$$
+
+
+**Problem 2**
+
+Since the notional amount of the swap is level,
+$$R=\frac{1-P_2}{P_1+P_2}=\frac{1-1.04^{-2}}{1.035^{-1}+1.04^{-2}}=0.0399017$$
+
+At the end of the second year, Sue pays the fixed rate: $20,000\times R = 798.034$.
+
+She receives the 1-year spot rate at the beginning of the second year:
+
+$$20,000\times f_{[1,2]}=20,000\times(\frac{1.04^2}{1.035}-1)=900.483$$
+
+At the end of the second year, Sue *receives* a net swap payment of $900.483-798.034=102.45$ from the swap counterparty.
+
+
+**Problem 3**
+
+During the fifth year and under the swap, William will pay the fixed rate of $3.35\%$ and will receive the variable rate $LIBOR+0.65\%=3.18\%+0.65\%=3.83\%$.
+
+So at the end of the fifth year, William will pay $25,000\times0.0335=837.5$ and will receive $25,000\times0.0383=957.5$. 
+
+The net swap payment will be $957.5-837.5=120$ paid by the swap counterparty to William.
+
+During the fifth year, William will pay interest on the loan at $LIBOR+0.75\%=3.93\%$. So, the interest paid on the loan is $25,000\times0.0393=982.5$.
+
+Therefore, the net interest payment to be made at the end of the fifth year is $982.5-120=862.5$.
+
+
 #### Week 14 {- #w14s}
 
 **Problem 1**
