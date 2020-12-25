@@ -6,6 +6,49 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[✍️ 期末考试](#final)**
 
+#### 第三次小测 {-#w17s}
+
+**Problem 1**
+
+The payoff at expiration is $(50-45)\times100-500$. The premium is $5\times100=500$. 
+
+For some reason, this question ignores the interest on the premium, and calculates the profit as $500-500=0$.
+
+But a more exact calculation would be $500-500(1+i)^{T}$.
+
+
+**Problem 2**
+
+By put-call parity,
+$$P(61,60,\frac{1}{3})=C(61,60,\frac{1}{3})+60e^{-\frac{1}{3}r}-61e^{-\frac{1}{3}\delta}=1.647$$
+
+
+**Problem 3**
+
+We need $K$, the strike price. By put-call parity:
+
+$$C(K,0.5)-P(K,0.5)=S-Ke^{-0.5r}$$
+
+$$K=31.90e^{0.025}=32.7076$$
+
+
+
+**Problem 4**
+
+The stock can rise to $1.2*50=60$ or fall to $0.7*50=35$. The call pays $5$ if it rises. The call premium's equation using risk-neutral probabilities is
+$$3.10=5p^{*}e^{-0.25r}=5\left(\frac{e^{0.25r}-0.7}{1.2-0.7}e^{-0.25r}\right)$$
+$$3.10=10(1-0.7e^{-0.25r})$$
+$$0.31-1=-0.7e^{-0.25r}$$
+$$\frac{0.69}{0.7}=e^{-0.25r}$$
+$$r=-4ln(\frac{69}{70})=0.057555$$
+
+**Problem 5**
+
+We determine the upper and lower nodes:
+
+$$u=e^{(r-\delta)+\sigma}=e^{0.05-0.02+0.3}=e^{0.33}$$
+$$d=e^{(r-\delta)-\sigma}=e^{0.05-0.02-0.3}=e^{-0.27}$$
+$$p^{*}=\frac{e^{r-\delta}-d}{u-d}=\frac{e^{0.03}-e^{-0.27}}{e^{0.33}-e^{-0.27}}=0.42556$$
 
 #### Week 15 {-#w15s}
 

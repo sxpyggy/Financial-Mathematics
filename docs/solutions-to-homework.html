@@ -71,8 +71,7 @@
 <li><a href="./">金融数学</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>👨‍🏫 欢迎</a><ul>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#final"><i class="fa fa-check"></i>✍️ 期末考试</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>👨‍🏫 祝大家考试顺利！新年快乐！</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#exe"><i class="fa fa-check"></i>⏱️ 随堂测验</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#答疑"><i class="fa fa-check"></i>🤔 答疑</a></li>
 </ul></li>
@@ -110,7 +109,33 @@
             <section class="normal" id="section-">
 <div id="solutions-to-homework" class="section level1 unnumbered">
 <h1>💡 Solutions to homework</h1>
-<p><strong><a href="index.html#final">✍️ 期末考试</a></strong></p>
+<p><strong><a href="#final">✍️ 期末考试</a></strong></p>
+<div id="w17s" class="section level4 unnumbered">
+<h4>第三次小测</h4>
+<p><strong>Problem 1</strong></p>
+<p>The payoff at expiration is <span class="math inline">\((50-45)\times100-500\)</span>. The premium is <span class="math inline">\(5\times100=500\)</span>.</p>
+<p>For some reason, this question ignores the interest on the premium, and calculates the profit as <span class="math inline">\(500-500=0\)</span>.</p>
+<p>But a more exact calculation would be <span class="math inline">\(500-500(1+i)^{T}\)</span>.</p>
+<p><strong>Problem 2</strong></p>
+<p>By put-call parity,
+<span class="math display">\[P(61,60,\frac{1}{3})=C(61,60,\frac{1}{3})+60e^{-\frac{1}{3}r}-61e^{-\frac{1}{3}\delta}=1.647\]</span></p>
+<p><strong>Problem 3</strong></p>
+<p>We need <span class="math inline">\(K\)</span>, the strike price. By put-call parity:</p>
+<p><span class="math display">\[C(K,0.5)-P(K,0.5)=S-Ke^{-0.5r}\]</span></p>
+<p><span class="math display">\[K=31.90e^{0.025}=32.7076\]</span></p>
+<p><strong>Problem 4</strong></p>
+<p>The stock can rise to <span class="math inline">\(1.2*50=60\)</span> or fall to <span class="math inline">\(0.7*50=35\)</span>. The call pays <span class="math inline">\(5\)</span> if it rises. The call premium’s equation using risk-neutral probabilities is
+<span class="math display">\[3.10=5p^{*}e^{-0.25r}=5\left(\frac{e^{0.25r}-0.7}{1.2-0.7}e^{-0.25r}\right)\]</span>
+<span class="math display">\[3.10=10(1-0.7e^{-0.25r})\]</span>
+<span class="math display">\[0.31-1=-0.7e^{-0.25r}\]</span>
+<span class="math display">\[\frac{0.69}{0.7}=e^{-0.25r}\]</span>
+<span class="math display">\[r=-4ln(\frac{69}{70})=0.057555\]</span></p>
+<p><strong>Problem 5</strong></p>
+<p>We determine the upper and lower nodes:</p>
+<p><span class="math display">\[u=e^{(r-\delta)+\sigma}=e^{0.05-0.02+0.3}=e^{0.33}\]</span>
+<span class="math display">\[d=e^{(r-\delta)-\sigma}=e^{0.05-0.02-0.3}=e^{-0.27}\]</span>
+<span class="math display">\[p^{*}=\frac{e^{r-\delta}-d}{u-d}=\frac{e^{0.03}-e^{-0.27}}{e^{0.33}-e^{-0.27}}=0.42556\]</span></p>
+</div>
 <div id="w15s" class="section level4 unnumbered">
 <h4>Week 15</h4>
 <p><strong>Problem 1</strong></p>

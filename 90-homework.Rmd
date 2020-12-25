@@ -6,8 +6,7 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 **[✍️ 期末考试](#final)**
 
-
-#### Week 16{-#w16}
+#### 第三次小测 {-#w17}
 
 **Problem 1**
 
@@ -16,7 +15,6 @@ A customer buys a $50$-strike put on an index when the market price of the index
 The premium for the put is $5$. Assume that the option contracts is for an underlying $100$ units of the index.
 
 Ignoring the interest on the premium, calculate the customer's profit if the index declines to $45$ at expiration.
-
 
 **Problem 2**
 
@@ -27,7 +25,6 @@ The price of the underlying stock is $61$, and the annual continuously compounde
 The stock pays no dividends.
 
 Calculate the value of a four-month European put option with a strike price of $60$.
-
 
 **Problem 3**
 
@@ -40,6 +37,38 @@ ii) A $6$-month European call option on the stock costs $3.10$.
 iii) A $6$-month European put option on the stock with the same strike price as the call option cost $5.00$.
 
 Determine the strike price.
+
+**Problem 4**
+
+Prices for a stock are modeled with a $1$-period binomial tree with u=$1.2$, d=$0.7$, and a period of $3$ months. A European call option on the stock expires in $3$ months.
+
+You are given:
+
+(i)The stock's initial price is $50$.
+
+(ii)The stock pays no dividends.
+
+(iii)The strike price for the call option is $55$.
+
+(iv)The price of the call option is $3.10$.
+
+Determine the continuously compounded risk-free interest rate.
+
+
+**Problem 5**
+
+The future prices of a stock are modeled with a $1$-period binomial tree based on forward prices, the period being one year.
+
+(i)The current stock price is $40$.
+
+(ii)The continuously compounded risk-free interest rate is $5\%$.
+
+(iii)The stock pays continuous dividend proportionate to its price at a rate of $2\%$.
+
+(iv)$\sigma$=0.3
+
+Determine the risk-neutral probability of an increase in stock price.
+
 
 #### Week 15{-#w15}
 
