@@ -13,7 +13,7 @@ bookdown::gitbook:
     download: null
     search: yes
     fontsettings:
-      theme: sepia
+      theme: white
       family: serif
       size: 2
     sharing:
