@@ -1,7 +1,7 @@
 --- 
 title: "金融数学"
 author: "Financial Mathematics"
-date: "2021-05-06 10:19:48"
+date: "2021-05-06 10:23:46"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
 documentclass: book
@@ -18,7 +18,7 @@ editor_options:
 
 此网站同步[**中国大学MOOC--金融数学**](https://www.icourse163.org/course/RUC-1463188162)，方便大家准备SOA/CAS的 [Exam FM: Financial Mathematics](https://www.soa.org/education/exam-req/edu-exam-fm-detail/) 考试。
 
-此网站由授课老师[孟生旺](http://stat.ruc.edu.cn/teacher_more.php?id=70&cid=25)、[高光远](http://stat.ruc.edu.cn/teacher_more.php?id=118&cid=25)、助教<u>程轶鹏</u>、助教<u>胡夏新</u>管理，欢迎大家反馈意见到邮箱 <guangyuan.gao@ruc.edu.cn>。
+此网站由授课老师[孟生旺](http://stat.ruc.edu.cn/teacher_more.php?id=70&cid=25)、[高光远](http://stat.ruc.edu.cn/teacher_more.php?id=118&cid=25)、助教<u>程轶鹏</u>、<u>胡夏新</u>管理，欢迎大家反馈意见到邮箱 <guangyuan.gao@ruc.edu.cn>。
 
 <!-- ## ⏱️ 随堂测验 {- #exe} -->
 
