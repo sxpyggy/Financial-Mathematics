@@ -8,4 +8,3 @@ bonds-and-stocks
 interest-rate-risk
 forward-future-and-swap
 options
-term-structure-of-interest-rate

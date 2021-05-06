@@ -7,6 +7,6 @@ delete_merged_file: true
 output_dir: "docs"
 rmd_files: ["index.Rmd","01-interest.Rmd","02-level-annuity.Rmd","03-varying-annuity.Rmd",
 "04-yield-rates.Rmd","05-loans-repayment.Rmd", "06-bonds-and-stocks.Rmd", "07-interest-risk.Rmd",
-"08-forward-future-swap.Rmd","09-options.Rmd","10-term-structure.Rmd",
+"08-forward-future-swap.Rmd","09-options.Rmd",
 "90-homework.Rmd","99-solutions.Rmd"]
 #rmd_files: ["index.Rmd","01-interest.Rmd","02-level-annuity.Rmd","90-homework.Rmd"]
