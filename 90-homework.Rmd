@@ -6,326 +6,326 @@ knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
 
 <!-- **[✍️ 期末考试](#final)** -->
 
-#### Week 16 {-#w16}
+<!-- #### Week 16 {-#w16} -->
 
-**Problem 1**
+<!-- **Problem 1** -->
 
-A customer buys a $50$-strike put on an index when the market price of the index is also $50$.
+<!-- A customer buys a $50$-strike put on an index when the market price of the index is also $50$. -->
 
-The premium for the put is $5$. Assume that the option contracts is for an underlying $100$ units of the index.
+<!-- The premium for the put is $5$. Assume that the option contracts is for an underlying $100$ units of the index. -->
 
-Ignoring the interest on the premium, calculate the customer's profit if the index declines to $45$ at expiration.
+<!-- Ignoring the interest on the premium, calculate the customer's profit if the index declines to $45$ at expiration. -->
 
-**Problem 2**
+<!-- **Problem 2** -->
 
-A four-month European call option with a strike price of $60$ is selling for $5$.
+<!-- A four-month European call option with a strike price of $60$ is selling for $5$. -->
 
-The price of the underlying stock is $61$, and the annual continuously compounded risk-free rate is $12\%$. 
+<!-- The price of the underlying stock is $61$, and the annual continuously compounded risk-free rate is $12\%$.  -->
 
-The stock pays no dividends.
+<!-- The stock pays no dividends. -->
 
-Calculate the value of a four-month European put option with a strike price of $60$.
+<!-- Calculate the value of a four-month European put option with a strike price of $60$. -->
 
-**Problem 3**
+<!-- **Problem 3** -->
 
-A nondividend paying stock has price $30$. You are given:
+<!-- A nondividend paying stock has price $30$. You are given: -->
 
-i) The continuously compounded risk-free interest rate is $5\%$.
+<!-- i) The continuously compounded risk-free interest rate is $5\%$. -->
 
-ii) A $6$-month European call option on the stock costs $3.10$.
+<!-- ii) A $6$-month European call option on the stock costs $3.10$. -->
 
-iii) A $6$-month European put option on the stock with the same strike price as the call option cost $5.00$.
+<!-- iii) A $6$-month European put option on the stock with the same strike price as the call option cost $5.00$. -->
 
-Determine the strike price.
+<!-- Determine the strike price. -->
 
-**Problem 4**
+<!-- **Problem 4** -->
 
-Prices for a stock are modeled with a $1$-period binomial tree with u=$1.2$, d=$0.7$, and a period of $3$ months. A European call option on the stock expires in $3$ months.
+<!-- Prices for a stock are modeled with a $1$-period binomial tree with u=$1.2$, d=$0.7$, and a period of $3$ months. A European call option on the stock expires in $3$ months. -->
 
-You are given:
+<!-- You are given: -->
 
-(i)The stock's initial price is $50$.
+<!-- (i)The stock's initial price is $50$. -->
 
-(ii)The stock pays no dividends.
+<!-- (ii)The stock pays no dividends. -->
 
-(iii)The strike price for the call option is $55$.
+<!-- (iii)The strike price for the call option is $55$. -->
 
-(iv)The price of the call option is $3.10$.
+<!-- (iv)The price of the call option is $3.10$. -->
 
-Determine the continuously compounded risk-free interest rate.
+<!-- Determine the continuously compounded risk-free interest rate. -->
 
 
-**Problem 5**
+<!-- **Problem 5** -->
 
-The future prices of a stock are modeled with a $1$-period binomial tree based on forward prices, the period being one year.
+<!-- The future prices of a stock are modeled with a $1$-period binomial tree based on forward prices, the period being one year. -->
 
-(i)The current stock price is $40$.
+<!-- (i)The current stock price is $40$. -->
 
-(ii)The continuously compounded risk-free interest rate is $5\%$.
+<!-- (ii)The continuously compounded risk-free interest rate is $5\%$. -->
 
-(iii)The stock pays continuous dividend proportionate to its price at a rate of $2\%$.
+<!-- (iii)The stock pays continuous dividend proportionate to its price at a rate of $2\%$. -->
 
-(iv)$\sigma$=0.3
+<!-- (iv)$\sigma$=0.3 -->
 
-Determine the risk-neutral probability of an increase in stock price.
+<!-- Determine the risk-neutral probability of an increase in stock price. -->
 
 
-#### Week 15{-#w15}
+<!-- #### Week 15{-#w15} -->
 
-**Problem 1**
+<!-- **Problem 1** -->
 
-Ryan borrowed $\$2300$ in year 1 and an additional $\$1600$ in year 2 for total of $\$3900$. The 1-year spot rate is $3\%$ and the two-year spot rate is $4\%$. Under the loan, the interest rate resets annually to the 1-year spot rate. Ryan entered into a 2-year interest rate swap to pay the fixed interest rate and receive the variable rate. The notional amount of the swap matches the notional amount of the loan. Determine the level swap rate $R$.
+<!-- Ryan borrowed $\$2300$ in year 1 and an additional $\$1600$ in year 2 for total of $\$3900$. The 1-year spot rate is $3\%$ and the two-year spot rate is $4\%$. Under the loan, the interest rate resets annually to the 1-year spot rate. Ryan entered into a 2-year interest rate swap to pay the fixed interest rate and receive the variable rate. The notional amount of the swap matches the notional amount of the loan. Determine the level swap rate $R$. -->
 
 
-**Problem 2**
+<!-- **Problem 2** -->
 
-Sue borrowed $\$20,000$ for $2$ years at a variable interest rate. She will make an interest payment to the lender at the end of each year and repays the loan of $\$20,000$ at the end of $2$ years. The 1-year spot rate is $3.5\%$ and the 2-year spot rate is $4\%$. Sue decided to enter into a 2-year interest rate swap under which she will swap the variable interest rate for a fixed interest rate with annual settlement periods and a notional amount of $\$20,000$. The variable rate is the 1-year spot interest rate at the beginning of the settlement period. Determine the net swap payment at the end of the second year and state whether she will be paying or receiving this payment.
+<!-- Sue borrowed $\$20,000$ for $2$ years at a variable interest rate. She will make an interest payment to the lender at the end of each year and repays the loan of $\$20,000$ at the end of $2$ years. The 1-year spot rate is $3.5\%$ and the 2-year spot rate is $4\%$. Sue decided to enter into a 2-year interest rate swap under which she will swap the variable interest rate for a fixed interest rate with annual settlement periods and a notional amount of $\$20,000$. The variable rate is the 1-year spot interest rate at the beginning of the settlement period. Determine the net swap payment at the end of the second year and state whether she will be paying or receiving this payment. -->
 
-**Problem 3**
+<!-- **Problem 3** -->
 
-William has a $25,000$ loan from AIN Bank. Under the terms of the loan, William will pay interest annually to AIN Bank based on LIBOR plus $75$ basis points and will pay the principal of $25,000$ at the end of $10$ years. William enters into a 10-year interest rate swap with a notional amount of $25,000$ and annual settlement dates. He will pay a fixed rate of $3.35\%$ and will receive a variable rate of LIBOR plus $65$ basis points. Calculate the net interest payment made by William at the end of the *fifth* year given a LIBOR rate of $3.18\%$ during the fifth year.
+<!-- William has a $25,000$ loan from AIN Bank. Under the terms of the loan, William will pay interest annually to AIN Bank based on LIBOR plus $75$ basis points and will pay the principal of $25,000$ at the end of $10$ years. William enters into a 10-year interest rate swap with a notional amount of $25,000$ and annual settlement dates. He will pay a fixed rate of $3.35\%$ and will receive a variable rate of LIBOR plus $65$ basis points. Calculate the net interest payment made by William at the end of the *fifth* year given a LIBOR rate of $3.18\%$ during the fifth year. -->
 
-#### Week 14 {- #w14}
+<!-- #### Week 14 {- #w14} -->
 
-**Problem 1**
+<!-- **Problem 1** -->
 
-A nondividend paying stock's current price is $100$. The $2$-year forward price of the stock is $110$.
-Determine the continuously compounded risk-free interest rate.
+<!-- A nondividend paying stock's current price is $100$. The $2$-year forward price of the stock is $110$. -->
+<!-- Determine the continuously compounded risk-free interest rate. -->
 
 
-**Problem 2**
+<!-- **Problem 2** -->
 
-A one-year forward contract on a stock has a price of $\$75$. The stock is expected to pay a dividend of
-$\$1.50$ at two future times, six months from now and one year from now, and the annual effective risk-free interset rate is $6\%$.
-Calculate the current stock price.
+<!-- A one-year forward contract on a stock has a price of $\$75$. The stock is expected to pay a dividend of -->
+<!-- $\$1.50$ at two future times, six months from now and one year from now, and the annual effective risk-free interset rate is $6\%$. -->
+<!-- Calculate the current stock price. -->
 
-**Problem 3**
+<!-- **Problem 3** -->
 
-For a stock index, the current price is $88$. The $4$-month forward price is $89$. The continuously compounded risk-free rate is $0.04$. Determine the continuously compounded dividend rate of the index.
+<!-- For a stock index, the current price is $88$. The $4$-month forward price is $89$. The continuously compounded risk-free rate is $0.04$. Determine the continuously compounded dividend rate of the index. -->
 
 
-#### Week 13{- #w13}
+<!-- #### Week 13{- #w13} -->
 
-**Problem 1**
+<!-- **Problem 1** -->
 
-A company must pay a liability of $L$ due one year from now and $2L$ due two years from now. The company exactly matches the liabilities by buying a one-year bond with face value $\$800$ and a two-year bond with face value $\$2000$. Both bonds have annual coupons, with a coupon rate of $r$ for the one-year bond and $1.25r$ for the two-year bond. Determine $r$.
+<!-- A company must pay a liability of $L$ due one year from now and $2L$ due two years from now. The company exactly matches the liabilities by buying a one-year bond with face value $\$800$ and a two-year bond with face value $\$2000$. Both bonds have annual coupons, with a coupon rate of $r$ for the one-year bond and $1.25r$ for the two-year bond. Determine $r$. -->
 
 
-**Problem 2**
+<!-- **Problem 2** -->
 
-The following are the prices of $\$1000$ par value zero-coupon bonds with one and two year maturities:
+<!-- The following are the prices of $\$1000$ par value zero-coupon bonds with one and two year maturities: -->
 
-*One year maturity*:$\$950$
+<!-- *One year maturity*:$\$950$ -->
 
-*Two year maturity*:$\$850$
+<!-- *Two year maturity*:$\$850$ -->
 
-Calculate the one-year forward rate, deferred one year. 
+<!-- Calculate the one-year forward rate, deferred one year.  -->
 
 
-**Problem 3**
+<!-- **Problem 3** -->
 
-The one-year spot rate is $5.5\%$. A two-year $\$100$ bond maturing at par, with $7\%$ annual coupons, is currently selling for its par value. Determine the two-year spot rate.
+<!-- The one-year spot rate is $5.5\%$. A two-year $\$100$ bond maturing at par, with $7\%$ annual coupons, is currently selling for its par value. Determine the two-year spot rate. -->
 
-#### Week 12 {- #w12}
+<!-- #### Week 12 {- #w12} -->
 
-**Problem 1**
+<!-- **Problem 1** -->
 
-An annuity-immediate has payments of $1000$, $3000$ and $7000$ at the end of one, two and three years, respectively. Determine the modified convexity of the payments evaluated at $i$ = $10\%$.
+<!-- An annuity-immediate has payments of $1000$, $3000$ and $7000$ at the end of one, two and three years, respectively. Determine the modified convexity of the payments evaluated at $i$ = $10\%$. -->
 
 
-**Problem 2**
+<!-- **Problem 2** -->
 
-Determine the modified convexity of a five-year annuity-immediate with level annual payments, evaluated at $i$ = $0$.
+<!-- Determine the modified convexity of a five-year annuity-immediate with level annual payments, evaluated at $i$ = $0$. -->
 
-**Problem 3**
+<!-- **Problem 3** -->
 
-An investment will return $1000$ in two years and $5000$ in five years. Determine the ratio of the modified convexity of the payments to their modified duration, evaluated at $i$ = $7.5\%$
+<!-- An investment will return $1000$ in two years and $5000$ in five years. Determine the ratio of the modified convexity of the payments to their modified duration, evaluated at $i$ = $7.5\%$ -->
 
 
-#### Week 11 {-#w11}
+<!-- #### Week 11 {-#w11} -->
 
-*As used in these questions, "duration" is the same as "Macaulay duration"*
+<!-- *As used in these questions, "duration" is the same as "Macaulay duration"* -->
 
-**Problem 1**
+<!-- **Problem 1** -->
 
-A bond with $7.5\%$ annual coupons will mature at par on June 30, 2022. Determine the duration of the bond on December 31, 2020 if the effective rate of interest is $5.5\%$ per annum.
+<!-- A bond with $7.5\%$ annual coupons will mature at par on June 30, 2022. Determine the duration of the bond on December 31, 2020 if the effective rate of interest is $5.5\%$ per annum. -->
 
 
-**Problem 2**
+<!-- **Problem 2** -->
 
-A $\$100$ par value bond with $7\%$ annual coupons and maturing at par in $4$ years sells at a price to yield $6\%$. Determine the modified duration of the bond.
+<!-- A $\$100$ par value bond with $7\%$ annual coupons and maturing at par in $4$ years sells at a price to yield $6\%$. Determine the modified duration of the bond. -->
 
 
-**Problem 3**
+<!-- **Problem 3** -->
 
-The duration of a perpetuity-due with level annual payment is $25$. Determine the effective rate of interest.
+<!-- The duration of a perpetuity-due with level annual payment is $25$. Determine the effective rate of interest. -->
 
-#### Week 10 {-#w10}
+<!-- #### Week 10 {-#w10} -->
 
-**Problem 1 (SOA 5/93 #17)**
-Matt purchases a $20$-year par value bond with $8\%$ semiannual coupons at a price of $1722.25$. The
-bond can be called at par value $X$ on any coupon date starting at the end of year $15$. The price guarantees that Matt will receive a nominal semiannual yield of at least $6\%$. Bert purchases a $20$-year par value bond identical to the one purchased by Matt except it is not callable. Assuming a nominal semiannual yield of $6\%$, the cost of the bond purchased by Bert is $P$. Calculate $P$.
+<!-- **Problem 1 (SOA 5/93 #17)** -->
+<!-- Matt purchases a $20$-year par value bond with $8\%$ semiannual coupons at a price of $1722.25$. The -->
+<!-- bond can be called at par value $X$ on any coupon date starting at the end of year $15$. The price guarantees that Matt will receive a nominal semiannual yield of at least $6\%$. Bert purchases a $20$-year par value bond identical to the one purchased by Matt except it is not callable. Assuming a nominal semiannual yield of $6\%$, the cost of the bond purchased by Bert is $P$. Calculate $P$. -->
 
 
-**Problem 2 (SOA 5/01 #48)**
+<!-- **Problem 2 (SOA 5/01 #48)** -->
 
-A company's stock is currently selling for $28.50$. Its next dividend, payable one year from now, is expected to be $0.50$ per share. Analysts forecast a long-run dividend growth rate of $7.5\%$ for the company. Tomorrow the long-run dividend growth rate estimate changes to $7\%$. Calculate the new stock price that would result in the same yield rate as the previous day's price of $28.50$.
+<!-- A company's stock is currently selling for $28.50$. Its next dividend, payable one year from now, is expected to be $0.50$ per share. Analysts forecast a long-run dividend growth rate of $7.5\%$ for the company. Tomorrow the long-run dividend growth rate estimate changes to $7\%$. Calculate the new stock price that would result in the same yield rate as the previous day's price of $28.50$. -->
 
-**Problem 3 (SOA 11/93 #16)**
+<!-- **Problem 3 (SOA 11/93 #16)** -->
 
-Lenny buys a stock for $200$ which pays a dividend of $12$ at the end of every $6$ months. Lenny deposits the dividend payments into a bank account earning a nominal interest rate of $10\%$ convertible semiannually. At the end of $10$ years, immediately after receiving the $20$th dividend payment of $12$, Lenny sells the stock. The sale price assumes a nominal yield of $8\%$ convertible semiannually and that the semiannual dividend of $12$ will continue forever. Lenny's annual effective yield over the $10$-year period is $i$. Calculate $i$.
+<!-- Lenny buys a stock for $200$ which pays a dividend of $12$ at the end of every $6$ months. Lenny deposits the dividend payments into a bank account earning a nominal interest rate of $10\%$ convertible semiannually. At the end of $10$ years, immediately after receiving the $20$th dividend payment of $12$, Lenny sells the stock. The sale price assumes a nominal yield of $8\%$ convertible semiannually and that the semiannual dividend of $12$ will continue forever. Lenny's annual effective yield over the $10$-year period is $i$. Calculate $i$. -->
 
-#### Week 9{-#w9}
+<!-- #### Week 9{-#w9} -->
 
-**Problem 1 (11/00 #30)**
+<!-- **Problem 1 (11/00 #30)** -->
 
-A $1000$ par value $20$-year bond with annual coupons and redeemable at maturity at $1050$ is purchased for $P$ to yield an annual effective rate of $8.25\%$. The first coupon is $75$. Each subsequent coupon is $3\%$ greater than the preceding coupon. Determine $P$.
+<!-- A $1000$ par value $20$-year bond with annual coupons and redeemable at maturity at $1050$ is purchased for $P$ to yield an annual effective rate of $8.25\%$. The first coupon is $75$. Each subsequent coupon is $3\%$ greater than the preceding coupon. Determine $P$. -->
 
 
-**Problem 2 (SOA 5/91 #15)**
+<!-- **Problem 2 (SOA 5/91 #15)** -->
 
-An investor bought a $15$-year bond with par value of $100,000$ and $8\%$ semiannual coupons. The bond is callable at par on any coupon date beginning with the $24th$ coupon. Find the highest price paid that will yield a rate not less than $i^{(2)}=10\%$.
+<!-- An investor bought a $15$-year bond with par value of $100,000$ and $8\%$ semiannual coupons. The bond is callable at par on any coupon date beginning with the $24th$ coupon. Find the highest price paid that will yield a rate not less than $i^{(2)}=10\%$. -->
 
 
-**Problem 3 (SOA SAMPLE/83 #5)**
+<!-- **Problem 3 (SOA SAMPLE/83 #5)** -->
 
-A $1000$ $20$-year $8\%$ bond with semiannual coupons is purchased for $1014$. The redemption value is $1000$. The coupons are reinvested at a *nominal* annual rate of $6\%$, compounded semiannually. Determine the purchaser's annual effective yield rate over the $20$ year period.
+<!-- A $1000$ $20$-year $8\%$ bond with semiannual coupons is purchased for $1014$. The redemption value is $1000$. The coupons are reinvested at a *nominal* annual rate of $6\%$, compounded semiannually. Determine the purchaser's annual effective yield rate over the $20$ year period. -->
 
-#### Weeks 7-8 {-#w7}
+<!-- #### Weeks 7-8 {-#w7} -->
 
-**Problem 1 (5/01 #37)**
+<!-- **Problem 1 (5/01 #37)** -->
 
-Seth borrows $X$ for four years at an annual effective interest rate of $8\%$, to be repaid with equal payments at the end of each year. The outstanding loan balance at the end of the second year is $1076.82$ and at the end of the third year is $559.12$. Calculate the principal repaid in the first payment.
+<!-- Seth borrows $X$ for four years at an annual effective interest rate of $8\%$, to be repaid with equal payments at the end of each year. The outstanding loan balance at the end of the second year is $1076.82$ and at the end of the third year is $559.12$. Calculate the principal repaid in the first payment. -->
 
-**Problem 2 (5/03 #39)**
+<!-- **Problem 2 (5/03 #39)** -->
 
-A $30-year$ loan of $1000$ is repaid with payments at the end of each year. Each of the first ten payments equals the amount of interest due. Each of the next ten payments equals $150\%$ of the amount of interest due. Each of the last ten payments is $X$. The lender charges interest at an annual effective rate of $10\%$. Calculate $X$.
+<!-- A $30-year$ loan of $1000$ is repaid with payments at the end of each year. Each of the first ten payments equals the amount of interest due. Each of the next ten payments equals $150\%$ of the amount of interest due. Each of the last ten payments is $X$. The lender charges interest at an annual effective rate of $10\%$. Calculate $X$. -->
 
 
-**Problem 3 (SOA SAMPLE/84 #15)**
+<!-- **Problem 3 (SOA SAMPLE/84 #15)** -->
 
-A $\$30,000$ bank loan is to be repaid by $30$ annual installments of $\$1,000$ payable on the first day of each year beginning one year hence. In addition, interest at $4\%$ is payable on the last day of each year on the principal outstanding at the beginning of the year. At time of issue, the bank establishes a value $L$ for the loan, such that the yield rate is $5\%$ annually. Find $L$. 
+<!-- A $\$30,000$ bank loan is to be repaid by $30$ annual installments of $\$1,000$ payable on the first day of each year beginning one year hence. In addition, interest at $4\%$ is payable on the last day of each year on the principal outstanding at the beginning of the year. At time of issue, the bank establishes a value $L$ for the loan, such that the yield rate is $5\%$ annually. Find $L$.  -->
 
 
-**Problem 4 (SOA 11/00 #12)**
+<!-- **Problem 4 (SOA 11/00 #12)** -->
 
-Kevin takes out a $10$-year loan of $L$, which he repays by the amortization method at an annual effective
-interest rate of $i$. Kevin makes payments of $1000$ at the end of each year. The total amount of interest
-repaid during the life of the loan is also equal to $L$. Calculate the amount of interest repaid during
-the first year of the loan.
+<!-- Kevin takes out a $10$-year loan of $L$, which he repays by the amortization method at an annual effective -->
+<!-- interest rate of $i$. Kevin makes payments of $1000$ at the end of each year. The total amount of interest -->
+<!-- repaid during the life of the loan is also equal to $L$. Calculate the amount of interest repaid during -->
+<!-- the first year of the loan. -->
 
-**Problem 5 (Sample/00 #36)**
+<!-- **Problem 5 (Sample/00 #36)** -->
 
-Don takes out a $10$-year loan of $L$, which he repays with annual payments at the end of each year
-using the amortization method. Interest on the loan is charged at an annual effective rate of $i$. Don
-repays the loan with a decreasing series of payments. He repays $1000$ in year one, $900$ in year two, $800$
-in year three, ... , and $100$ in year ten. The amount of principal repaid in year three is equal to $600$.
-Calculate $L$.
+<!-- Don takes out a $10$-year loan of $L$, which he repays with annual payments at the end of each year -->
+<!-- using the amortization method. Interest on the loan is charged at an annual effective rate of $i$. Don -->
+<!-- repays the loan with a decreasing series of payments. He repays $1000$ in year one, $900$ in year two, $800$ -->
+<!-- in year three, ... , and $100$ in year ten. The amount of principal repaid in year three is equal to $600$. -->
+<!-- Calculate $L$. -->
 
-#### Week 6 {- #w6}
+<!-- #### Week 6 {- #w6} -->
 
-**Problem 1 (SOA 11/00 #9)**
+<!-- **Problem 1 (SOA 11/00 #9)** -->
 
-Victor invests $300$ into a bank account at the beginning of each year for $20$ years. The account pays
-out interest at the end of every year at an annual effective interest rate of $i\%$. The interest is 
-reinvested at an annual effective rate of $(\frac{i}{2})\%$. The yield rate on the entire investment over the $20$ year period is $8\%$ annual effective. Determine $i$.
+<!-- Victor invests $300$ into a bank account at the beginning of each year for $20$ years. The account pays -->
+<!-- out interest at the end of every year at an annual effective interest rate of $i\%$. The interest is  -->
+<!-- reinvested at an annual effective rate of $(\frac{i}{2})\%$. The yield rate on the entire investment over the $20$ year period is $8\%$ annual effective. Determine $i$. -->
 
-**Problem 2 (SOA 5/03 #17)**
+<!-- **Problem 2 (SOA 5/03 #17)** -->
 
-An association had a fund balance of $75$ on January $1$ and $60$ on December $31$. At the end of
-every month during the year, the association deposited $10$ from membership fees. There were withdrawals
-of $5$ on Februrary $28$, $25$ on June $30$, $80$ on October $15$, and $35$ on October $31$. Calculate
-the dollar-weighted rate of return for the year.
+<!-- An association had a fund balance of $75$ on January $1$ and $60$ on December $31$. At the end of -->
+<!-- every month during the year, the association deposited $10$ from membership fees. There were withdrawals -->
+<!-- of $5$ on Februrary $28$, $25$ on June $30$, $80$ on October $15$, and $35$ on October $31$. Calculate -->
+<!-- the dollar-weighted rate of return for the year. -->
 
-**Problem 3 (SOA 11/00 #27)**
+<!-- **Problem 3 (SOA 11/00 #27)** -->
 
-An investor deposits $50$ in an investment account on January $1$. The following summarizes the activity
-in the account during the year :
-```{r week6,echo=FALSE}
-table1<-data.frame(matrix(c(
-         "March 15",40,20, 
-         "June 1",80,80,
-         "October 1",175,75
-         ),nrow=3,byrow = T))
-names(table1)<-c("Date","Value Immediately Before Deposit","Deposit")
-knitr::kable(table1)
-```
+<!-- An investor deposits $50$ in an investment account on January $1$. The following summarizes the activity -->
+<!-- in the account during the year : -->
+<!-- ```{r week6,echo=FALSE} -->
+<!-- table1<-data.frame(matrix(c( -->
+<!--          "March 15",40,20,  -->
+<!--          "June 1",80,80, -->
+<!--          "October 1",175,75 -->
+<!--          ),nrow=3,byrow = T)) -->
+<!-- names(table1)<-c("Date","Value Immediately Before Deposit","Deposit") -->
+<!-- knitr::kable(table1) -->
+<!-- ``` -->
 
-On June $30$,the value of the account is $157.50$. On December $31$, the value of the account is $X$.
- Using the time-weighted method, the equivalent annual effective yield during the first $6$ months is
- equal to the (time-weighted) annual effective yield during the entire $1$-year period. Calculate $X$.
+<!-- On June $30$,the value of the account is $157.50$. On December $31$, the value of the account is $X$. -->
+<!--  Using the time-weighted method, the equivalent annual effective yield during the first $6$ months is -->
+<!--  equal to the (time-weighted) annual effective yield during the entire $1$-year period. Calculate $X$. -->
 
-#### Week 5 {- #w5}
+<!-- #### Week 5 {- #w5} -->
 
-**Problem 1 (SOA 11/01 #16)**
+<!-- **Problem 1 (SOA 11/01 #16)** -->
 
-Olga buys a $5$-year increasing annuity for $X$. Olga will receive $2$ at the end of the first month, $4$ at the end of the second month, and for each month thereafter the payment increases by $2$. The nominal interest rate is $9\%$ convertible quarterly. Calculate $X$.
+<!-- Olga buys a $5$-year increasing annuity for $X$. Olga will receive $2$ at the end of the first month, $4$ at the end of the second month, and for each month thereafter the payment increases by $2$. The nominal interest rate is $9\%$ convertible quarterly. Calculate $X$. -->
 
 
-**Problem 2 (SOA 5/95 #7)**
+<!-- **Problem 2 (SOA 5/95 #7)** -->
 
-The first payment of a perpetuity-immediate is $60$. Subsequent payments decrease by $1$ per year until they reach a level of $k$. Payments remain constant at $k$ thereafter. The present value of the perpetuity is equal to the present of a perpetuity-immediate paying $44$ each year. The annual effective interest rate is $5\%$. Calculate $k$.
+<!-- The first payment of a perpetuity-immediate is $60$. Subsequent payments decrease by $1$ per year until they reach a level of $k$. Payments remain constant at $k$ thereafter. The present value of the perpetuity is equal to the present of a perpetuity-immediate paying $44$ each year. The annual effective interest rate is $5\%$. Calculate $k$. -->
 
-**Problem 3 (SOA 11/01 #5)**
+<!-- **Problem 3 (SOA 11/01 #5)** -->
 
-Mike buys a perpetuity-immediate with varying annual payments. During the first $5$ years, the payment is constant and equal to $10$. Beginning in year $6$, the payments start to increase. For year $6$ and all future years, the current year’s payment is $K\%$ larger than the previous year’s payment. At an annual effective interest rate of $9.2\%$, the perpetuity has a present value of $167.50$. Calculate $K$, given $K < 9.2$.
+<!-- Mike buys a perpetuity-immediate with varying annual payments. During the first $5$ years, the payment is constant and equal to $10$. Beginning in year $6$, the payments start to increase. For year $6$ and all future years, the current year’s payment is $K\%$ larger than the previous year’s payment. At an annual effective interest rate of $9.2\%$, the perpetuity has a present value of $167.50$. Calculate $K$, given $K < 9.2$. -->
 
-#### Week 3 {- #w3}
+<!-- #### Week 3 {- #w3} -->
 
-**Problem 1 (SAMPLE/00 #27)**
+<!-- **Problem 1 (SAMPLE/00 #27)** -->
 
-Susan and Jeff each make deposits of $100$ at the end of each year for $40$ years.
+<!-- Susan and Jeff each make deposits of $100$ at the end of each year for $40$ years. -->
 
-Starting at the end of the $41st$ year, Susan makes annual withdrawals of $X$ for $15$ years and Jeff makes annual withdrawals of $Y$ for $15$ years. Both funds have a balance of $0$ after the last withdrawal.
+<!-- Starting at the end of the $41st$ year, Susan makes annual withdrawals of $X$ for $15$ years and Jeff makes annual withdrawals of $Y$ for $15$ years. Both funds have a balance of $0$ after the last withdrawal. -->
 
-Susan's fund earns an annual effective interest rate of $8\%$. Jeff's fund earns an annual effective interest rate at $10\%$.
+<!-- Susan's fund earns an annual effective interest rate of $8\%$. Jeff's fund earns an annual effective interest rate at $10\%$. -->
 
-Calculate $Y-X$.
+<!-- Calculate $Y-X$. -->
 
 
-**Problem 2 (SOA 11/01 #27)**
+<!-- **Problem 2 (SOA 11/01 #27)** -->
 
-A man turns $40$ today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years. 
+<!-- A man turns $40$ today and wishes to provide supplemental retirement income of $3000$ at the beginning of each month starting on his 65th birthday. Starting today, he makes monthly contributions of $X$ to a fund for $25$ years.  -->
 
-The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life.
+<!-- The fund earns a nominal rate of $8\%$ compounded monthly. Each $1000$ will provide for $9.65$ income at the beginning of month starting on his 65th birthday until the end of his life. -->
 
-Calculate $X$.
+<!-- Calculate $X$. -->
 
-**Problem 3 (SOA 11/93 #4)**
+<!-- **Problem 3 (SOA 11/93 #4)** -->
 
-At time $t=0$, Paul deposits $P$ into a fund crediting interest at an effective annual interest rate of $8\%$. At the end of each year in years $6$ through $20$, Paul withdraws an amount sufficient to purchase an annuity-due of $100$ per month for $10$ years at a nominal interest rate of $12\%$ compounded monthly. Immediately after the withdrawal at the end of year $20$, the fund value is zero.
+<!-- At time $t=0$, Paul deposits $P$ into a fund crediting interest at an effective annual interest rate of $8\%$. At the end of each year in years $6$ through $20$, Paul withdraws an amount sufficient to purchase an annuity-due of $100$ per month for $10$ years at a nominal interest rate of $12\%$ compounded monthly. Immediately after the withdrawal at the end of year $20$, the fund value is zero. -->
 
-Calculate $P$.
+<!-- Calculate $P$. -->
 
-#### Week 2 {- #w2}
+<!-- #### Week 2 {- #w2} -->
 
-**Problem 1 (SOA 5/98 #2)**
+<!-- **Problem 1 (SOA 5/98 #2)** -->
 
-John invests $1000$ in a fund which earns interest during the first year at a nominal rate of $K$ convertible quarterly. During the 2nd year the fund earns interest at a nominal discount rate of $K$ convertible quarterly. At the end of the 2nd year,the fund has accumulated to $1173.54$.
+<!-- John invests $1000$ in a fund which earns interest during the first year at a nominal rate of $K$ convertible quarterly. During the 2nd year the fund earns interest at a nominal discount rate of $K$ convertible quarterly. At the end of the 2nd year,the fund has accumulated to $1173.54$. -->
 
-Calculate $K$.
+<!-- Calculate $K$. -->
 
-**Problem 2 (SOA 5/89 #4)**
+<!-- **Problem 2 (SOA 5/89 #4)** -->
 
-Two funds,$X$ and $Y$,start with the same amount.You are given:
+<!-- Two funds,$X$ and $Y$,start with the same amount.You are given: -->
 
-1. Fund $X$ accumulates at a force of interest of 5\%.
+<!-- 1. Fund $X$ accumulates at a force of interest of 5\%. -->
 
-2. Fund $Y$ accumulates at a rate of interest $j$, compounded semiannually.
+<!-- 2. Fund $Y$ accumulates at a rate of interest $j$, compounded semiannually. -->
 
-3. At the end of eight years, Fund $X$ is $1.05$ times as large as Fund $Y$.
+<!-- 3. At the end of eight years, Fund $X$ is $1.05$ times as large as Fund $Y$. -->
 
-Calculate $j$.
+<!-- Calculate $j$. -->
 
-**Problem 3 (SOA 11/89 #2)**
+<!-- **Problem 3 (SOA 11/89 #2)** -->
 
-Fund $X$ starts with $1,000$ and accumulates with a force of interest $$\delta_{t}=\frac{1}{15-t} \text{ for } 0 \le t< 15.$$
+<!-- Fund $X$ starts with $1,000$ and accumulates with a force of interest $$\delta_{t}=\frac{1}{15-t} \text{ for } 0 \le t< 15.$$ -->
 
-Fund Y starts with $1,000$ and accumulates with an interest rate of 8% per annum compounded semiannually for the first three years and an effective interest rate of $i$ per annum thereafter.
+<!-- Fund Y starts with $1,000$ and accumulates with an interest rate of 8% per annum compounded semiannually for the first three years and an effective interest rate of $i$ per annum thereafter. -->
 
-Fund $X$ equals Fund $Y$ at the end of four years.
+<!-- Fund $X$ equals Fund $Y$ at the end of four years. -->
 
-Calculate $i$.
+<!-- Calculate $i$. -->
 
 #### Week 1 {- #w1}
 

@@ -20,6 +20,16 @@ editor_options:
 
 此网站由授课老师[孟生旺](http://stat.ruc.edu.cn/teacher_more.php?id=70&cid=25)、[高光远](http://stat.ruc.edu.cn/teacher_more.php?id=118&cid=25)、助教<u>程轶鹏</u>、<u>胡夏新</u>管理，欢迎大家反馈意见到邮箱 <guangyuan.gao@ruc.edu.cn>。
 
+```{r,echo=FALSE,out.width="30%",fig.align = 'center'}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
+knitr::include_graphics("./plots/wechat.jpg")
+```
+
+```{r,echo=FALSE,out.width="50%",fig.align = 'center'}
+knitr::opts_chunk$set(fig.pos = "!H", out.extra = "")
+knitr::include_graphics("./plots/mooc.png")
+```
+
 <!-- ## ⏱️ 随堂测验 {- #exe} -->
 
 <!-- - 由于课程安排，原计划在**12月24日**的第三次随堂测验将变为自测，题目在[<u>此链接</u>](#w17)。 -->
